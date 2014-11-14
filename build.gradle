@@ -1,0 +1,39 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+sourceCompatibility = 1.6
+targetCompatibility = 1.6
+
+repositories {
+	mavenCentral()
+}
+
+ext {
+	concordionVersion = "1.4.4"
+	concordionExtensionsVersion = "1.1.1"
+	concordionExecuteOnlyIfVersion = "[0.1.0,)"
+}
+
+dependencies {
+	testCompile "org.concordion:concordion:$concordionVersion"
+	testCompile "org.concordion:concordion-extensions:$concordionExtensionsVersion"
+	testCompile "org.concordion:concordion-logback-extension:$concordionExecuteOnlyIfVersion"
+}
+
+sourceSets {
+	main {
+		resources { srcDir 'src/test/java' }
+	}
+}
+
+test.dependsOn cleanTest
+test {
+	include '**/LogbackLoggingDemo.*'
+	systemProperties['concordion.output.dir'] = "$reporting.baseDir/spec"
+	outputs.upToDateWhen { false } // force it to run even if test code hasn't changed
+}
+
+
+
+
+
