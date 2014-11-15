@@ -6,23 +6,26 @@ targetCompatibility = 1.6
 
 repositories {
 	mavenCentral()
+	mavenLocal()
 }
 
 ext {
 	concordionVersion = "1.4.4"
 	concordionExtensionsVersion = "1.1.1"
-	concordionLogbackVersion = "[0.1.0,)"
+	concordionLogbackVersion = "+"
+	seleniumVersion	= "2.39.0"
 }
 
 dependencies {
 	testCompile "org.concordion:concordion:$concordionVersion"
 	testCompile "org.concordion:concordion-extensions:$concordionExtensionsVersion"
 	testCompile "org.concordion:concordion-logback-extension:$concordionLogbackVersion"
+	testCompile "org.seleniumhq.selenium:selenium-java:$seleniumVersion"
 }
 
 sourceSets {
 	main {
-		resources { srcDir 'src/test/java' }
+		resources { srcDir 'src/test/java' srcDir 'src/test/resources' }
 	}
 }
 
