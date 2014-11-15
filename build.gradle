@@ -11,13 +11,13 @@ repositories {
 ext {
 	concordionVersion = "1.4.4"
 	concordionExtensionsVersion = "1.1.1"
-	concordionExecuteOnlyIfVersion = "[0.1.0,)"
+	concordionLogbackVersion = "[0.1.0,)"
 }
 
 dependencies {
 	testCompile "org.concordion:concordion:$concordionVersion"
 	testCompile "org.concordion:concordion-extensions:$concordionExtensionsVersion"
-	testCompile "org.concordion:concordion-logback-extension:$concordionExecuteOnlyIfVersion"
+	testCompile "org.concordion:concordion-logback-extension:$concordionLogbackVersion"
 }
 
 sourceSets {
