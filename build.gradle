@@ -1,24 +1,20 @@
 apply plugin: 'java'
-apply plugin: 'eclipse'
 
 sourceCompatibility = 1.6
 targetCompatibility = 1.6
 
 repositories {
 	mavenCentral()
-	mavenLocal()
 }
 
 ext {
 	concordionVersion = "1.4.4"
-	concordionExtensionsVersion = "1.1.1"
-	concordionLogbackVersion = "+"
-	seleniumVersion	= "2.39.0"
+	concordionLogbackVersion = "[0.1.1,)"
+	seleniumVersion	= "+"
 }
 
 dependencies {
 	testCompile "org.concordion:concordion:$concordionVersion"
-	testCompile "org.concordion:concordion-extensions:$concordionExtensionsVersion"
 	testCompile "org.concordion:concordion-logback-extension:$concordionLogbackVersion"
 	testCompile "org.seleniumhq.selenium:selenium-java:$seleniumVersion"
 }
@@ -35,8 +31,3 @@ test {
 	systemProperties['concordion.output.dir'] = "$reporting.baseDir/spec"
 	outputs.upToDateWhen { false } // force it to run even if test code hasn't changed
 }
-
-
-
-
-

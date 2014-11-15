@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  */
 @RunWith(ConcordionRunner.class)
 @Extensions(LoggingTooltipExtension.class)
-public class LogbackLoggingDemo extends AceptanceTest {
+public class LogbackLoggingDemo extends AcceptanceTest {
 
 	private GoogleSearchPage searchPage;
 	private GoogleResultsPage resultsPage;
