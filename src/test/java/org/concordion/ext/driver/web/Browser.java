@@ -14,18 +14,7 @@ public class Browser {
 	private WebDriver driver;
 
 	public Browser() {
-		DesiredCapabilities capabilities = DesiredCapabilities.firefox();
-
-		final Proxy proxy = new Proxy();
-		proxy.setProxyType(Proxy.ProxyType.MANUAL);
-		proxy.setHttpProxy("www-proxy:80");
-		proxy.setFtpProxy("www-proxy:80");
-		proxy.setSslProxy("www-proxy:80");
-		proxy.setNoProxy("");
-
-		capabilities.setCapability(CapabilityType.PROXY, proxy);
-
-		driver = new FirefoxDriver(capabilities);
+		driver = new FirefoxDriver();
 	}
 
 	public void quit() {
