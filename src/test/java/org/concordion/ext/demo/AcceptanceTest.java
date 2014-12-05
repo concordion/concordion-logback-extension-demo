@@ -6,7 +6,6 @@ import org.concordion.api.extension.Extensions;
 import org.concordion.ext.LogbackLogMessenger;
 import org.concordion.ext.LoggingFormatterExtension;
 import org.concordion.ext.LoggingTooltipExtension;
-import org.concordion.ext.driver.web.Browser;
 import org.concordion.ext.loggingFormatter.LogbackHelper;
 import org.concordion.integration.junit4.ConcordionRunner;
 import org.junit.After;
@@ -25,8 +24,6 @@ import ch.qos.logback.classic.Level;
 @FailFast
 public abstract class AcceptanceTest {
 
-	private Browser browser = null;
-	private final boolean logWebDriverEvents;
 	private final Logger logger = LoggerFactory.getLogger(this.getClass().getName());
 	private final Logger tooltipLogger = LoggerFactory.getLogger("TOOLTIP_" + this.getClass().getName());
 
@@ -38,11 +35,6 @@ public abstract class AcceptanceTest {
 	}
 
 	public AcceptanceTest() {
-		this(false);
-	}
-
-	public AcceptanceTest(final boolean logWebDriverEvents) {
-		this.logWebDriverEvents = logWebDriverEvents;
 	}
 
 	public Logger getLogger() {
@@ -53,35 +45,6 @@ public abstract class AcceptanceTest {
 		tooltipLogger.debug(message);
 	}
 
-	public boolean isBrowserOpen() {
-		return browser != null;
-	}
-
-	public Browser getBrowser() {
-		if (browser == null) {
-			browser = new Browser();
-
-			if (logWebDriverEvents) {
-				browser.addLogger();
-			}
-		}
-
-		return browser;
-	}
-
-	public void closeBrowser() {
-		if (browser == null) {
-			return;
-		}
-
-		try {
-			browser.quit();
-		} catch (Exception ex) {
-			getLogger().warn("Exception attempting to quit the browser" + ex);
-		}
-
-		browser = null;
-	}
 
 	@Before
 	public void startUpTest() {
@@ -91,8 +54,6 @@ public abstract class AcceptanceTest {
 
 	@After
 	public void tearDownTest() {
-		closeBrowser();
-
 		logger.info("Tearing down the acceptance test class on thread {}", Thread.currentThread().getName());
 		LogbackHelper.stopTestLogging();
 	}

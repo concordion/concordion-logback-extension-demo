@@ -2,8 +2,6 @@ package org.concordion.ext.demo;
 
 import org.concordion.api.extension.Extensions;
 import org.concordion.ext.LoggingTooltipExtension;
-import org.concordion.ext.driver.page.GoogleResultsPage;
-import org.concordion.ext.driver.page.GoogleSearchPage;
 import org.concordion.integration.junit4.ConcordionRunner;
 import org.junit.runner.RunWith;
 
@@ -22,31 +20,27 @@ import org.junit.runner.RunWith;
 @Extensions(LoggingTooltipExtension.class)
 public class LogbackLoggingDemo extends AcceptanceTest {
 
-	private GoogleSearchPage searchPage;
-	private GoogleResultsPage resultsPage;
+	private Integer result;
 
-	public LogbackLoggingDemo() {
-		super(true);
+	public void multiply(final String calulation) {
+		String values[] = calulation.split("[*]");
+		
+		getLogger().trace("TRACE level logging should NOT appear in the console, but SHOULD appear in the test log");
+		getLogger().debug("DEBUG level logging  should NOT appear in the console, but SHOULD appear in the test log");
+		getLogger().info("INFO level logging  should appear in the console, and the test log");
+		getLogger().warn("WARN level logging  should appear in the console, and the test log");
+		getLogger().error("ERROR level logging  should appear in the console, and the test log");
+		getLogger().info("NOTE: none of this logging will appear in the tooltips, but the tooltip logging below will appear in the test log");
+		
+		addConcordionTooltip(String.format("Found value %s", values[0]));
+		addConcordionTooltip(String.format("Found value %s", values[1]));
+		
+		result = Integer.parseInt(values[0].trim()) * Integer.parseInt(values[1].trim());		
 	}
 
-	/**
-	 * Searches for the specified topic, and waits for the results page to load.
-	 */
-	public void searchFor(final String topic) {
-		getLogger().debug("Opening browser and navigating to google");
-		searchPage = new GoogleSearchPage(getBrowser().getDriver());
-
-		getLogger().debug("Searching for the results of 6*9");
-		resultsPage = searchPage.searchFor(topic);
-	}
-
-	/**
-	 * Returns the result from Google calculation.
-	 */
 	public String getCalculatorResult() {
-		getLogger().debug("Getting calculator results");
-		String result = resultsPage.getCalculatorResult();
-		addConcordionTooltip(String.format("Adding result is '%s' to tooltip only", result));
-		return result;
+		addConcordionTooltip(String.format("Returning result %s", result));
+		
+		return result.toString();
 	}
 }
