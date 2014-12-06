@@ -26,15 +26,23 @@ public abstract class AcceptanceTest {
 
 	private final Logger logger = LoggerFactory.getLogger(this.getClass().getName());
 	private final Logger tooltipLogger = LoggerFactory.getLogger("TOOLTIP_" + this.getClass().getName());
+	private final Logger tooltipLoggerWithConsole = LoggerFactory.getLogger("TOOLTIPNC_" + this.getClass().getName());
 
 	@Extension
-	public final LoggingTooltipExtension tooltipExtension = new LoggingTooltipExtension(new LogbackLogMessenger(tooltipLogger.getName(), Level.ALL, true));
+	public final LoggingTooltipExtension tooltipExtension = new LoggingTooltipExtension(new LogbackLogMessenger(tooltipLogger.getName(), Level.ALL, false));
+
+	@Extension
+	public final LoggingTooltipExtension tooltipExtensionWithColsole = new LoggingTooltipExtension(new LogbackLogMessenger(tooltipLoggerWithConsole.getName(), Level.ALL, true));
+
+	@Extension
+	public final LoggingTooltipExtension tooltipExtensionUsingRoot = new LoggingTooltipExtension(new LogbackLogMessenger(logger.getName(), Level.DEBUG, true));
 
 	static {
 		LogbackHelper.logInternalStatus();
 	}
 
 	public AcceptanceTest() {
+		
 	}
 
 	public Logger getLogger() {
@@ -42,9 +50,16 @@ public abstract class AcceptanceTest {
 	}
 
 	public void addConcordionTooltip(final String message) {
-		tooltipLogger.debug(message);
+		tooltipLogger.info(message);
 	}
-
+	
+	public void addConcordionTooltipWithColsole(final String message) {
+		tooltipLoggerWithConsole.info(message);
+	}
+	
+	public void addConcordionTooltipWithColsoleDebug(final String message) {
+		tooltipLoggerWithConsole.debug(message);
+	}		
 
 	@Before
 	public void startUpTest() {
