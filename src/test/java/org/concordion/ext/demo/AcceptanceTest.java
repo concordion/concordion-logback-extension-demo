@@ -28,9 +28,11 @@ public abstract class AcceptanceTest {
 	private final Logger tooltipLogger = LoggerFactory.getLogger("TOOLTIP_" + this.getClass().getName());
 
 	@Extension
-	// Set third parameter (isAdditive) to false to prevent tooltip messages from appearing in logs.  Requires a uniquely named logger as per this example otherwise
-	// you will affect all logging.
-	public final LoggingTooltipExtension tooltipExtension = new LoggingTooltipExtension(new LogbackLogMessenger(tooltipLogger.getName(), Level.ALL, true));
+	// Some notes on LogbackLogMessenger parameters:
+	// loggerName: is set to a unique value - this means the tooltip extension will only pick up log messages specifically targeted for the tooltip
+	// isAdditive: set to true so that log messages are also picked up by other appenders (see addConcordionTooltip() for more info)
+	// tooltipPatter: default format is "[timestamp] log message", I've overridden that in this example
+	public final LoggingTooltipExtension tooltipExtension = new LoggingTooltipExtension(new LogbackLogMessenger(tooltipLogger.getName(), Level.ALL, true, "%msg%n"));
 	
 	static {
 		LogbackHelper.logInternalStatus();
