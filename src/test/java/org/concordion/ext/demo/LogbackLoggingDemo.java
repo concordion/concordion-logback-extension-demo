@@ -32,17 +32,12 @@ public class LogbackLoggingDemo extends AcceptanceTest {
 		getLogger().error("ERROR level logging  should appear in the console, and the test log");
 		getLogger().info("NOTE: none of the logging above will appear in the tooltips");
 		
-		addConcordionTooltip("NoConsoleTooltip: will not appear in console or test log");
-		addConcordionTooltipWithColsole("WithConsoleTooltip: will appear in console and test log");
-		addConcordionTooltipWithColsoleDebug("WithConsoleTooltipDebug: This will not appear in console as console only displaying info, warn and error items.  It will show in test log though.");
-		
+		addConcordionTooltip("My tooltip here!");		
 		result = Integer.parseInt(values[0].trim()) * Integer.parseInt(values[1].trim());		
 	}
 
-	public String getCalculatorResult() {
-		
-		getLogger().debug("tooltipExtensionUsingRoot: will pick this up as I've configured it to only get debug level");
-		getLogger().info("tooltipExtensionUsingRoot: will not pick this up");
+	public String getCalculatorResult() {		
+		getLogger().debug("NOTE: no tooltip showing for getCalculatorResult()");
 		return result.toString();
 	}
 }
