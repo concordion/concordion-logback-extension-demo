@@ -1,14 +1,43 @@
-concordion-logback-extension
-============================
+# Introduction
+------------
 
-Provides Logback logging support for concordion including:
-* LogbackLogMessenger class for the tooltip extension
-* LoggingFormatterExtension class that places a link to a specifications log file at the bottom of each specification
- * This assumes that you are using MDC so that you have a unique log file per test
- * It also has a logfile viewer that attempts to make the log file easier to read, not sure if its useful or not... 
+This project demonstrates the usage of the [Concordion](http://concordion.org) [Logback Extension](http://github.com/concordion/concordion-logback-extension) 
 
-This extension was originally developed once we started running our tests in parallel (using the latest update to cordion to allow this) and discovered that one interleaved log file was not particularly useful.  Even if you are not running tests in parallel the ability to click on a link in the specification to access the log file is very nice :-)
+    
+# Running the tests
+---------------------------
 
-The log viewer was an attempt to make the logging less scary for non developers, and came before I thought of the storyboard extension.  I'm a little unsure whether its an improvement or not.
+The download includes support to run the tests with either <a href="http://www.gradle.org/">Gradle</a>.  
+    
+### Using Gradle
+1. [Download](http://www.gradle.org/downloads.html) and [install](http://www.gradle.org/installation.html) Gradle (this has been tested with 2.1)
+1. From a command line opened at the location to which this package has been unzipped, run `gradle clean test`
+1. View the Concordion output under the subfolder `build/reports/spec/org/concordion/ext/demo/`
+    
+### Running from your IDE
+Import as a Gradle or as a Maven project. This may require additional plugins to be installed to support Gradle.
 
-In the extension's afterProcessingSpecification() method it checks if Logback has an active SiftingAppender with a discriminator key of "testname".  If so it adds a link to the log file which is assumed to be in the same location as the specificaiton, and with the same base name, but with a file extension of .log.
+Under the `src/test/java` folder, find the `StoryboardDemo` class in the `org.concordion.ext.demo` package and run as a JUnit test. The location of the Concordion output is shown on the standard output console.
+
+
+What you should see
+--------------------------------
+    
+### JUnit output
+The test should pass successfully, though the console output will show a failure with the message:
+
+> <-- Note: This test has been marked as EXPECTED_TO_FAIL
+
+This test deliberately fails in order to demonstrate the extension.  It uses Concordion's `@ExpectedToFail` annotation to keep the JUnit passing (you'd normally only use this when you have a partially implemented feature).
+
+
+Additional Gradle Files
+-----------------------
+`dev.gradle` is only needed if you want to run against snapshot or local builds of the concordion-screenshot-extension.
+
+If copying the project for your own use, you probably won't want either of these files.
+
+
+Mailing List
+-----------------
+Feel free to discuss this demo project on the Concordion [mailing list](https://groups.google.com/d/forum/concordion).
