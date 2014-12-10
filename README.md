@@ -3,7 +3,8 @@
 
 This project demonstrates the usage of the [Concordion](http://concordion.org) [Logback Extension](http://github.com/concordion/concordion-logback-extension) 
 
-    
+Example output is shown [here](http://concordion.github.io/concordion-logback-extension-demo/spec/org/concordion/ext/demo/LogbackLoggingDemo.html).
+
 # Running the tests
 -------------------
 
@@ -40,7 +41,7 @@ The test should pass successfully:
 ```Successes: 1, Failures: 0```
 
 ### Concordion output
-The output folder should contain the following specification. (You can see an example of it [here](http://concordion.github.io/concordion-logback-extension-demo/spec/org/concordion/ext/demo/LogbackLoggingDemo.html)).
+The output folder should contain the following specification. (You can see an example of it [here](http://concordion.github.io/concordion-logback-extension-demo/spec/org/concordion/ext/demo/LogbackLoggingDemo.html).
     
 #### LogbackLoggingDemo.html
 
