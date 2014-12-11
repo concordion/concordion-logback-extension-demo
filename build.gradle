@@ -13,8 +13,8 @@ repositories {
 }
 
 ext {
-	concordionVersion = "1.4.4"
-	concordionLogbackVersion = "[0.1.2,)"
+	concordionVersion = "1.4.6"
+	concordionLogbackVersion = "[0.2.0,)"
 }
 
 dependencies {
