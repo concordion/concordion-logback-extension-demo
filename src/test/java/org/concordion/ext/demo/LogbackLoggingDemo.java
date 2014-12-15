@@ -30,8 +30,9 @@ public class LogbackLoggingDemo extends AcceptanceTest {
 		getLogger().info("INFO level logging  should appear in the console, and the test log");
 		getLogger().warn("WARN level logging  should appear in the console, and the test log");
 		getLogger().error("ERROR level logging  should appear in the console, and the test log");
+		getLogger().debug("This is\n\ta multi-line\n\tlog entry");
 		getLogger().info("NOTE: none of the logging above will appear in the tooltips");
-		
+				
 		addConcordionTooltip("My tooltip here!");		
 		result = Integer.parseInt(values[0].trim()) * Integer.parseInt(values[1].trim());		
 	}
