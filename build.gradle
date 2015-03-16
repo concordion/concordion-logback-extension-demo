@@ -14,7 +14,7 @@ repositories {
 
 ext {
 	concordionVersion = "1.4.6"
-	concordionLogbackVersion = "[0.2.0,)"
+	concordionLogbackVersion = "[0.3.0,)"
 }
 
 dependencies {
@@ -23,14 +23,16 @@ dependencies {
 }
 
 sourceSets {
-	main {
-		resources { srcDir 'src/test/java' srcDir 'src/test/resources' }
+	test {
+		resources { srcDirs += 'src/test/java' }
 	}
 }
 
 test.dependsOn cleanTest
 test {
-	include '**/LogbackLoggingDemo.*'
 	systemProperties['concordion.output.dir'] = "$reporting.baseDir/spec"
 	outputs.upToDateWhen { false } // force it to run even if test code hasn't changed
+	testLogging {
+		events "passed", "skipped", "failed", "standardError"
+	}
 }

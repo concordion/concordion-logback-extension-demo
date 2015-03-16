@@ -20,7 +20,7 @@ import ch.qos.logback.classic.Level;
  * A base class for Google search tests that opens up the Google site at the Google search page, and closes the browser once the test is complete.
  */
 @RunWith(ConcordionRunner.class)
-@Extensions({ LoggingFormatterExtension.class })
+@Extensions({ LoggingFormatterExtension.class, LoggingTooltipExtension.class })
 @FailFast
 public abstract class AcceptanceTest {
 
