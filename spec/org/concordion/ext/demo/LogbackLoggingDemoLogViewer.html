@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <head>
 <style type="text/css">
 	h1 {
@@ -111,23 +112,30 @@
 	}
 	
 </style>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script type="text/javascript">
 	function filterDebug(cb) {
-		doFilter(".debug", cb.checked);
-		doSplit(".split-debug-levels",  cb.checked);
+		doFilter("debug", cb.checked);
+		doSplit("split-debug-levels",  cb.checked);
 	}
 	function filterTrace(cb) {
-		doFilter(".trace", cb.checked);
-		doSplit(".split-trace-levels",  cb.checked);
+		doFilter("trace", cb.checked);
+		doSplit("split-trace-levels",  cb.checked);
 	}
 	function doFilter(className, checked) {
 		var setting = checked ? "inherit" : "none";
-		$(className).css({"display": setting});
+		
+		var all = document.getElementsByClassName(className);
+		for (var i = 0; i < all.length; i++) {
+		  all[i].style.display = setting;
+		}
 	}
 	function doSplit(className, checked) {
 		var setting = checked ? "none" : "1px dotted black";
-		$(className).css({"border-bottom": setting});
+		
+		var all = document.getElementsByClassName(className);
+		for (var i = 0; i < all.length; i++) {
+		  all[i].style.borderBottom = setting;
+		}
 	}	
 </script>
 </head>
@@ -136,9 +144,9 @@
 	<h1 class="alignleft">Log File Viewer</h1>
 	<table class="levelkey alignright">
 		<tr>
-			<td class="info-color">Info</td>
-			<td class="debug-color">Debug</td>
 			<td class="trace-color">Trace</td>
+			<td class="debug-color">Debug</td>
+			<td class="info-color">Info</td>
 			<td class="warn-color">Warn</td>
 			<td class="error-color">Error</td>
 		</tr>
@@ -152,15 +160,22 @@
 	<hr style="clear: both;">
 </div>
 <ul class="content" id="content">
-    <li class="line split-trace-levels info info-color"><div class="line-numbers">1</div><pre>11-12-2014 22:17:22.019 INFO  o.c.ext.demo.LogbackLoggingDemo - Initialising the acceptance test class LogbackLoggingDemo on thread Test worker</pre></li>
-<li class="line split-debug-levels trace trace-color"><div class="line-numbers">2</div><pre>11-12-2014 22:17:22.331 TRACE o.c.ext.demo.LogbackLoggingDemo - TRACE level logging should NOT appear in the console, but SHOULD appear in the test log</pre></li>
-<li class="line debug debug-color"><div class="line-numbers">3</div><pre>11-12-2014 22:17:22.331 DEBUG o.c.ext.demo.LogbackLoggingDemo - DEBUG level logging  should NOT appear in the console, but SHOULD appear in the test log</pre></li>
-<li class="line info info-color"><div class="line-numbers">4</div><pre>11-12-2014 22:17:22.331 INFO  o.c.ext.demo.LogbackLoggingDemo - INFO level logging  should appear in the console, and the test log</pre></li>
-<li class="line warn warn-color"><div class="line-numbers">5</div><pre>11-12-2014 22:17:22.331 WARN  o.c.ext.demo.LogbackLoggingDemo - WARN level logging  should appear in the console, and the test log</pre></li>
-<li class="line error error-color"><div class="line-numbers">6</div><pre>11-12-2014 22:17:22.331 ERROR o.c.ext.demo.LogbackLoggingDemo - ERROR level logging  should appear in the console, and the test log</pre></li>
-<li class="line split-debug-levels info info-color"><div class="line-numbers">7</div><pre>11-12-2014 22:17:22.331 INFO  o.c.ext.demo.LogbackLoggingDemo - NOTE: none of the logging above will appear in the tooltips</pre></li>
-<li class="line debug debug-color"><div class="line-numbers">8</div><pre>11-12-2014 22:17:22.331 DEBUG T.c.ext.demo.LogbackLoggingDemo - My tooltip here!</pre></li>
-<li class="line debug debug-color"><div class="line-numbers">9</div><pre>11-12-2014 22:17:22.335 DEBUG o.c.ext.demo.LogbackLoggingDemo - NOTE: no tooltip showing for getCalculatorResult()</pre></li>
+    <li class="line split-trace-levels info info-color"><div class="line-numbers">1</div><pre>07-04-2016 00:21:28.797 INFO  o.c.ext.demo.LogbackLoggingDemo - Initialising the acceptance test class LogbackLoggingDemo on thread Test worker</pre></li>
+<li class="line split-debug-levels trace trace-color"><div class="line-numbers">2</div><pre>07-04-2016 00:21:28.871 TRACE o.c.ext.demo.LogbackLoggingDemo - TRACE level logging should NOT appear in the console, but SHOULD appear in the test log</pre></li>
+<li class="line debug debug-color"><div class="line-numbers">3</div><pre>07-04-2016 00:21:28.871 DEBUG o.c.ext.demo.LogbackLoggingDemo - DEBUG level logging  should NOT appear in the console, but SHOULD appear in the test log</pre></li>
+<li class="line info info-color"><div class="line-numbers">4</div><pre>07-04-2016 00:21:28.871 INFO  o.c.ext.demo.LogbackLoggingDemo - INFO level logging  should appear in the console, and the test log</pre></li>
+<li class="line warn warn-color"><div class="line-numbers">5</div><pre>07-04-2016 00:21:28.872 WARN  o.c.ext.demo.LogbackLoggingDemo - WARN level logging  should appear in the console, and the test log</pre></li>
+<li class="line split-debug-levels error error-color"><div class="line-numbers">6</div><pre>07-04-2016 00:21:28.872 ERROR o.c.ext.demo.LogbackLoggingDemo - ERROR level logging  should appear in the console, and the test log</pre></li>
+<li class="line debug debug-color"><div class="line-numbers">7</div><pre>07-04-2016 00:21:28.872 DEBUG o.c.ext.demo.LogbackLoggingDemo - This is</pre></li>
+<li class="line debug debug-color"><div class="line-numbers">8</div><pre>	a multi-line</pre></li>
+<li class="line debug debug-color"><div class="line-numbers">9</div><pre>	log entry</pre></li>
+<li class="line split-debug-levels info info-color"><div class="line-numbers">10</div><pre>07-04-2016 00:21:28.872 INFO  o.c.ext.demo.LogbackLoggingDemo - NOTE: none of the logging above will appear in the tooltips</pre></li>
+<li class="line debug debug-color"><div class="line-numbers">11</div><pre>07-04-2016 00:21:28.873 DEBUG T.c.ext.demo.LogbackLoggingDemo - My tooltip here!</pre></li>
+<li class="line debug debug-color"><div class="line-numbers">12</div><pre>07-04-2016 00:21:28.876 DEBUG o.c.ext.demo.LogbackLoggingDemo - NOTE: no tooltip showing for getCalculatorResult()</pre></li>
+<li class="line info info-color"><div class="line-numbers">13</div><pre>07-04-2016 00:21:28.880 INFO  o.c.ext.demo.LogbackLoggingDemo - Tearing down the acceptance test class on thread Test worker</pre></li>
+<li class="line info info-color"><div class="line-numbers">14</div><pre>07-04-2016 00:21:28.980 INFO  o.c.ext.demo.LogbackLoggingDemo - Initialising the acceptance test class LogbackLoggingDemo on thread Test worker</pre></li>
+<li class="line info info-color"><div class="line-numbers">15</div><pre>07-04-2016 00:21:28.987 INFO  o.c.ext.demo.LogbackLoggingDemo - Tearing down the acceptance test class on thread Test worker</pre></li>
+<li class="line info info-color"><div class="line-numbers">16</div><pre>07-04-2016 00:21:28.991 INFO  o.c.ext.demo.LogbackLoggingIndex - Tearing down the acceptance test class on thread Test worker</pre></li>
 
 </ul>
 </div>
