@@ -1,10 +1,10 @@
 apply plugin: 'java'
 
-sourceCompatibility = 1.6
-targetCompatibility = 1.6
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
 
 wrapper {
-    gradleVersion = "2.2"
+    gradleVersion = "2.12"
 }
 
 repositories {
@@ -12,14 +12,9 @@ repositories {
 	mavenLocal()
 }
 
-ext {
-	concordionVersion = "1.4.6"
-	concordionLogbackVersion = "[0.3.0,)"
-}
-
 dependencies {
-	testCompile "org.concordion:concordion:$concordionVersion"
-	testCompile "org.concordion:concordion-logback-extension:$concordionLogbackVersion"
+	testCompile "org.concordion:concordion:2.0.0"
+	testCompile "org.concordion:concordion-logback-extension:1.0.0"
 }
 
 sourceSets {

@@ -6,7 +6,7 @@ import org.concordion.api.extension.Extensions;
 import org.concordion.ext.LogbackLogMessenger;
 import org.concordion.ext.LoggingFormatterExtension;
 import org.concordion.ext.LoggingTooltipExtension;
-import org.concordion.ext.loggingFormatter.LogbackHelper;
+import org.concordion.ext.loggingFormatter.LogbackAdaptor;
 import org.concordion.integration.junit4.ConcordionRunner;
 import org.junit.After;
 import org.junit.Before;
@@ -32,10 +32,10 @@ public abstract class AcceptanceTest {
 	// loggerName: is set to a unique value - this means the tooltip extension will only pick up log messages specifically targeted for the tooltip
 	// isAdditive: set to true so that log messages are also picked up by other appenders (see addConcordionTooltip() for more info)
 	// tooltipPatter: default format is "[timestamp] log message", I've overridden that in this example
-	public final LoggingTooltipExtension tooltipExtension = new LoggingTooltipExtension(new LogbackLogMessenger(tooltipLogger.getName(), Level.ALL, true, "%msg%n"));
+	private final LoggingTooltipExtension tooltipExtension = new LoggingTooltipExtension(new LogbackLogMessenger(tooltipLogger.getName(), Level.ALL, true, "%msg%n"));
 	
 	static {
-		LogbackHelper.logInternalStatus();
+		LogbackAdaptor.logInternalStatus();
 	}
 
 	public AcceptanceTest() {
@@ -53,13 +53,11 @@ public abstract class AcceptanceTest {
 	
 	@Before
 	public void startUpTest() {
-		LogbackHelper.startTestLogging(this);
 		logger.info("Initialising the acceptance test class {} on thread {}", this.getClass().getSimpleName(), Thread.currentThread().getName());
 	}
 
 	@After
 	public void tearDownTest() {
 		logger.info("Tearing down the acceptance test class on thread {}", Thread.currentThread().getName());
-		LogbackHelper.stopTestLogging();
 	}
 }
