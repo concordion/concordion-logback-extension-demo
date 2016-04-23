@@ -1,15 +1,15 @@
-23-04-2016 21:52:58.790 INFO  o.c.ext.demo.LogbackLoggingDemo - Initialising the acceptance test class LogbackLoggingDemo on thread Test worker
-23-04-2016 21:52:58.841 TRACE o.c.ext.demo.LogbackLoggingDemo - TRACE level logging should NOT appear in the console, but SHOULD appear in the test log
-23-04-2016 21:52:58.841 DEBUG o.c.ext.demo.LogbackLoggingDemo - DEBUG level logging  should NOT appear in the console, but SHOULD appear in the test log
-23-04-2016 21:52:58.841 INFO  o.c.ext.demo.LogbackLoggingDemo - INFO level logging  should appear in the console, and the test log
-23-04-2016 21:52:58.842 WARN  o.c.ext.demo.LogbackLoggingDemo - WARN level logging  should appear in the console, and the test log
-23-04-2016 21:52:58.842 ERROR o.c.ext.demo.LogbackLoggingDemo - ERROR level logging  should appear in the console, and the test log
-23-04-2016 21:52:58.843 DEBUG o.c.ext.demo.LogbackLoggingDemo - This is
+23-04-2016 23:29:31.654 INFO  o.c.ext.demo.LogbackLoggingDemo - Initialising the acceptance test class LogbackLoggingDemo on thread Test worker
+23-04-2016 23:29:31.697 TRACE o.c.ext.demo.LogbackLoggingDemo - TRACE level logging should NOT appear in the console, but SHOULD appear in the test log
+23-04-2016 23:29:31.697 DEBUG o.c.ext.demo.LogbackLoggingDemo - DEBUG level logging  should NOT appear in the console, but SHOULD appear in the test log
+23-04-2016 23:29:31.697 INFO  o.c.ext.demo.LogbackLoggingDemo - INFO level logging  should appear in the console, and the test log
+23-04-2016 23:29:31.697 WARN  o.c.ext.demo.LogbackLoggingDemo - WARN level logging  should appear in the console, and the test log
+23-04-2016 23:29:31.698 ERROR o.c.ext.demo.LogbackLoggingDemo - ERROR level logging  should appear in the console, and the test log
+23-04-2016 23:29:31.698 DEBUG o.c.ext.demo.LogbackLoggingDemo - This is
 	a multi-line
 	log entry
-23-04-2016 21:52:58.843 INFO  o.c.ext.demo.LogbackLoggingDemo - NOTE: none of the logging above will appear in the tooltips
-23-04-2016 21:52:58.843 DEBUG T.c.ext.demo.LogbackLoggingDemo - My tooltip here!
-23-04-2016 21:52:58.846 DEBUG o.c.ext.demo.LogbackLoggingDemo - NOTE: no tooltip showing for getCalculatorResult()
-23-04-2016 21:52:58.850 INFO  o.c.ext.demo.LogbackLoggingDemo - Tearing down the acceptance test class on thread Test worker
-23-04-2016 21:52:58.916 INFO  o.c.ext.demo.LogbackLoggingDemo - Initialising the acceptance test class LogbackLoggingDemo on thread Test worker
-23-04-2016 21:52:58.917 INFO  o.c.ext.demo.LogbackLoggingDemo - Tearing down the acceptance test class on thread Test worker
+23-04-2016 23:29:31.698 INFO  o.c.ext.demo.LogbackLoggingDemo - NOTE: none of the logging above will appear in the tooltips
+23-04-2016 23:29:31.698 DEBUG T.c.ext.demo.LogbackLoggingDemo - My tooltip here!
+23-04-2016 23:29:31.700 DEBUG o.c.ext.demo.LogbackLoggingDemo - NOTE: no tooltip showing for getCalculatorResult()
+23-04-2016 23:29:31.704 INFO  o.c.ext.demo.LogbackLoggingDemo - Tearing down the acceptance test class on thread Test worker
+23-04-2016 23:29:31.764 INFO  o.c.ext.demo.LogbackLoggingDemo - Initialising the acceptance test class LogbackLoggingDemo on thread Test worker
+23-04-2016 23:29:31.765 INFO  o.c.ext.demo.LogbackLoggingDemo - Tearing down the acceptance test class on thread Test worker
