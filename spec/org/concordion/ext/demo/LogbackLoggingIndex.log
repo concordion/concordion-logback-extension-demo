@@ -1,1 +1,2 @@
-07-04-2016 00:21:28.945 INFO  o.c.ext.demo.LogbackLoggingIndex - Initialising the acceptance test class LogbackLoggingIndex on thread Test worker
+23-04-2016 21:52:58.744 INFO  o.c.ext.demo.LogbackLoggingIndex - Initialising the acceptance test class LogbackLoggingIndex on thread Test worker
+23-04-2016 21:52:58.872 INFO  o.c.ext.demo.LogbackLoggingIndex - Tearing down the acceptance test class on thread Test worker
