@@ -1,4 +1,4 @@
-package org.concordion.ext.demo;
+package org.concordion.demo;
 
 /**
  * A fixture class for the LoggingDemo.html specification.
@@ -11,6 +11,6 @@ package org.concordion.ext.demo;
  * <p>
  * Run this class as a JUnit test to produce the Concordion results.
  */
-public class LogbackLoggingIndex extends AcceptanceTest {
+public class LogbackLoggingIndex extends ConcordionFixture {
 	
 }

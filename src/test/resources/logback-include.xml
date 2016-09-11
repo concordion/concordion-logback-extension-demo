@@ -1,14 +1,14 @@
 <included>
 
-<!-- java.util.logging.SimpleFormatter.format= [%1$tc]: %2$s: %4$s: %5$s%n -->
-
+	<!-- Console Logger -->
 	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
 		<!-- encoders are assigned the type ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
 		<encoder>
-			<pattern>%d{dd-MM-yyyy HH:mm:ss.SSS} %-5level %logger{36} - %msg%n</pattern>
+			<pattern>%d{dd-MM-yyyy HH:mm:ss.SSS} %-5level %logger{36} - %msg%n%ex{short}</pattern>
 		</encoder>
 	</appender>
 
+	<!-- Console Logger: info Level and above only -->
 	<appender name="STDOUT-INFO" class="ch.qos.logback.core.ConsoleAppender">
 		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
 			<level>INFO</level>			
@@ -19,7 +19,8 @@
 			<pattern>%d{dd-MM-yyyy HH:mm:ss.SSS} %-5level %logger{36} - %msg%n</pattern>
 		</encoder>
 	</appender>
-	    
+
+	<!-- Classic Text based Log File -->
 	<appender name="FILE-PER-TEST" class="ch.qos.logback.classic.sift.SiftingAppender">
 		<discriminator>
 			<Key>testname</Key>
@@ -33,6 +34,27 @@
 				<layout class="ch.qos.logback.classic.PatternLayout">
  					<pattern>%d{dd-MM-yyyy HH:mm:ss.SSS} %-5level %logger{36} - %msg%n</pattern> 
 				</layout>
+			</appender>
+		</sift>
+	</appender>
+	    
+	<!-- HTML Log File -->
+	<appender name="HTML-FILE-PER-TEST" class="ch.qos.logback.classic.sift.SiftingAppender">
+		<discriminator>
+			<key>testname</key>
+			<defaultValue>build/testrun</defaultValue>
+		</discriminator>
+		<sift>
+			<appender name="FILE-${testname}" class="ch.qos.logback.core.FileAppender">
+				<file>${testname}Log.html</file> <!-- location is determined by concordion.output.dir property in gradle.build file -->
+				<append>false</append>				
+				
+				<encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+					<layout class="org.concordion.logback.html.HTMLLayout">
+						<pattern>%level%message%date{HH:mm:ss.SSS}%file%line</pattern>
+						<stepRecorder>STEP_MARKER</stepRecorder> 	<!-- Options: STEP_MARKER, INFO_LOG_LEVEL, DEBUG_LOG_LEVEL -->
+					</layout>
+			    </encoder>
 			</appender>
 		</sift>
 	</appender>

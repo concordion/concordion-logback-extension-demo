@@ -8,13 +8,23 @@ wrapper {
 }
 
 repositories {
+	//TODO remove me
+	//mavenLocal()
+	maven {
+		url = 'http://oss.jfrog.org/oss-snapshot-local'
+	}
+	
 	mavenCentral()
-	mavenLocal()
 }
 
 dependencies {
-	testCompile "org.concordion:concordion:2.0.0"
-	testCompile "org.concordion:concordion-logback-extension:1.0.0"
+	testCompile 'org.concordion:concordion:2.0.3'
+	testCompile 'org.concordion:concordion-logback-extension:2.0.0-SNAPSHOT'
+	
+	//TODO Remove the need for this
+	testCompile 'org.concordion:concordion-logback-extension:2.0.0-SNAPSHOT:reportlogger'
+	
+	testCompile 'org.seleniumhq.selenium:selenium-java:2.53.0'
 }
 
 sourceSets {
