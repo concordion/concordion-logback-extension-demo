@@ -1,0 +1,149 @@
+{
+  "query": {
+    "count": 1,
+    "created": "2016-09-11T08:56:17Z",
+    "lang": "en-US",
+    "results": {
+      "channel": {
+        "units": {
+          "distance": "mi",
+          "pressure": "in",
+          "speed": "mph",
+          "temperature": "F"
+        },
+        "title": "Yahoo! Weather - Nome, AK, US",
+        "link": "http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/",
+        "description": "Yahoo! Weather for Nome, AK, US",
+        "language": "en-us",
+        "lastBuildDate": "Sun, 11 Sep 2016 12:56 AM AKDT",
+        "ttl": "60",
+        "location": {
+          "city": "Nome",
+          "country": "United States",
+          "region": " AK"
+        },
+        "wind": {
+          "chill": "43",
+          "direction": "23",
+          "speed": "11"
+        },
+        "atmosphere": {
+          "humidity": "89",
+          "pressure": "1016.0",
+          "rising": "0",
+          "visibility": "16.1"
+        },
+        "astronomy": {
+          "sunrise": "8:15 am",
+          "sunset": "9:39 pm"
+        },
+        "image": {
+          "title": "Yahoo! Weather",
+          "width": "142",
+          "height": "18",
+          "link": "http://weather.yahoo.com",
+          "url": "http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"
+        },
+        "item": {
+          "title": "Conditions for Nome, AK, US at 12:00 AM AKDT",
+          "lat": "64.499474",
+          "long": "-165.405792",
+          "link": "http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/",
+          "pubDate": "Sun, 11 Sep 2016 12:00 AM AKDT",
+          "condition": {
+            "code": "26",
+            "date": "Sun, 11 Sep 2016 12:00 AM AKDT",
+            "temp": "46",
+            "text": "Cloudy"
+          },
+          "forecast": [
+            {
+              "code": "12",
+              "date": "11 Sep 2016",
+              "day": "Sun",
+              "high": "49",
+              "low": "44",
+              "text": "Rain"
+            },
+            {
+              "code": "12",
+              "date": "12 Sep 2016",
+              "day": "Mon",
+              "high": "51",
+              "low": "44",
+              "text": "Rain"
+            },
+            {
+              "code": "26",
+              "date": "13 Sep 2016",
+              "day": "Tue",
+              "high": "45",
+              "low": "41",
+              "text": "Cloudy"
+            },
+            {
+              "code": "28",
+              "date": "14 Sep 2016",
+              "day": "Wed",
+              "high": "45",
+              "low": "36",
+              "text": "Mostly Cloudy"
+            },
+            {
+              "code": "23",
+              "date": "15 Sep 2016",
+              "day": "Thu",
+              "high": "44",
+              "low": "41",
+              "text": "Breezy"
+            },
+            {
+              "code": "26",
+              "date": "16 Sep 2016",
+              "day": "Fri",
+              "high": "53",
+              "low": "42",
+              "text": "Cloudy"
+            },
+            {
+              "code": "39",
+              "date": "17 Sep 2016",
+              "day": "Sat",
+              "high": "49",
+              "low": "47",
+              "text": "Scattered Showers"
+            },
+            {
+              "code": "12",
+              "date": "18 Sep 2016",
+              "day": "Sun",
+              "high": "50",
+              "low": "46",
+              "text": "Rain"
+            },
+            {
+              "code": "12",
+              "date": "19 Sep 2016",
+              "day": "Mon",
+              "high": "50",
+              "low": "46",
+              "text": "Rain"
+            },
+            {
+              "code": "26",
+              "date": "20 Sep 2016",
+              "day": "Tue",
+              "high": "47",
+              "low": "43",
+              "text": "Cloudy"
+            }
+          ],
+          "description": "\u003c![CDATA[\u003cimg src\u003d\"http://l.yimg.com/a/i/us/we/52/26.gif\"/\u003e\n\u003cBR /\u003e\n\u003cb\u003eCurrent Conditions:\u003c/b\u003e\n\u003cBR /\u003eCloudy\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003cb\u003eForecast:\u003c/b\u003e\n\u003cBR /\u003e Sun - Rain. High: 49Low: 44\n\u003cBR /\u003e Mon - Rain. High: 51Low: 44\n\u003cBR /\u003e Tue - Cloudy. High: 45Low: 41\n\u003cBR /\u003e Wed - Mostly Cloudy. High: 45Low: 36\n\u003cBR /\u003e Thu - Breezy. High: 44Low: 41\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003ca href\u003d\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/\"\u003eFull Forecast at Yahoo! Weather\u003c/a\u003e\n\u003cBR /\u003e\n\u003cBR /\u003e\n(provided by \u003ca href\u003d\"http://www.weather.com\" \u003eThe Weather Channel\u003c/a\u003e)\n\u003cBR /\u003e\n]]\u003e",
+          "guid": {
+            "isPermaLink": "false"
+          }
+        }
+      }
+    }
+  }
+}
