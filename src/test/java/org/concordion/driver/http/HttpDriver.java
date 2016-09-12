@@ -1,4 +1,4 @@
-package driver.http;
+package org.concordion.driver.http;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -20,7 +20,7 @@ import javax.net.ssl.SSLSession;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
 
-import driver.Config;
+import org.concordion.driver.Config;
 
 public class HttpDriver {
 

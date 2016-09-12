@@ -4,16 +4,15 @@ import java.io.IOException;
 import java.security.KeyManagementException;
 import java.security.NoSuchAlgorithmException;
 
+import org.concordion.driver.http.HttpDriver;
+import org.concordion.driver.ui.google.GoogleResultsPage;
+import org.concordion.driver.ui.google.GoogleSearchPage;
 import org.concordion.slf4j.ext.MediaType;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
-
-import driver.google.web.GoogleResultsPage;
-import driver.google.web.GoogleSearchPage;
-import driver.http.HttpDriver;
 
 
 /**
@@ -46,9 +45,9 @@ public class SeleniumDemoFixture extends ConcordionFixture {
     }
 
 	public boolean makeRestCall() throws IOException, KeyManagementException, NoSuchAlgorithmException {
+		//https://developer.yahoo.com/weather/
     	//xmlurl = "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22nome%2C%20ak%22)&format=xml&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys";
     	String url = "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22nome%2C%20ak%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys";
-    	//https://developer.yahoo.com/weather/
     	
     	getLogger().with()
     		.message("Calling Yahoo weather api")
@@ -71,6 +70,7 @@ public class SeleniumDemoFixture extends ConcordionFixture {
     }
     
     public String searchForTopic(String topic) {
+    	//TODO This is not a step - possibly need a feature method? 
 		getLogger().step("Example: " + topic);
 		return GoogleSearchPage.open(getBrowser()).searchFor(topic).getCalculatorResult();
     }

@@ -1,4 +1,4 @@
-package org.concordion.selenium;
+package org.concordion.driver.selenium;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

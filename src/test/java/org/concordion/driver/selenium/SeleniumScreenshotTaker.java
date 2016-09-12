@@ -1,4 +1,4 @@
-package org.concordion.selenium;
+package org.concordion.driver.selenium;
 
 import java.awt.Dimension;
 import java.awt.image.BufferedImage;

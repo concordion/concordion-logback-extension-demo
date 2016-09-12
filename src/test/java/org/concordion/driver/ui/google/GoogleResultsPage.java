@@ -1,8 +1,8 @@
-package driver.google.web;
+package org.concordion.driver.ui.google;
 
 import java.util.List;
 
-import org.concordion.selenium.Browser;
+import org.concordion.driver.selenium.Browser;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;

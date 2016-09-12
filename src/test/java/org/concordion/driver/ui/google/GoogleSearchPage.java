@@ -1,6 +1,6 @@
-package driver.google.web;
+package org.concordion.driver.ui.google;
 
-import org.concordion.selenium.Browser;
+import org.concordion.driver.selenium.Browser;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;

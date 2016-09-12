@@ -1,4 +1,4 @@
-package driver;
+package org.concordion.driver;
 
 public class Config {
 	public static boolean isProxyRequired() {

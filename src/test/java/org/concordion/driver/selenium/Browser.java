@@ -1,13 +1,12 @@
-package org.concordion.selenium;
+package org.concordion.driver.selenium;
 
+import org.concordion.driver.Config;
 import org.concordion.slf4j.ext.ReportLoggerFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
-
-import driver.Config;
 
 /**
  * Manages the browser session.
