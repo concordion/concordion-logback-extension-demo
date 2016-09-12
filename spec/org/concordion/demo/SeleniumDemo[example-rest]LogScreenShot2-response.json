@@ -1,7 +1,7 @@
 {
   "query": {
     "count": 1,
-    "created": "2016-09-12T03:04:03Z",
+    "created": "2016-09-12T08:38:30Z",
     "lang": "en-US",
     "results": {
       "channel": {
@@ -15,7 +15,7 @@
         "link": "http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/",
         "description": "Yahoo! Weather for Nome, AK, US",
         "language": "en-us",
-        "lastBuildDate": "Sun, 11 Sep 2016 07:04 PM AKDT",
+        "lastBuildDate": "Mon, 12 Sep 2016 12:38 AM AKDT",
         "ttl": "60",
         "location": {
           "city": "Nome",
@@ -23,19 +23,19 @@
           "region": " AK"
         },
         "wind": {
-          "chill": "43",
-          "direction": "45",
-          "speed": "18"
+          "chill": "41",
+          "direction": "23",
+          "speed": "22"
         },
         "atmosphere": {
-          "humidity": "85",
-          "pressure": "998.0",
+          "humidity": "90",
+          "pressure": "993.0",
           "rising": "0",
           "visibility": "16.1"
         },
         "astronomy": {
-          "sunrise": "8:15 am",
-          "sunset": "9:39 pm"
+          "sunrise": "8:18 am",
+          "sunset": "9:35 pm"
         },
         "image": {
           "title": "Yahoo! Weather",
@@ -45,26 +45,18 @@
           "url": "http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"
         },
         "item": {
-          "title": "Conditions for Nome, AK, US at 06:00 PM AKDT",
+          "title": "Conditions for Nome, AK, US at 12:00 AM AKDT",
           "lat": "64.499474",
           "long": "-165.405792",
           "link": "http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/",
-          "pubDate": "Sun, 11 Sep 2016 06:00 PM AKDT",
+          "pubDate": "Mon, 12 Sep 2016 12:00 AM AKDT",
           "condition": {
-            "code": "12",
-            "date": "Sun, 11 Sep 2016 06:00 PM AKDT",
-            "temp": "48",
-            "text": "Rain"
+            "code": "11",
+            "date": "Mon, 12 Sep 2016 12:00 AM AKDT",
+            "temp": "47",
+            "text": "Showers"
           },
           "forecast": [
-            {
-              "code": "12",
-              "date": "11 Sep 2016",
-              "day": "Sun",
-              "high": "49",
-              "low": "44",
-              "text": "Rain"
-            },
             {
               "code": "12",
               "date": "12 Sep 2016",
@@ -136,9 +128,17 @@
               "high": "48",
               "low": "35",
               "text": "Partly Cloudy"
+            },
+            {
+              "code": "30",
+              "date": "21 Sep 2016",
+              "day": "Wed",
+              "high": "43",
+              "low": "38",
+              "text": "Partly Cloudy"
             }
           ],
-          "description": "\u003c![CDATA[\u003cimg src\u003d\"http://l.yimg.com/a/i/us/we/52/12.gif\"/\u003e\n\u003cBR /\u003e\n\u003cb\u003eCurrent Conditions:\u003c/b\u003e\n\u003cBR /\u003eRain\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003cb\u003eForecast:\u003c/b\u003e\n\u003cBR /\u003e Sun - Rain. High: 49Low: 44\n\u003cBR /\u003e Mon - Rain. High: 49Low: 44\n\u003cBR /\u003e Tue - Cloudy. High: 46Low: 42\n\u003cBR /\u003e Wed - Breezy. High: 44Low: 38\n\u003cBR /\u003e Thu - Breezy. High: 43Low: 36\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003ca href\u003d\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/\"\u003eFull Forecast at Yahoo! Weather\u003c/a\u003e\n\u003cBR /\u003e\n\u003cBR /\u003e\n(provided by \u003ca href\u003d\"http://www.weather.com\" \u003eThe Weather Channel\u003c/a\u003e)\n\u003cBR /\u003e\n]]\u003e",
+          "description": "\u003c![CDATA[\u003cimg src\u003d\"http://l.yimg.com/a/i/us/we/52/11.gif\"/\u003e\n\u003cBR /\u003e\n\u003cb\u003eCurrent Conditions:\u003c/b\u003e\n\u003cBR /\u003eShowers\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003cb\u003eForecast:\u003c/b\u003e\n\u003cBR /\u003e Mon - Rain. High: 49Low: 44\n\u003cBR /\u003e Tue - Cloudy. High: 46Low: 42\n\u003cBR /\u003e Wed - Breezy. High: 44Low: 38\n\u003cBR /\u003e Thu - Breezy. High: 43Low: 36\n\u003cBR /\u003e Fri - Sunny. High: 45Low: 35\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003ca href\u003d\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/\"\u003eFull Forecast at Yahoo! Weather\u003c/a\u003e\n\u003cBR /\u003e\n\u003cBR /\u003e\n(provided by \u003ca href\u003d\"http://www.weather.com\" \u003eThe Weather Channel\u003c/a\u003e)\n\u003cBR /\u003e\n]]\u003e",
           "guid": {
             "isPermaLink": "false"
           }
