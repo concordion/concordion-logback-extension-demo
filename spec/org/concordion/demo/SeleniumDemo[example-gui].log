@@ -1,8 +1,0 @@
-11-09-2016 08:56:16.324 DEBUG selenium.events - Navigated to 'http://www.google.com'
-11-09-2016 08:56:16.490 DEBUG selenium.events - [By.name: q] - found
-11-09-2016 08:56:16.595 DEBUG selenium.events - [By.name: q] - changed value to '6 * 9'
-11-09-2016 08:56:16.673 DEBUG selenium.events - [By.name: btnG] - found
-11-09-2016 08:56:16.674 DEBUG selenium.events - [By.name: btnG] - clicked
-11-09-2016 08:56:16.796 DEBUG selenium.events - [By.id: foot] - found
-11-09-2016 08:56:17.310 DEBUG selenium.events - [By.id: foot] - found
-11-09-2016 08:56:17.338 DEBUG selenium.events - [By.id: cwos] - found
