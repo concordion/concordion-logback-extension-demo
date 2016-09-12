@@ -4,11 +4,9 @@ import java.util.List;
 
 import org.concordion.selenium.Browser;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
@@ -33,19 +31,13 @@ public class GoogleResultsPage extends PageObject {
 
     private static Logger logger = LoggerFactory.getLogger(GoogleResultsPage.class.getName());
 
-    private Browser browser;
-
     /**
      * Initialises the results page and waits for the page to fully load. Assumes that the results page is already
      * loading.
      */
     public GoogleResultsPage(Browser browser) {
-    	this.browser = browser;
+		super(browser);
         
-        pageOpening();
-        
-        WebDriver driver = browser.getDriver();
-        PageFactory.initElements(driver, this);
         waitForFooter();
     }
 
@@ -75,11 +67,14 @@ public class GoogleResultsPage extends PageObject {
     public String getCalculatorResult() {
         String result = calcResultLink.getText();
         logger.info(String.format("result is '%s'", result));
+
+		capturePage("Getting result " + result);
+
         return result;
     }
 
     private void waitForFooter() {
-        WebDriverWait wait = new WebDriverWait(browser.getDriver(), 30);
+		WebDriverWait wait = new WebDriverWait(getBrowser().getDriver(), 30);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("foot")));
     }
 }

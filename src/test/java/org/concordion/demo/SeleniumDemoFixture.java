@@ -1,6 +1,8 @@
 package org.concordion.demo;
 
 import java.io.IOException;
+import java.security.KeyManagementException;
+import java.security.NoSuchAlgorithmException;
 
 import org.concordion.slf4j.ext.MediaType;
 
@@ -32,7 +34,7 @@ public class SeleniumDemoFixture extends ConcordionFixture {
      * Searches for the specified topic, and waits for the results page to load.
      */
     public void searchFor(final String topic) {
-        searchPage = new GoogleSearchPage(getBrowser());
+		searchPage = GoogleSearchPage.open(getBrowser());
         resultsPage = searchPage.searchFor(topic);
     }
 
@@ -43,7 +45,7 @@ public class SeleniumDemoFixture extends ConcordionFixture {
         return resultsPage.getCalculatorResult();
     }
 
-    public boolean makeRestCall() throws IOException {
+	public boolean makeRestCall() throws IOException, KeyManagementException, NoSuchAlgorithmException {
     	//xmlurl = "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22nome%2C%20ak%22)&format=xml&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys";
     	String url = "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22nome%2C%20ak%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys";
     	//https://developer.yahoo.com/weather/
@@ -53,7 +55,7 @@ public class SeleniumDemoFixture extends ConcordionFixture {
     		.data(url)
     		.debug();
     	
-    	String responseMessage = new HttpDriver().get(url);
+		String responseMessage = new HttpDriver().get(url);
         
     	Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		JsonParser jp = new JsonParser();
@@ -69,6 +71,7 @@ public class SeleniumDemoFixture extends ConcordionFixture {
     }
     
     public String searchForTopic(String topic) {
-    	return new GoogleSearchPage(getBrowser()).searchFor(topic).getCalculatorResult();
+		getLogger().step("Example: " + topic);
+		return GoogleSearchPage.open(getBrowser()).searchFor(topic).getCalculatorResult();
     }
 }
