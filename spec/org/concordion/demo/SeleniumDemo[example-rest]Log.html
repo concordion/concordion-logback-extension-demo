@@ -499,7 +499,7 @@ function viewport() {
 </script>
   </head>
 <body>
-<label class="floattopright"><input id="chkTrace" type="checkbox" onclick="filterTrace(this);" checked>Show 'TRACE' level statements</label><img id="ScreenshotPopup" class="screenshot" /><h1>Log session start time Mon Sep 12 08:38:29 UTC 2016</h1><p></p>
+<label class="floattopright"><input id="chkTrace" type="checkbox" onclick="filterTrace(this);" checked>Show 'TRACE' level statements</label><img id="ScreenshotPopup" class="screenshot" /><h1>Log session start time Sun Apr 30 20:38:11 UTC 2017</h1><p></p>
 
 <table>
 <thead>
@@ -513,10 +513,17 @@ function viewport() {
 </thead>
 <tbody>
 
+<tr class="record info">
+<td>1.</td><td class="Level info">INFO</td>
+<td class="Message">Starting example example-rest</td>
+<td class="Time">20:38:11.894</td>
+<td class="FileOfCaller" title="ConcordionFixture.java">ConcordionFixture.java</td>
+<td class="LineOfCaller">100</td>
+</tr>
 <tr class="record debug">
-<td>1.</td><td class="Level debug">DEBUG</td>
+<td>2.</td><td class="Level debug">DEBUG</td>
 <td class="Message">Calling Yahoo weather api</td>
-<td class="Time">08:38:29.622</td>
+<td class="Time">20:38:11.900</td>
 <td class="FileOfCaller" title="SeleniumDemoFixture.java">SeleniumDemoFixture.java</td>
 <td class="LineOfCaller">55</td>
 </tr>
@@ -526,23 +533,23 @@ function viewport() {
 </td>
 </tr>
 <tr class="record debug">
-<td>2.</td><td class="Level debug">DEBUG</td>
+<td>3.</td><td class="Level debug">DEBUG</td>
 <td class="Message">Response</td>
-<td class="Time">08:38:30.161</td>
+<td class="Time">20:38:13.062</td>
 <td class="FileOfCaller" title="SeleniumDemoFixture.java">SeleniumDemoFixture.java</td>
 <td class="LineOfCaller">67</td>
 </tr>
 <tr class="companion debug">
 <td class="indent"></td><td colspan="5" class="output">
 <div class="attachmentMenu">
-<a href="SeleniumDemo[example-rest]LogScreenShot2-response.json" target="_blank">Open</a>&nbsp;&nbsp;
+<a href="SeleniumDemo[example-rest]Log2-response.json" target="_blank">Open</a>&nbsp;&nbsp;
 <a href="#" onclick="toggleContent(this); return false;">Expand</a>
 </div>
 <div class="resizeable">
 <xmp class="fadeout">{
   "query": {
     "count": 1,
-    "created": "2016-09-12T08:38:30Z",
+    "created": "2017-04-30T20:38:13Z",
     "lang": "en-US",
     "results": {
       "channel": {
@@ -556,7 +563,7 @@ function viewport() {
         "link": "http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/",
         "description": "Yahoo! Weather for Nome, AK, US",
         "language": "en-us",
-        "lastBuildDate": "Mon, 12 Sep 2016 12:38 AM AKDT",
+        "lastBuildDate": "Sun, 30 Apr 2017 12:38 PM AKDT",
         "ttl": "60",
         "location": {
           "city": "Nome",
@@ -564,19 +571,19 @@ function viewport() {
           "region": " AK"
         },
         "wind": {
-          "chill": "41",
-          "direction": "23",
-          "speed": "22"
+          "chill": "37",
+          "direction": "68",
+          "speed": "7"
         },
         "atmosphere": {
-          "humidity": "90",
-          "pressure": "993.0",
+          "humidity": "65",
+          "pressure": "1006.0",
           "rising": "0",
           "visibility": "16.1"
         },
         "astronomy": {
-          "sunrise": "8:18 am",
-          "sunset": "9:35 pm"
+          "sunrise": "6:34 am",
+          "sunset": "11:25 pm"
         },
         "image": {
           "title": "Yahoo! Weather",
@@ -586,100 +593,100 @@ function viewport() {
           "url": "http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"
         },
         "item": {
-          "title": "Conditions for Nome, AK, US at 12:00 AM AKDT",
+          "title": "Conditions for Nome, AK, US at 12:00 PM AKDT",
           "lat": "64.499474",
           "long": "-165.405792",
           "link": "http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/",
-          "pubDate": "Mon, 12 Sep 2016 12:00 AM AKDT",
+          "pubDate": "Sun, 30 Apr 2017 12:00 PM AKDT",
           "condition": {
-            "code": "11",
-            "date": "Mon, 12 Sep 2016 12:00 AM AKDT",
-            "temp": "47",
-            "text": "Showers"
+            "code": "32",
+            "date": "Sun, 30 Apr 2017 12:00 PM AKDT",
+            "temp": "41",
+            "text": "Sunny"
           },
           "forecast": [
             {
-              "code": "12",
-              "date": "12 Sep 2016",
-              "day": "Mon",
-              "high": "49",
-              "low": "44",
-              "text": "Rain"
-            },
-            {
-              "code": "26",
-              "date": "13 Sep 2016",
-              "day": "Tue",
-              "high": "46",
-              "low": "42",
-              "text": "Cloudy"
-            },
-            {
-              "code": "23",
-              "date": "14 Sep 2016",
-              "day": "Wed",
-              "high": "44",
-              "low": "38",
-              "text": "Breezy"
-            },
-            {
-              "code": "23",
-              "date": "15 Sep 2016",
-              "day": "Thu",
-              "high": "43",
-              "low": "36",
-              "text": "Breezy"
-            },
-            {
               "code": "32",
-              "date": "16 Sep 2016",
-              "day": "Fri",
-              "high": "45",
-              "low": "35",
+              "date": "30 Apr 2017",
+              "day": "Sun",
+              "high": "42",
+              "low": "29",
               "text": "Sunny"
             },
             {
+              "code": "30",
+              "date": "01 May 2017",
+              "day": "Mon",
+              "high": "41",
+              "low": "32",
+              "text": "Partly Cloudy"
+            },
+            {
+              "code": "30",
+              "date": "02 May 2017",
+              "day": "Tue",
+              "high": "44",
+              "low": "29",
+              "text": "Partly Cloudy"
+            },
+            {
               "code": "34",
-              "date": "17 Sep 2016",
-              "day": "Sat",
-              "high": "45",
-              "low": "34",
+              "date": "03 May 2017",
+              "day": "Wed",
+              "high": "40",
+              "low": "28",
               "text": "Mostly Sunny"
             },
             {
+              "code": "30",
+              "date": "04 May 2017",
+              "day": "Thu",
+              "high": "37",
+              "low": "24",
+              "text": "Partly Cloudy"
+            },
+            {
+              "code": "30",
+              "date": "05 May 2017",
+              "day": "Fri",
+              "high": "32",
+              "low": "24",
+              "text": "Partly Cloudy"
+            },
+            {
+              "code": "30",
+              "date": "06 May 2017",
+              "day": "Sat",
+              "high": "35",
+              "low": "23",
+              "text": "Partly Cloudy"
+            },
+            {
               "code": "28",
-              "date": "18 Sep 2016",
+              "date": "07 May 2017",
               "day": "Sun",
-              "high": "45",
-              "low": "37",
+              "high": "44",
+              "low": "28",
               "text": "Mostly Cloudy"
             },
             {
-              "code": "30",
-              "date": "19 Sep 2016",
+              "code": "32",
+              "date": "08 May 2017",
               "day": "Mon",
-              "high": "44",
-              "low": "35",
-              "text": "Partly Cloudy"
+              "high": "46",
+              "low": "33",
+              "text": "Sunny"
             },
             {
-              "code": "30",
-              "date": "20 Sep 2016",
+              "code": "32",
+              "date": "09 May 2017",
               "day": "Tue",
-              "high": "48",
-              "low": "35",
-              "text": "Partly Cloudy"
-            },
-            {
-              "code": "30",
-              "date": "21 Sep 2016",
-              "day": "Wed",
-              "high": "43",
-              "low": "38",
-              "text": "Partly Cloudy"
+              "high": "39",
+              "low": "29",
+              "text": "Sunny"
             }
           ],
-          "description": "\u003c![CDATA[\u003cimg src\u003d\"http://l.yimg.com/a/i/us/we/52/11.gif\"/\u003e\n\u003cBR /\u003e\n\u003cb\u003eCurrent Conditions:\u003c/b\u003e\n\u003cBR /\u003eShowers\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003cb\u003eForecast:\u003c/b\u003e\n\u003cBR /\u003e Mon - Rain. High: 49Low: 44\n\u003cBR /\u003e Tue - Cloudy. High: 46Low: 42\n\u003cBR /\u003e Wed - Breezy. High: 44Low: 38\n\u003cBR /\u003e Thu - Breezy. High: 43Low: 36\n\u003cBR /\u003e Fri - Sunny. High: 45Low: 35\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003ca href\u003d\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/\"\u003eFull Forecast at Yahoo! Weather\u003c/a\u003e\n\u003cBR /\u003e\n\u003cBR /\u003e\n(provided by \u003ca href\u003d\"http://www.weather.com\" \u003eThe Weather Channel\u003c/a\u003e)\n\u003cBR /\u003e\n]]\u003e",
+          "description": "\u003c![CDATA[\u003cimg src\u003d\"http://l.yimg.com/a/i/us/we/52/32.gif\"/\u003e\n\u003cBR /\u003e\n\u003cb\u003eCurrent Conditions:\u003c/b\u003e\n\u003cBR /\u003eSunny\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003cb\u003eForecast:\u003c/b\u003e\n\u003cBR /\u003e Sun - Sunny. High: 42Low: 29\n\u003cBR /\u003e Mon - Partly Cloudy. High: 41Low: 32\n\u003cBR /\u003e Tue - Partly Cloudy. High: 44Low: 29\n\u003cBR /\u003e Wed - Mostly Sunny. High: 40Low: 28\n\u003cBR /\u003e Thu - Partly Cloudy. High: 37Low: 24\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003ca href\u003d\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/\"\u003eFull Forecast at Yahoo! Weather\u003c/a\u003e\n\u003cBR /\u003e\n\u003cBR /\u003e\n(provided by \u003ca href\u003d\"http://www.weather.com\" \u003eThe Weather Channel\u003c/a\u003e)\n\u003cBR /\u003e\n]]\u003e",
           "guid": {
             "isPermaLink": "false"
           }
