@@ -1,7 +1,7 @@
 {
   "query": {
     "count": 1,
-    "created": "2017-04-30T20:38:13Z",
+    "created": "2017-05-14T20:38:03Z",
     "lang": "en-US",
     "results": {
       "channel": {
@@ -15,7 +15,7 @@
         "link": "http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/",
         "description": "Yahoo! Weather for Nome, AK, US",
         "language": "en-us",
-        "lastBuildDate": "Sun, 30 Apr 2017 12:38 PM AKDT",
+        "lastBuildDate": "Sun, 14 May 2017 12:38 PM AKDT",
         "ttl": "60",
         "location": {
           "city": "Nome",
@@ -23,19 +23,19 @@
           "region": " AK"
         },
         "wind": {
-          "chill": "37",
-          "direction": "68",
-          "speed": "7"
+          "chill": "34",
+          "direction": "270",
+          "speed": "14"
         },
         "atmosphere": {
-          "humidity": "65",
-          "pressure": "1006.0",
+          "humidity": "80",
+          "pressure": "1007.0",
           "rising": "0",
           "visibility": "16.1"
         },
         "astronomy": {
-          "sunrise": "6:34 am",
-          "sunset": "11:25 pm"
+          "sunrise": "0:12 am",
+          "sunset": "5:46 am"
         },
         "image": {
           "title": "Yahoo! Weather",
@@ -45,100 +45,100 @@
           "url": "http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"
         },
         "item": {
-          "title": "Conditions for Nome, AK, US at 12:00 PM AKDT",
+          "title": "Conditions for Nome, AK, US at 11:00 AM AKDT",
           "lat": "64.499474",
           "long": "-165.405792",
           "link": "http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/",
-          "pubDate": "Sun, 30 Apr 2017 12:00 PM AKDT",
+          "pubDate": "Sun, 14 May 2017 11:00 AM AKDT",
           "condition": {
-            "code": "32",
-            "date": "Sun, 30 Apr 2017 12:00 PM AKDT",
-            "temp": "41",
-            "text": "Sunny"
+            "code": "29",
+            "date": "Sun, 14 May 2017 11:00 AM AKDT",
+            "temp": "40",
+            "text": "Partly Cloudy"
           },
           "forecast": [
             {
-              "code": "32",
-              "date": "30 Apr 2017",
+              "code": "34",
+              "date": "14 May 2017",
               "day": "Sun",
-              "high": "42",
-              "low": "29",
-              "text": "Sunny"
-            },
-            {
-              "code": "30",
-              "date": "01 May 2017",
-              "day": "Mon",
-              "high": "41",
-              "low": "32",
-              "text": "Partly Cloudy"
-            },
-            {
-              "code": "30",
-              "date": "02 May 2017",
-              "day": "Tue",
-              "high": "44",
-              "low": "29",
-              "text": "Partly Cloudy"
+              "high": "43",
+              "low": "33",
+              "text": "Mostly Sunny"
             },
             {
               "code": "34",
-              "date": "03 May 2017",
-              "day": "Wed",
-              "high": "40",
-              "low": "28",
+              "date": "15 May 2017",
+              "day": "Mon",
+              "high": "36",
+              "low": "30",
               "text": "Mostly Sunny"
             },
             {
               "code": "30",
-              "date": "04 May 2017",
+              "date": "16 May 2017",
+              "day": "Tue",
+              "high": "48",
+              "low": "29",
+              "text": "Partly Cloudy"
+            },
+            {
+              "code": "12",
+              "date": "17 May 2017",
+              "day": "Wed",
+              "high": "45",
+              "low": "38",
+              "text": "Rain"
+            },
+            {
+              "code": "30",
+              "date": "18 May 2017",
               "day": "Thu",
-              "high": "37",
-              "low": "24",
-              "text": "Partly Cloudy"
-            },
-            {
-              "code": "30",
-              "date": "05 May 2017",
-              "day": "Fri",
-              "high": "32",
-              "low": "24",
-              "text": "Partly Cloudy"
-            },
-            {
-              "code": "30",
-              "date": "06 May 2017",
-              "day": "Sat",
-              "high": "35",
-              "low": "23",
+              "high": "43",
+              "low": "34",
               "text": "Partly Cloudy"
             },
             {
               "code": "28",
-              "date": "07 May 2017",
-              "day": "Sun",
-              "high": "44",
-              "low": "28",
+              "date": "19 May 2017",
+              "day": "Fri",
+              "high": "42",
+              "low": "34",
               "text": "Mostly Cloudy"
             },
             {
-              "code": "32",
-              "date": "08 May 2017",
-              "day": "Mon",
-              "high": "46",
-              "low": "33",
-              "text": "Sunny"
+              "code": "34",
+              "date": "20 May 2017",
+              "day": "Sat",
+              "high": "44",
+              "low": "36",
+              "text": "Mostly Sunny"
             },
             {
-              "code": "32",
-              "date": "09 May 2017",
+              "code": "30",
+              "date": "21 May 2017",
+              "day": "Sun",
+              "high": "51",
+              "low": "38",
+              "text": "Partly Cloudy"
+            },
+            {
+              "code": "26",
+              "date": "22 May 2017",
+              "day": "Mon",
+              "high": "44",
+              "low": "37",
+              "text": "Cloudy"
+            },
+            {
+              "code": "28",
+              "date": "23 May 2017",
               "day": "Tue",
-              "high": "39",
-              "low": "29",
-              "text": "Sunny"
+              "high": "42",
+              "low": "34",
+              "text": "Mostly Cloudy"
             }
           ],
-          "description": "\u003c![CDATA[\u003cimg src\u003d\"http://l.yimg.com/a/i/us/we/52/32.gif\"/\u003e\n\u003cBR /\u003e\n\u003cb\u003eCurrent Conditions:\u003c/b\u003e\n\u003cBR /\u003eSunny\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003cb\u003eForecast:\u003c/b\u003e\n\u003cBR /\u003e Sun - Sunny. High: 42Low: 29\n\u003cBR /\u003e Mon - Partly Cloudy. High: 41Low: 32\n\u003cBR /\u003e Tue - Partly Cloudy. High: 44Low: 29\n\u003cBR /\u003e Wed - Mostly Sunny. High: 40Low: 28\n\u003cBR /\u003e Thu - Partly Cloudy. High: 37Low: 24\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003ca href\u003d\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/\"\u003eFull Forecast at Yahoo! Weather\u003c/a\u003e\n\u003cBR /\u003e\n\u003cBR /\u003e\n(provided by \u003ca href\u003d\"http://www.weather.com\" \u003eThe Weather Channel\u003c/a\u003e)\n\u003cBR /\u003e\n]]\u003e",
+          "description": "\u003c![CDATA[\u003cimg src\u003d\"http://l.yimg.com/a/i/us/we/52/29.gif\"/\u003e\n\u003cBR /\u003e\n\u003cb\u003eCurrent Conditions:\u003c/b\u003e\n\u003cBR /\u003ePartly Cloudy\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003cb\u003eForecast:\u003c/b\u003e\n\u003cBR /\u003e Sun - Mostly Sunny. High: 43Low: 33\n\u003cBR /\u003e Mon - Mostly Sunny. High: 36Low: 30\n\u003cBR /\u003e Tue - Partly Cloudy. High: 48Low: 29\n\u003cBR /\u003e Wed - Rain. High: 45Low: 38\n\u003cBR /\u003e Thu - Partly Cloudy. High: 43Low: 34\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003ca href\u003d\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/\"\u003eFull Forecast at Yahoo! Weather\u003c/a\u003e\n\u003cBR /\u003e\n\u003cBR /\u003e\n(provided by \u003ca href\u003d\"http://www.weather.com\" \u003eThe Weather Channel\u003c/a\u003e)\n\u003cBR /\u003e\n]]\u003e",
           "guid": {
             "isPermaLink": "false"
           }
