@@ -3,7 +3,7 @@ package org.concordion.driver.selenium;
 import org.concordion.driver.Config;
 import org.concordion.slf4j.ext.ReportLoggerFactory;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
@@ -15,7 +15,7 @@ public class Browser {
     private WebDriver driver;
 
     public Browser() {
-		DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+		DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 
 		if (Config.isProxyRequired()) {
 			String browserProxy = Config.getProxyHost() + ":" + Config.getProxyPort();
@@ -31,7 +31,7 @@ public class Browser {
 			capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 		}
 
-		driver = new FirefoxDriver(capabilities);
+		driver = new ChromeDriver(capabilities);
 
 		EventFiringWebDriver efwd = new EventFiringWebDriver(driver);
 		efwd.register(new SeleniumEventLogger());
