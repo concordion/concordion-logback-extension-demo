@@ -4,7 +4,7 @@ sourceCompatibility = 1.7
 targetCompatibility = 1.7
 
 wrapper {
-    gradleVersion = "2.12"
+    gradleVersion = "4.0"
 }
 
 repositories {
