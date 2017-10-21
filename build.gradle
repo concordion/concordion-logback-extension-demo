@@ -8,21 +8,15 @@ wrapper {
 }
 
 repositories {
-	//TODO remove me
-	//mavenLocal()
-	maven {
-		url = 'http://oss.jfrog.org/oss-snapshot-local'
-	}
-	
-	mavenCentral()
+	jcenter()
 }
 
 dependencies {
-	testCompile 'org.concordion:concordion:2.1.0'
-	testCompile 'org.concordion:concordion-logback-extension:2.0.0-SNAPSHOT'
+	testCompile 'org.concordion:concordion:2.1.1'
+	testCompile 'org.concordion:concordion-logback-extension:2.0.0'
 	
 	//TODO Remove the need for this
-	testCompile 'org.concordion:concordion-logback-extension:2.0.0-SNAPSHOT:reportlogger'
+	testCompile 'org.concordion:concordion-logback-extension:2.0.0:reportlogger'
 	
 	testCompile 'org.seleniumhq.selenium:selenium-java:3.+'
 }
@@ -33,7 +27,6 @@ sourceSets {
 	}
 }
 
-test.dependsOn cleanTest
 test {
 	systemProperties['concordion.output.dir'] = "$reporting.baseDir/spec"
 	outputs.upToDateWhen { false } // force it to run even if test code hasn't changed
