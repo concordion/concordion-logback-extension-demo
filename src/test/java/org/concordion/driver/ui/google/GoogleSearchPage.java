@@ -14,24 +14,20 @@ public class GoogleSearchPage extends PageObject {
     @FindBy(name = "q")
     private WebElement queryBox;
 
-    @CacheLookup
-    @FindBy(name = "btnG")
-    private WebElement submitButton;
-
     @FindBy(className = "nonExistent")
     private WebElement nonExistentLink;
 
-	/**
-	 * Opens the Google Search Page.
-	 */
-	public static GoogleSearchPage open(Browser browser) {
+    /**
+     * Opens the Google Search Page.
+     */
+    public static GoogleSearchPage open(Browser browser) {
         browser.getDriver().get("http://www.google.com");
 
-		return new GoogleSearchPage(browser);
+        return new GoogleSearchPage(browser);
     }
 
     public GoogleSearchPage(Browser browser) {
-		super(browser);
+        super(browser);
     }
 
     /**
@@ -41,10 +37,10 @@ public class GoogleSearchPage extends PageObject {
         queryBox.sendKeys(query);
         queryBox.sendKeys(Keys.ESCAPE);
 
-		capturePage("Entered search text, and about to click search button");
+        capturePage("Entered search text, and about to click search button");
 
-        submitButton.click();
+        queryBox.sendKeys(Keys.RETURN);
 
-		return new GoogleResultsPage(getBrowser());
+        return new GoogleResultsPage(getBrowser());
     }
 }
