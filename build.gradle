@@ -21,12 +21,6 @@ dependencies {
 	testCompile 'org.seleniumhq.selenium:selenium-java:3.+'
 }
 
-sourceSets {
-	test {
-		resources { srcDirs += 'src/test/java' }
-	}
-}
-
 test {
 	systemProperties['concordion.output.dir'] = "$reporting.baseDir/spec"
 	outputs.upToDateWhen { false } // force it to run even if test code hasn't changed
