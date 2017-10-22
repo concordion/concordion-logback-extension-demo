@@ -1,7 +1,7 @@
 {
   "query": {
     "count": 1,
-    "created": "2017-07-23T20:42:35Z",
+    "created": "2017-10-22T05:51:24Z",
     "lang": "en-US",
     "results": {
       "channel": {
@@ -15,7 +15,7 @@
         "link": "http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/",
         "description": "Yahoo! Weather for Nome, AK, US",
         "language": "en-us",
-        "lastBuildDate": "Sun, 23 Jul 2017 12:42 PM AKDT",
+        "lastBuildDate": "Sat, 21 Oct 2017 09:51 PM AKDT",
         "ttl": "60",
         "location": {
           "city": "Nome",
@@ -23,19 +23,19 @@
           "region": " AK"
         },
         "wind": {
-          "chill": "46",
-          "direction": "225",
-          "speed": "32"
+          "chill": "14",
+          "direction": "45",
+          "speed": "22"
         },
         "atmosphere": {
-          "humidity": "94",
-          "pressure": "1004.0",
+          "humidity": "66",
+          "pressure": "990.0",
           "rising": "0",
-          "visibility": "8.7"
+          "visibility": "16.1"
         },
         "astronomy": {
-          "sunrise": "0:39 am",
-          "sunset": "5:35 am"
+          "sunrise": "10:12 am",
+          "sunset": "7:19 pm"
         },
         "image": {
           "title": "Yahoo! Weather",
@@ -45,100 +45,100 @@
           "url": "http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"
         },
         "item": {
-          "title": "Conditions for Nome, AK, US at 12:00 PM AKDT",
+          "title": "Conditions for Nome, AK, US at 07:00 PM AKDT",
           "lat": "64.499474",
           "long": "-165.405792",
           "link": "http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/",
-          "pubDate": "Sun, 23 Jul 2017 12:00 PM AKDT",
+          "pubDate": "Sat, 21 Oct 2017 07:00 PM AKDT",
           "condition": {
-            "code": "12",
-            "date": "Sun, 23 Jul 2017 12:00 PM AKDT",
-            "temp": "52",
-            "text": "Rain"
+            "code": "26",
+            "date": "Sat, 21 Oct 2017 07:00 PM AKDT",
+            "temp": "26",
+            "text": "Cloudy"
           },
           "forecast": [
             {
-              "code": "12",
-              "date": "23 Jul 2017",
-              "day": "Sun",
-              "high": "54",
-              "low": "52",
-              "text": "Rain"
+              "code": "23",
+              "date": "21 Oct 2017",
+              "day": "Sat",
+              "high": "27",
+              "low": "22",
+              "text": "Breezy"
             },
             {
-              "code": "26",
-              "date": "24 Jul 2017",
+              "code": "28",
+              "date": "22 Oct 2017",
+              "day": "Sun",
+              "high": "25",
+              "low": "19",
+              "text": "Mostly Cloudy"
+            },
+            {
+              "code": "30",
+              "date": "23 Oct 2017",
               "day": "Mon",
-              "high": "57",
-              "low": "54",
-              "text": "Cloudy"
+              "high": "28",
+              "low": "20",
+              "text": "Partly Cloudy"
+            },
+            {
+              "code": "28",
+              "date": "24 Oct 2017",
+              "day": "Tue",
+              "high": "32",
+              "low": "24",
+              "text": "Mostly Cloudy"
+            },
+            {
+              "code": "5",
+              "date": "25 Oct 2017",
+              "day": "Wed",
+              "high": "40",
+              "low": "32",
+              "text": "Rain And Snow"
+            },
+            {
+              "code": "5",
+              "date": "26 Oct 2017",
+              "day": "Thu",
+              "high": "40",
+              "low": "38",
+              "text": "Rain And Snow"
+            },
+            {
+              "code": "5",
+              "date": "27 Oct 2017",
+              "day": "Fri",
+              "high": "40",
+              "low": "37",
+              "text": "Rain And Snow"
+            },
+            {
+              "code": "5",
+              "date": "28 Oct 2017",
+              "day": "Sat",
+              "high": "38",
+              "low": "36",
+              "text": "Rain And Snow"
             },
             {
               "code": "39",
-              "date": "25 Jul 2017",
-              "day": "Tue",
-              "high": "59",
-              "low": "54",
+              "date": "29 Oct 2017",
+              "day": "Sun",
+              "high": "42",
+              "low": "41",
               "text": "Scattered Showers"
             },
             {
-              "code": "30",
-              "date": "26 Jul 2017",
-              "day": "Wed",
-              "high": "59",
-              "low": "51",
-              "text": "Partly Cloudy"
-            },
-            {
-              "code": "11",
-              "date": "27 Jul 2017",
-              "day": "Thu",
-              "high": "54",
-              "low": "53",
-              "text": "Showers"
-            },
-            {
-              "code": "11",
-              "date": "28 Jul 2017",
-              "day": "Fri",
-              "high": "55",
-              "low": "53",
-              "text": "Showers"
-            },
-            {
-              "code": "30",
-              "date": "29 Jul 2017",
-              "day": "Sat",
-              "high": "61",
-              "low": "51",
-              "text": "Partly Cloudy"
-            },
-            {
-              "code": "11",
-              "date": "30 Jul 2017",
-              "day": "Sun",
-              "high": "57",
-              "low": "51",
-              "text": "Showers"
-            },
-            {
-              "code": "11",
-              "date": "31 Jul 2017",
+              "code": "39",
+              "date": "30 Oct 2017",
               "day": "Mon",
-              "high": "54",
-              "low": "52",
-              "text": "Showers"
-            },
-            {
-              "code": "12",
-              "date": "01 Aug 2017",
-              "day": "Tue",
-              "high": "54",
-              "low": "50",
-              "text": "Rain"
+              "high": "41",
+              "low": "32",
+              "text": "Scattered Showers"
             }
           ],
-          "description": "\u003c![CDATA[\u003cimg src\u003d\"http://l.yimg.com/a/i/us/we/52/12.gif\"/\u003e\n\u003cBR /\u003e\n\u003cb\u003eCurrent Conditions:\u003c/b\u003e\n\u003cBR /\u003eRain\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003cb\u003eForecast:\u003c/b\u003e\n\u003cBR /\u003e Sun - Rain. High: 54Low: 52\n\u003cBR /\u003e Mon - Cloudy. High: 57Low: 54\n\u003cBR /\u003e Tue - Scattered Showers. High: 59Low: 54\n\u003cBR /\u003e Wed - Partly Cloudy. High: 59Low: 51\n\u003cBR /\u003e Thu - Showers. High: 54Low: 53\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003ca href\u003d\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/\"\u003eFull Forecast at Yahoo! Weather\u003c/a\u003e\n\u003cBR /\u003e\n\u003cBR /\u003e\n(provided by \u003ca href\u003d\"http://www.weather.com\" \u003eThe Weather Channel\u003c/a\u003e)\n\u003cBR /\u003e\n]]\u003e",
+          "description": "\u003c![CDATA[\u003cimg src\u003d\"http://l.yimg.com/a/i/us/we/52/26.gif\"/\u003e\n\u003cBR /\u003e\n\u003cb\u003eCurrent Conditions:\u003c/b\u003e\n\u003cBR /\u003eCloudy\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003cb\u003eForecast:\u003c/b\u003e\n\u003cBR /\u003e Sat - Breezy. High: 27Low: 22\n\u003cBR /\u003e Sun - Mostly Cloudy. High: 25Low: 19\n\u003cBR /\u003e Mon - Partly Cloudy. High: 28Low: 20\n\u003cBR /\u003e Tue - Mostly Cloudy. High: 32Low: 24\n\u003cBR /\u003e Wed - Rain And Snow. High: 40Low: 32\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003ca href\u003d\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/\"\u003eFull Forecast at Yahoo! Weather\u003c/a\u003e\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003cBR /\u003e\n]]\u003e",
           "guid": {
             "isPermaLink": "false"
           }
