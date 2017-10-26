@@ -11,7 +11,7 @@ Example output is shown [here](http://concordion.github.io/concordion-logback-ex
 # Running the tests
 -------------------
 
-The download includes support to run the tests with either <a href="http://www.gradle.org/">Gradle</a>.  The code base includes the Gradle Wrapper, which will automatically download the correct version of Gradle.
+The download includes support to run the tests with <a href="http://www.gradle.org/">Gradle</a>.  The code base includes the Gradle Wrapper, which will automatically download the correct version of Gradle.
 
 *If running from behind a proxy then Config.java will need to be updated with the proxy host and port.* 
 
