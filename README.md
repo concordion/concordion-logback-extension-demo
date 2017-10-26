@@ -58,7 +58,7 @@ A Tooltip displaying "My tooltip here!"
 
 Log File links to the right of each example and at the bottom right of the page, clicking on those will bring up a log file viewer, with the option to toggle `Show 'TRACE' level statements`.
 
-#### [SeleniumDemo.html](file:///Users/nigel.charman/source/concordion/concordion-logback-extension-demo/build/reports/spec/org/concordion/demo/SeleniumDemo.html)
+#### [SeleniumDemo.html](http://concordion.github.io/concordion-logback-extension-demo/spec/org/concordion/demo/SeleniumDemo.html)
 
 Contains multiple examples, with **Example GUI** and **Table Example** demonstrating screenshots embedded in their respective log files, and **Example REST** demonstrating a multi-line REST response in the log file.
 
