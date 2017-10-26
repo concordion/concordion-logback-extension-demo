@@ -6,12 +6,12 @@
 
 This project demonstrates the usage of the [Concordion](http://concordion.org) [Logback Extension](http://github.com/concordion/concordion-logback-extension) 
 
-Example output is shown [here](http://concordion.github.io/concordion-logback-extension-demo/spec/org/concordion/ext/demo/LogbackLoggingDemo.html).
+Example output is shown [here](http://concordion.github.io/concordion-logback-extension-demo/spec/org/concordion/demo/LogbackLoggingDemo.html).
 
 # Running the tests
 -------------------
 
-The download includes support to run the tests with either <a href="http://www.gradle.org/">Gradle</a>.  The code base includes the Gradle Wrapper, which will automatically download the correct version of Gradle.
+The download includes support to run the tests with <a href="http://www.gradle.org/">Gradle</a>.  The code base includes the Gradle Wrapper, which will automatically download the correct version of Gradle.
 
 *If running from behind a proxy then Config.java will need to be updated with the proxy host and port.* 
 
@@ -26,7 +26,7 @@ From the command line, `cd` to the folder containing a copy of this project, and
 
 This will download the required dependencies, clean the existing project, recompile all source code and run all the tests. 
 
-View the Concordion output in `build/reports/spec/org/concordion/ext/demo/LogbackLoggingDemo.html`.
+View the Concordion output in `build/reports/spec/org/concordion/demo/LogbackLoggingDemo.html`.
 
 
 IDE
@@ -35,7 +35,7 @@ For Eclipse and NetBeans, you will need to install a Gradle plugin to your IDE b
 
 On importing the project to your IDE, the required dependencies will be downloaded.
 
-Under the `src/test/java` folder, find the `LogbackLoggingDemo` class in the `org.concordion.ext.demo` package and run as a JUnit test. The location of the Concordion output is shown on the standard output console.
+Under the `src/test/java` folder, find the `LogbackLoggingDemo` class in the `org.concordion.demo` package and run as a JUnit test. The location of the Concordion output is shown on the standard output console.
 
 What you should see
 -------------------
@@ -46,7 +46,7 @@ The test should pass successfully:
 ```Successes: 1, Failures: 0```
 
 ### Concordion output
-The output folder should contain the following specification. (You can see an example of it [here](http://concordion.github.io/concordion-logback-extension-demo/spec/org/concordion/ext/demo/LogbackLoggingDemo.html).
+The output folder should contain the following specification. (You can see an example of it [here](http://concordion.github.io/concordion-logback-extension-demo/spec/org/concordion/demo/LogbackLoggingDemo.html).
     
 #### LogbackLoggingDemo.html
 
