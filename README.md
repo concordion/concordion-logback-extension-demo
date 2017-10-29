@@ -6,7 +6,11 @@
 
 This project demonstrates the usage of the [Concordion](http://concordion.org) [Logback Extension](http://github.com/concordion/concordion-logback-extension) 
 
-Example output is shown [here](http://concordion.github.io/concordion-logback-extension-demo/spec/org/concordion/demo/LogbackLoggingDemo.html).
+Example output is shown [here](http://concordion.github.io/concordion-logback-extension-demo/spec/org/concordion/demo/Demo.html).
+
+This demonstrates logging both per example and per specification (see link at bottom of specification). The log statements can be filtered using the `Show 'TRACE' level statements` toggle at the top of the log file.
+
+The `Logging Demo` specification demonstrates simple logging, while the `Selenium and REST demo` specification demonstrates browser screenshots and multi-line REST response output in the log files. 
 
 # Running the tests
 -------------------
@@ -26,7 +30,7 @@ From the command line, `cd` to the folder containing a copy of this project, and
 
 This will download the required dependencies, clean the existing project, recompile all source code and run all the tests. 
 
-View the Concordion output in `build/reports/spec/org/concordion/demo/LogbackLoggingDemo.html`.
+View the Concordion output in `build/reports/spec/org/concordion/demo/Demo.html`.
 
 
 IDE
@@ -35,7 +39,7 @@ For Eclipse and NetBeans, you will need to install a Gradle plugin to your IDE b
 
 On importing the project to your IDE, the required dependencies will be downloaded.
 
-Under the `src/test/java` folder, find the `LogbackLoggingDemo` class in the `org.concordion.demo` package and run as a JUnit test. The location of the Concordion output is shown on the standard output console.
+Under the `src/test/java` folder, find the `Demo` class in the `org.concordion.demo` package and run as a JUnit test. The location of the Concordion output is shown on the standard output console.
 
 What you should see
 -------------------
@@ -43,16 +47,20 @@ What you should see
 ### JUnit output
 The test should pass successfully:
 
-```Successes: 1, Failures: 0```
+```Successes: 5, Failures: 0```
 
 ### Concordion output
-The output folder should contain the following specification. (You can see an example of it [here](http://concordion.github.io/concordion-logback-extension-demo/spec/org/concordion/demo/LogbackLoggingDemo.html).
+The output folder should contain the following specifications.
     
-#### LogbackLoggingDemo.html
+#### [LogbackLoggingDemo.html](http://concordion.github.io/concordion-logback-extension-demo/spec/org/concordion/demo/LogbackLoggingDemo.html)
 
 A Tooltip displaying "My tooltip here!"
 
-A Log File link at the bottom right of the page, clicking that will bring up a log file viewer
+Log File links to the right of each example and at the bottom right of the page, clicking on those will bring up a log file viewer, with the option to toggle `Show 'TRACE' level statements`.
+
+#### [SeleniumDemo.html](http://concordion.github.io/concordion-logback-extension-demo/spec/org/concordion/demo/SeleniumDemo.html)
+
+Contains multiple examples, with **Example GUI** and **Table Example** demonstrating screenshots embedded in their respective log files, and **Example REST** demonstrating a multi-line REST response in the log file.
 
     
 Additional Gradle Files
