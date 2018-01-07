@@ -1,17 +1,17 @@
-31-12-2017 21:44:28.814 DEBUG selenium.events - Navigated to 'http://www.google.com'
-31-12-2017 21:44:28.872 DEBUG selenium.events - [By.name: q] - found
-31-12-2017 21:44:28.998 DEBUG selenium.events - [By.name: q] - changed value to '6 * 9'
-31-12-2017 21:44:30.204 DEBUG selenium.events - org.openqa.selenium.StaleElementReferenceException
+07-01-2018 20:54:22.322 DEBUG selenium.events - Navigated to 'http://www.google.com'
+07-01-2018 20:54:22.515 DEBUG selenium.events - [By.name: q] - found
+07-01-2018 20:54:22.800 DEBUG selenium.events - [By.name: q] - changed value to '6 * 9'
+07-01-2018 20:54:23.906 DEBUG selenium.events - org.openqa.selenium.StaleElementReferenceException
 org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
   (Session info: chrome=62.0.3202.94)
   (Driver info: chromedriver=2.33,platform=Linux 4.4.0-101-generic x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'travis-job-b693bcf9-bb57-490a-b2c7-f6642e2cf06e', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '1.8.0_151'
+System info: host: 'travis-job-c15bd128-bd7f-401f-9de7-07ba32147991', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '1.8.0_151'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33, userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}
-Session ID: 80c733f443802422c5bc6ab5ca80eb6d
+Session ID: 23d0eb2ce503dae9b0cf8f448e486f83
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -177,6 +177,6 @@ Session ID: 80c733f443802422c5bc6ab5ca80eb6d
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 	at java.lang.Thread.run(Thread.java:748)
-31-12-2017 21:44:30.205 DEBUG selenium.events - [By.name: q] - changed value
-31-12-2017 21:44:30.249 DEBUG selenium.events - [By.id: foot] - found
-31-12-2017 21:44:30.436 DEBUG selenium.events - [By.id: cwos] - found
+07-01-2018 20:54:23.907 DEBUG selenium.events - [By.name: q] - changed value
+07-01-2018 20:54:23.945 DEBUG selenium.events - [By.id: foot] - found
+07-01-2018 20:54:24.181 DEBUG selenium.events - [By.id: cwos] - found
