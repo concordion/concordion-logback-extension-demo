@@ -1,17 +1,17 @@
-04-02-2018 20:56:24.191 DEBUG selenium.events - Navigated to 'http://www.google.com'
-04-02-2018 20:56:24.219 DEBUG selenium.events - [By.name: q] - found
-04-02-2018 20:56:24.563 DEBUG selenium.events - [By.name: q] - changed value to '6 * 9 '
-04-02-2018 20:56:25.256 DEBUG selenium.events - org.openqa.selenium.StaleElementReferenceException
+11-02-2018 20:56:52.068 DEBUG selenium.events - Navigated to 'http://www.google.com'
+11-02-2018 20:56:52.095 DEBUG selenium.events - [By.name: q] - found
+11-02-2018 20:56:52.270 DEBUG selenium.events - [By.name: q] - changed value to '6 * 9 '
+11-02-2018 20:56:53.024 DEBUG selenium.events - org.openqa.selenium.StaleElementReferenceException
 org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
   (Session info: chrome=62.0.3202.94)
   (Driver info: chromedriver=2.33 (0),platform=Linux 4.4.0-101-generic x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'travis-job-560bdd8b-77b0-4e5b-8a7e-b5d4eb795700', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '1.8.0_151'
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'travis-job-d380d630-3e81-48eb-ad55-d2077a8487d4', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '1.8.0_151'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33 (0), userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}
-Session ID: 23c5f3f850b9e72a9b919288cf943f4d
+Session ID: 351f6aea7b1fcf09dec6348656a61422
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -21,7 +21,7 @@ Session ID: 23c5f3f850b9e72a9b919288cf943f4d
 	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
 	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
 	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
@@ -189,23 +189,23 @@ Session ID: 23c5f3f850b9e72a9b919288cf943f4d
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 	at java.lang.Thread.run(Thread.java:748)
-04-02-2018 20:56:25.257 DEBUG selenium.events - [By.name: q] - changed value
-04-02-2018 20:56:25.280 DEBUG selenium.events - [By.id: foot] - found
-04-02-2018 20:56:25.434 DEBUG selenium.events - [By.id: cwos] - found
-04-02-2018 20:56:25.907 DEBUG selenium.events - Navigated to 'http://www.google.com'
-04-02-2018 20:56:25.931 DEBUG selenium.events - [By.name: q] - found
-04-02-2018 20:56:26.239 DEBUG selenium.events - [By.name: q] - changed value to '6 * 7 '
-04-02-2018 20:56:27.087 DEBUG selenium.events - org.openqa.selenium.StaleElementReferenceException
+11-02-2018 20:56:53.025 DEBUG selenium.events - [By.name: q] - changed value
+11-02-2018 20:56:53.044 DEBUG selenium.events - [By.id: foot] - found
+11-02-2018 20:56:53.138 DEBUG selenium.events - [By.id: cwos] - found
+11-02-2018 20:56:53.671 DEBUG selenium.events - Navigated to 'http://www.google.com'
+11-02-2018 20:56:53.701 DEBUG selenium.events - [By.name: q] - found
+11-02-2018 20:56:54.107 DEBUG selenium.events - [By.name: q] - changed value to '6 * 7 '
+11-02-2018 20:56:55.067 DEBUG selenium.events - org.openqa.selenium.StaleElementReferenceException
 org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
   (Session info: chrome=62.0.3202.94)
   (Driver info: chromedriver=2.33 (0),platform=Linux 4.4.0-101-generic x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'travis-job-560bdd8b-77b0-4e5b-8a7e-b5d4eb795700', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '1.8.0_151'
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'travis-job-d380d630-3e81-48eb-ad55-d2077a8487d4', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '1.8.0_151'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33 (0), userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}
-Session ID: 23c5f3f850b9e72a9b919288cf943f4d
+Session ID: 351f6aea7b1fcf09dec6348656a61422
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -215,7 +215,7 @@ Session ID: 23c5f3f850b9e72a9b919288cf943f4d
 	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
 	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
 	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
@@ -381,6 +381,6 @@ Session ID: 23c5f3f850b9e72a9b919288cf943f4d
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 	at java.lang.Thread.run(Thread.java:748)
-04-02-2018 20:56:27.088 DEBUG selenium.events - [By.name: q] - changed value
-04-02-2018 20:56:27.103 DEBUG selenium.events - [By.id: foot] - found
-04-02-2018 20:56:27.237 DEBUG selenium.events - [By.id: cwos] - found
+11-02-2018 20:56:55.067 DEBUG selenium.events - [By.name: q] - changed value
+11-02-2018 20:56:55.083 DEBUG selenium.events - [By.id: foot] - found
+11-02-2018 20:56:55.118 DEBUG selenium.events - [By.id: cwos] - found
