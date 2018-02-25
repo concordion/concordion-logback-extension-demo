@@ -1,7 +1,7 @@
 {
   "query": {
     "count": 1,
-    "created": "2018-02-18T20:58:10Z",
+    "created": "2018-02-25T20:58:27Z",
     "lang": "en-US",
     "results": {
       "channel": {
@@ -15,7 +15,7 @@
         "link": "http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/",
         "description": "Yahoo! Weather for Nome, AK, US",
         "language": "en-us",
-        "lastBuildDate": "Sun, 18 Feb 2018 11:58 AM AKST",
+        "lastBuildDate": "Sun, 25 Feb 2018 11:58 AM AKST",
         "ttl": "60",
         "location": {
           "city": "Nome",
@@ -23,19 +23,19 @@
           "region": " AK"
         },
         "wind": {
-          "chill": "19",
-          "direction": "158",
-          "speed": "36"
+          "chill": "-4",
+          "direction": "23",
+          "speed": "7"
         },
         "atmosphere": {
-          "humidity": "95",
-          "pressure": "1007.0",
+          "humidity": "81",
+          "pressure": "1010.0",
           "rising": "0",
-          "visibility": "12.9"
+          "visibility": "16.1"
         },
         "astronomy": {
-          "sunrise": "9:49 am",
-          "sunset": "6:44 pm"
+          "sunrise": "9:24 am",
+          "sunset": "7:7 pm"
         },
         "image": {
           "title": "Yahoo! Weather",
@@ -45,100 +45,100 @@
           "url": "http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"
         },
         "item": {
-          "title": "Conditions for Nome, AK, US at 11:00 AM AKST",
+          "title": "Conditions for Nome, AK, US at 10:00 AM AKST",
           "lat": "64.499474",
           "long": "-165.405792",
           "link": "http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/",
-          "pubDate": "Sun, 18 Feb 2018 11:00 AM AKST",
+          "pubDate": "Sun, 25 Feb 2018 10:00 AM AKST",
           "condition": {
-            "code": "24",
-            "date": "Sun, 18 Feb 2018 11:00 AM AKST",
-            "temp": "32",
-            "text": "Windy"
+            "code": "28",
+            "date": "Sun, 25 Feb 2018 10:00 AM AKST",
+            "temp": "5",
+            "text": "Mostly Cloudy"
           },
           "forecast": [
-            {
-              "code": "15",
-              "date": "18 Feb 2018",
-              "day": "Sun",
-              "high": "33",
-              "low": "28",
-              "text": "Blowing Snow"
-            },
-            {
-              "code": "15",
-              "date": "19 Feb 2018",
-              "day": "Mon",
-              "high": "34",
-              "low": "28",
-              "text": "Blowing Snow"
-            },
-            {
-              "code": "24",
-              "date": "20 Feb 2018",
-              "day": "Tue",
-              "high": "33",
-              "low": "28",
-              "text": "Windy"
-            },
-            {
-              "code": "16",
-              "date": "21 Feb 2018",
-              "day": "Wed",
-              "high": "32",
-              "low": "26",
-              "text": "Snow"
-            },
-            {
-              "code": "26",
-              "date": "22 Feb 2018",
-              "day": "Thu",
-              "high": "31",
-              "low": "19",
-              "text": "Cloudy"
-            },
-            {
-              "code": "26",
-              "date": "23 Feb 2018",
-              "day": "Fri",
-              "high": "24",
-              "low": "19",
-              "text": "Cloudy"
-            },
-            {
-              "code": "23",
-              "date": "24 Feb 2018",
-              "day": "Sat",
-              "high": "26",
-              "low": "19",
-              "text": "Breezy"
-            },
             {
               "code": "28",
               "date": "25 Feb 2018",
               "day": "Sun",
-              "high": "24",
-              "low": "15",
+              "high": "10",
+              "low": "3",
               "text": "Mostly Cloudy"
             },
             {
-              "code": "16",
+              "code": "30",
               "date": "26 Feb 2018",
               "day": "Mon",
-              "high": "30",
-              "low": "10",
-              "text": "Snow"
+              "high": "16",
+              "low": "4",
+              "text": "Partly Cloudy"
             },
             {
               "code": "30",
               "date": "27 Feb 2018",
               "day": "Tue",
-              "high": "7",
+              "high": "17",
+              "low": "5",
+              "text": "Partly Cloudy"
+            },
+            {
+              "code": "28",
+              "date": "28 Feb 2018",
+              "day": "Wed",
+              "high": "16",
               "low": "4",
+              "text": "Mostly Cloudy"
+            },
+            {
+              "code": "23",
+              "date": "01 Mar 2018",
+              "day": "Thu",
+              "high": "20",
+              "low": "13",
+              "text": "Breezy"
+            },
+            {
+              "code": "16",
+              "date": "02 Mar 2018",
+              "day": "Fri",
+              "high": "28",
+              "low": "20",
+              "text": "Snow"
+            },
+            {
+              "code": "16",
+              "date": "03 Mar 2018",
+              "day": "Sat",
+              "high": "29",
+              "low": "27",
+              "text": "Snow"
+            },
+            {
+              "code": "16",
+              "date": "04 Mar 2018",
+              "day": "Sun",
+              "high": "29",
+              "low": "27",
+              "text": "Snow"
+            },
+            {
+              "code": "28",
+              "date": "05 Mar 2018",
+              "day": "Mon",
+              "high": "20",
+              "low": "14",
+              "text": "Mostly Cloudy"
+            },
+            {
+              "code": "30",
+              "date": "06 Mar 2018",
+              "day": "Tue",
+              "high": "27",
+              "low": "6",
               "text": "Partly Cloudy"
             }
           ],
-          "description": "\u003c![CDATA[\u003cimg src\u003d\"http://l.yimg.com/a/i/us/we/52/24.gif\"/\u003e\n\u003cBR /\u003e\n\u003cb\u003eCurrent Conditions:\u003c/b\u003e\n\u003cBR /\u003eWindy\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003cb\u003eForecast:\u003c/b\u003e\n\u003cBR /\u003e Sun - Blowing Snow. High: 33Low: 28\n\u003cBR /\u003e Mon - Blowing Snow. High: 34Low: 28\n\u003cBR /\u003e Tue - Windy. High: 33Low: 28\n\u003cBR /\u003e Wed - Snow. High: 32Low: 26\n\u003cBR /\u003e Thu - Cloudy. High: 31Low: 19\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003ca href\u003d\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/\"\u003eFull Forecast at Yahoo! Weather\u003c/a\u003e\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003cBR /\u003e\n]]\u003e",
+          "description": "\u003c![CDATA[\u003cimg src\u003d\"http://l.yimg.com/a/i/us/we/52/28.gif\"/\u003e\n\u003cBR /\u003e\n\u003cb\u003eCurrent Conditions:\u003c/b\u003e\n\u003cBR /\u003eMostly Cloudy\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003cb\u003eForecast:\u003c/b\u003e\n\u003cBR /\u003e Sun - Mostly Cloudy. High: 10Low: 3\n\u003cBR /\u003e Mon - Partly Cloudy. High: 16Low: 4\n\u003cBR /\u003e Tue - Partly Cloudy. High: 17Low: 5\n\u003cBR /\u003e Wed - Mostly Cloudy. High: 16Low: 4\n\u003cBR /\u003e Thu - Breezy. High: 20Low: 13\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003ca href\u003d\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/\"\u003eFull Forecast at Yahoo! Weather\u003c/a\u003e\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003cBR /\u003e\n]]\u003e",
           "guid": {
             "isPermaLink": "false"
           }
