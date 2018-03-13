@@ -1,7 +1,7 @@
 {
   "query": {
     "count": 1,
-    "created": "2018-03-13T22:30:15Z",
+    "created": "2018-03-13T22:32:16Z",
     "lang": "en-US",
     "results": {
       "channel": {
@@ -15,7 +15,7 @@
         "link": "http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/",
         "description": "Yahoo! Weather for Nome, AK, US",
         "language": "en-us",
-        "lastBuildDate": "Tue, 13 Mar 2018 02:30 PM AKDT",
+        "lastBuildDate": "Tue, 13 Mar 2018 02:32 PM AKDT",
         "ttl": "60",
         "location": {
           "city": "Nome",
