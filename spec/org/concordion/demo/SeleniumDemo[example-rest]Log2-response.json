@@ -1,7 +1,7 @@
 {
   "query": {
     "count": 1,
-    "created": "2018-04-29T21:04:52Z",
+    "created": "2018-05-06T21:05:06Z",
     "lang": "en-US",
     "results": {
       "channel": {
@@ -15,7 +15,7 @@
         "link": "http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/",
         "description": "Yahoo! Weather for Nome, AK, US",
         "language": "en-us",
-        "lastBuildDate": "Sun, 29 Apr 2018 01:04 PM AKDT",
+        "lastBuildDate": "Sun, 06 May 2018 01:05 PM AKDT",
         "ttl": "60",
         "location": {
           "city": "Nome",
@@ -24,18 +24,18 @@
         },
         "wind": {
           "chill": "21",
-          "direction": "68",
+          "direction": "225",
           "speed": "22"
         },
         "atmosphere": {
           "humidity": "90",
-          "pressure": "986.0",
+          "pressure": "1006.0",
           "rising": "0",
-          "visibility": "11.2"
+          "visibility": "16.0"
         },
         "astronomy": {
-          "sunrise": "6:38 am",
-          "sunset": "11:22 pm"
+          "sunrise": "6:13 am",
+          "sunset": "11:45 pm"
         },
         "image": {
           "title": "Yahoo! Weather",
@@ -49,96 +49,96 @@
           "lat": "64.499474",
           "long": "-165.405792",
           "link": "http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/",
-          "pubDate": "Sun, 29 Apr 2018 12:00 PM AKDT",
+          "pubDate": "Sun, 06 May 2018 12:00 PM AKDT",
           "condition": {
-            "code": "16",
-            "date": "Sun, 29 Apr 2018 12:00 PM AKDT",
-            "temp": "32",
-            "text": "Snow"
+            "code": "26",
+            "date": "Sun, 06 May 2018 12:00 PM AKDT",
+            "temp": "31",
+            "text": "Cloudy"
           },
           "forecast": [
             {
-              "code": "14",
-              "date": "29 Apr 2018",
-              "day": "Sun",
-              "high": "33",
-              "low": "26",
-              "text": "Snow Showers"
-            },
-            {
-              "code": "23",
-              "date": "30 Apr 2018",
-              "day": "Mon",
-              "high": "32",
-              "low": "26",
-              "text": "Breezy"
-            },
-            {
-              "code": "28",
-              "date": "01 May 2018",
-              "day": "Tue",
-              "high": "26",
-              "low": "24",
-              "text": "Mostly Cloudy"
-            },
-            {
-              "code": "28",
-              "date": "02 May 2018",
-              "day": "Wed",
-              "high": "33",
-              "low": "27",
-              "text": "Mostly Cloudy"
-            },
-            {
-              "code": "28",
-              "date": "03 May 2018",
-              "day": "Thu",
-              "high": "34",
-              "low": "29",
-              "text": "Mostly Cloudy"
-            },
-            {
-              "code": "28",
-              "date": "04 May 2018",
-              "day": "Fri",
-              "high": "34",
-              "low": "28",
-              "text": "Mostly Cloudy"
-            },
-            {
-              "code": "28",
-              "date": "05 May 2018",
-              "day": "Sat",
-              "high": "31",
-              "low": "28",
-              "text": "Mostly Cloudy"
-            },
-            {
-              "code": "28",
+              "code": "26",
               "date": "06 May 2018",
               "day": "Sun",
               "high": "33",
-              "low": "26",
+              "low": "29",
+              "text": "Cloudy"
+            },
+            {
+              "code": "28",
+              "date": "07 May 2018",
+              "day": "Mon",
+              "high": "35",
+              "low": "25",
+              "text": "Mostly Cloudy"
+            },
+            {
+              "code": "23",
+              "date": "08 May 2018",
+              "day": "Tue",
+              "high": "40",
+              "low": "33",
+              "text": "Breezy"
+            },
+            {
+              "code": "26",
+              "date": "09 May 2018",
+              "day": "Wed",
+              "high": "43",
+              "low": "37",
+              "text": "Cloudy"
+            },
+            {
+              "code": "26",
+              "date": "10 May 2018",
+              "day": "Thu",
+              "high": "41",
+              "low": "38",
+              "text": "Cloudy"
+            },
+            {
+              "code": "28",
+              "date": "11 May 2018",
+              "day": "Fri",
+              "high": "48",
+              "low": "36",
+              "text": "Mostly Cloudy"
+            },
+            {
+              "code": "30",
+              "date": "12 May 2018",
+              "day": "Sat",
+              "high": "40",
+              "low": "34",
+              "text": "Partly Cloudy"
+            },
+            {
+              "code": "30",
+              "date": "13 May 2018",
+              "day": "Sun",
+              "high": "39",
+              "low": "34",
+              "text": "Partly Cloudy"
+            },
+            {
+              "code": "28",
+              "date": "14 May 2018",
+              "day": "Mon",
+              "high": "35",
+              "low": "31",
               "text": "Mostly Cloudy"
             },
             {
               "code": "34",
-              "date": "07 May 2018",
-              "day": "Mon",
-              "high": "30",
-              "low": "23",
-              "text": "Mostly Sunny"
-            },
-            {
-              "code": "28",
-              "date": "08 May 2018",
+              "date": "15 May 2018",
               "day": "Tue",
-              "high": "40",
-              "low": "28",
-              "text": "Mostly Cloudy"
+              "high": "45",
+              "low": "40",
+              "text": "Mostly Sunny"
             }
           ],
-          "description": "\u003c![CDATA[\u003cimg src\u003d\"http://l.yimg.com/a/i/us/we/52/16.gif\"/\u003e\n\u003cBR /\u003e\n\u003cb\u003eCurrent Conditions:\u003c/b\u003e\n\u003cBR /\u003eSnow\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003cb\u003eForecast:\u003c/b\u003e\n\u003cBR /\u003e Sun - Snow Showers. High: 33Low: 26\n\u003cBR /\u003e Mon - Breezy. High: 32Low: 26\n\u003cBR /\u003e Tue - Mostly Cloudy. High: 26Low: 24\n\u003cBR /\u003e Wed - Mostly Cloudy. High: 33Low: 27\n\u003cBR /\u003e Thu - Mostly Cloudy. High: 34Low: 29\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003ca href\u003d\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/\"\u003eFull Forecast at Yahoo! Weather\u003c/a\u003e\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003cBR /\u003e\n]]\u003e",
+          "description": "\u003c![CDATA[\u003cimg src\u003d\"http://l.yimg.com/a/i/us/we/52/26.gif\"/\u003e\n\u003cBR /\u003e\n\u003cb\u003eCurrent Conditions:\u003c/b\u003e\n\u003cBR /\u003eCloudy\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003cb\u003eForecast:\u003c/b\u003e\n\u003cBR /\u003e Sun - Cloudy. High: 33Low: 29\n\u003cBR /\u003e Mon - Mostly Cloudy. High: 35Low: 25\n\u003cBR /\u003e Tue - Breezy. High: 40Low: 33\n\u003cBR /\u003e Wed - Cloudy. High: 43Low: 37\n\u003cBR /\u003e Thu - Cloudy. High: 41Low: 38\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003ca href\u003d\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/\"\u003eFull Forecast at Yahoo! Weather\u003c/a\u003e\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003cBR /\u003e\n]]\u003e",
           "guid": {
             "isPermaLink": "false"
           }
