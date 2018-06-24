@@ -1,7 +1,11 @@
+sudo: false
 dist: trusty
-language: java
+language: groovy
+
 jdk:
-  - oraclejdk8
+- oraclejdk10
+- oraclejdk9
+- oraclejdk8
 env:
   global:
     - secure: o3weFMlpeFovK4S0YNp/MSxasj7Z6j11UJDI1X8lHv1Gq0TsjPQ9Buirgx64tjI1Oo5CCCtx+Hk5cgrkVBj1jSg+5hoxw1P/hr4XCQY3IplDmtO0dqjzbns/D+7SGDIxaE4wFhXLDwh28SAVd1Oeskpj7d+azltYVo0dOUeiTU0=
