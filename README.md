@@ -4,7 +4,7 @@
 # Introduction
 --------------
 
-This project demonstrates the usage of the [Concordion](http://concordion.org) [Logback Extension](http://github.com/concordion/concordion-logback-extension) 
+This project demonstrates the usage of the [Concordion](https://concordion.org) [Logback Extension](http://github.com/concordion/concordion-logback-extension) 
 
 Example output is shown [here](http://concordion.github.io/concordion-logback-extension-demo/spec/org/concordion/demo/Demo.html).
 
