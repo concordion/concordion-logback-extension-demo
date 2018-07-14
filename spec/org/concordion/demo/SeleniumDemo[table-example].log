@@ -1,15 +1,15 @@
-14-07-2018 09:26:42.617 DEBUG selenium.events - [By.name: q] - changed value to '6 * 9 '
-14-07-2018 09:26:43.437 DEBUG selenium.events - org.openqa.selenium.StaleElementReferenceException
+14-07-2018 12:42:31.202 DEBUG selenium.events - [By.name: q] - changed value to '6 * 9 '
+14-07-2018 12:42:32.374 DEBUG selenium.events - org.openqa.selenium.StaleElementReferenceException
 org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
   (Session info: chrome=62.0.3202.94)
   (Driver info: chromedriver=2.35 (0),platform=Linux 4.4.0-101-generic x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
-System info: host: 'travis-job-2164d20f-46df-40c8-9040-794ee31815a2', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '1.8.0_151'
+System info: host: 'travis-job-6a4b94e6-5208-4cf4-8524-de5c8ab71dda', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '1.8.0_151'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35 (0), userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}
-Session ID: 05685b5875421b36076ffaf991fe24fc
+Session ID: 1e9549127b4cf918e9380d7d0e1feaec
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -63,8 +63,8 @@ Session ID: 05685b5875421b36076ffaf991fe24fc
 	at ognl.Ognl.getValue(Ognl.java:494)
 	at ognl.Ognl.getValue(Ognl.java:596)
 	at ognl.Ognl.getValue(Ognl.java:566)
-	at org.concordion.internal.OgnlEvaluator.evaluate(OgnlEvaluator.java:24)
-	at org.concordion.internal.SimpleEvaluator.evaluate(SimpleEvaluator.java:12)
+	at org.concordion.internal.OgnlEvaluator.evaluate(OgnlEvaluator.java:25)
+	at org.concordion.internal.SimpleEvaluator.evaluate(SimpleEvaluator.java:14)
 	at org.concordion.internal.command.executeCommand.ExecuteCommand.normalExecution(ExecuteCommand.java:75)
 	at org.concordion.internal.command.executeCommand.ExecuteCommand.execute(ExecuteCommand.java:68)
 	at org.concordion.api.AbstractCommandDecorator$2.run(AbstractCommandDecorator.java:25)
@@ -84,7 +84,7 @@ Session ID: 05685b5875421b36076ffaf991fe24fc
 	at org.concordion.api.AbstractCommandDecorator.execute(AbstractCommandDecorator.java:23)
 	at org.concordion.api.CommandCall.execute(CommandCall.java:72)
 	at org.concordion.api.CommandCallList.processSequentially(CommandCallList.java:33)
-	at org.concordion.internal.command.ExampleCommand.execute(ExampleCommand.java:42)
+	at org.concordion.internal.command.ExampleCommand.execute(ExampleCommand.java:49)
 	at org.concordion.api.AbstractCommandDecorator$2.run(AbstractCommandDecorator.java:25)
 	at org.concordion.internal.command.LocalTextDecorator.process(LocalTextDecorator.java:26)
 	at org.concordion.api.AbstractCommandDecorator.execute(AbstractCommandDecorator.java:23)
@@ -92,10 +92,10 @@ Session ID: 05685b5875421b36076ffaf991fe24fc
 	at org.concordion.internal.command.ThrowableCatchingDecorator.process(ThrowableCatchingDecorator.java:38)
 	at org.concordion.api.AbstractCommandDecorator.execute(AbstractCommandDecorator.java:23)
 	at org.concordion.api.CommandCall.execute(CommandCall.java:72)
-	at org.concordion.internal.XMLSpecification.processNode(XMLSpecification.java:61)
-	at org.concordion.internal.XMLSpecification.processExample(XMLSpecification.java:85)
-	at org.concordion.Concordion.processExample(Concordion.java:103)
-	at org.concordion.internal.FixtureRunner.run(FixtureRunner.java:38)
+	at org.concordion.internal.XMLSpecification.processNode(XMLSpecification.java:60)
+	at org.concordion.internal.XMLSpecification.processExample(XMLSpecification.java:76)
+	at org.concordion.Concordion.processExample(Concordion.java:92)
+	at org.concordion.internal.FixtureRunner.run(FixtureRunner.java:41)
 	at org.concordion.integration.junit4.ConcordionRunner.invoke(ConcordionRunner.java:207)
 	at org.concordion.integration.junit4.ConcordionRunner$1.invoke(ConcordionRunner.java:31)
 	at org.concordion.integration.junit4.ConcordionFrameworkMethod.invokeExplosively(ConcordionFrameworkMethod.java:58)
@@ -128,7 +128,7 @@ Session ID: 05685b5875421b36076ffaf991fe24fc
 	at org.concordion.internal.runner.DefaultConcordionRunner.runTestClass(DefaultConcordionRunner.java:44)
 	at org.concordion.internal.runner.DefaultConcordionRunner.execute(DefaultConcordionRunner.java:19)
 	at org.concordion.internal.command.SequentialRunStrategy.call(SequentialRunStrategy.java:10)
-	at org.concordion.internal.command.RunCommand.execute(RunCommand.java:80)
+	at org.concordion.internal.command.RunCommand.execute(RunCommand.java:81)
 	at org.concordion.api.AbstractCommandDecorator$2.run(AbstractCommandDecorator.java:25)
 	at org.concordion.internal.command.LocalTextDecorator.process(LocalTextDecorator.java:26)
 	at org.concordion.api.AbstractCommandDecorator.execute(AbstractCommandDecorator.java:23)
@@ -139,10 +139,10 @@ Session ID: 05685b5875421b36076ffaf991fe24fc
 	at org.concordion.api.CommandCallList.processSequentially(CommandCallList.java:33)
 	at org.concordion.internal.command.SpecificationCommand.execute(SpecificationCommand.java:36)
 	at org.concordion.api.CommandCall.execute(CommandCall.java:72)
-	at org.concordion.internal.XMLSpecification.processNode(XMLSpecification.java:61)
-	at org.concordion.internal.XMLSpecification.processExample(XMLSpecification.java:78)
-	at org.concordion.Concordion.processExample(Concordion.java:103)
-	at org.concordion.internal.FixtureRunner.run(FixtureRunner.java:38)
+	at org.concordion.internal.XMLSpecification.processNode(XMLSpecification.java:60)
+	at org.concordion.internal.XMLSpecification.processExample(XMLSpecification.java:69)
+	at org.concordion.Concordion.processExample(Concordion.java:92)
+	at org.concordion.internal.FixtureRunner.run(FixtureRunner.java:41)
 	at org.concordion.integration.junit4.ConcordionRunner.invoke(ConcordionRunner.java:207)
 	at org.concordion.integration.junit4.ConcordionRunner$1.invoke(ConcordionRunner.java:31)
 	at org.concordion.integration.junit4.ConcordionFrameworkMethod.invokeExplosively(ConcordionFrameworkMethod.java:58)
@@ -188,19 +188,19 @@ Session ID: 05685b5875421b36076ffaf991fe24fc
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 	at java.lang.Thread.run(Thread.java:748)
-14-07-2018 09:26:43.454 DEBUG selenium.events - [By.name: q] - changed value
-14-07-2018 09:26:44.108 DEBUG selenium.events - [By.name: q] - changed value to '6 * 7 '
-14-07-2018 09:26:45.165 DEBUG selenium.events - org.openqa.selenium.StaleElementReferenceException
+14-07-2018 12:42:32.386 DEBUG selenium.events - [By.name: q] - changed value
+14-07-2018 12:42:33.177 DEBUG selenium.events - [By.name: q] - changed value to '6 * 7 '
+14-07-2018 12:42:34.377 DEBUG selenium.events - org.openqa.selenium.StaleElementReferenceException
 org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
   (Session info: chrome=62.0.3202.94)
   (Driver info: chromedriver=2.35 (0),platform=Linux 4.4.0-101-generic x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
-System info: host: 'travis-job-2164d20f-46df-40c8-9040-794ee31815a2', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '1.8.0_151'
+System info: host: 'travis-job-6a4b94e6-5208-4cf4-8524-de5c8ab71dda', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '1.8.0_151'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35 (0), userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}
-Session ID: 05685b5875421b36076ffaf991fe24fc
+Session ID: 1e9549127b4cf918e9380d7d0e1feaec
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -252,8 +252,8 @@ Session ID: 05685b5875421b36076ffaf991fe24fc
 	at ognl.Ognl.getValue(Ognl.java:494)
 	at ognl.Ognl.getValue(Ognl.java:596)
 	at ognl.Ognl.getValue(Ognl.java:566)
-	at org.concordion.internal.OgnlEvaluator.evaluate(OgnlEvaluator.java:24)
-	at org.concordion.internal.SimpleEvaluator.evaluate(SimpleEvaluator.java:12)
+	at org.concordion.internal.OgnlEvaluator.evaluate(OgnlEvaluator.java:25)
+	at org.concordion.internal.SimpleEvaluator.evaluate(SimpleEvaluator.java:14)
 	at org.concordion.internal.command.executeCommand.ExecuteCommand.normalExecution(ExecuteCommand.java:75)
 	at org.concordion.internal.command.executeCommand.ExecuteCommand.execute(ExecuteCommand.java:68)
 	at org.concordion.api.AbstractCommandDecorator$2.run(AbstractCommandDecorator.java:25)
@@ -273,7 +273,7 @@ Session ID: 05685b5875421b36076ffaf991fe24fc
 	at org.concordion.api.AbstractCommandDecorator.execute(AbstractCommandDecorator.java:23)
 	at org.concordion.api.CommandCall.execute(CommandCall.java:72)
 	at org.concordion.api.CommandCallList.processSequentially(CommandCallList.java:33)
-	at org.concordion.internal.command.ExampleCommand.execute(ExampleCommand.java:42)
+	at org.concordion.internal.command.ExampleCommand.execute(ExampleCommand.java:49)
 	at org.concordion.api.AbstractCommandDecorator$2.run(AbstractCommandDecorator.java:25)
 	at org.concordion.internal.command.LocalTextDecorator.process(LocalTextDecorator.java:26)
 	at org.concordion.api.AbstractCommandDecorator.execute(AbstractCommandDecorator.java:23)
@@ -281,10 +281,10 @@ Session ID: 05685b5875421b36076ffaf991fe24fc
 	at org.concordion.internal.command.ThrowableCatchingDecorator.process(ThrowableCatchingDecorator.java:38)
 	at org.concordion.api.AbstractCommandDecorator.execute(AbstractCommandDecorator.java:23)
 	at org.concordion.api.CommandCall.execute(CommandCall.java:72)
-	at org.concordion.internal.XMLSpecification.processNode(XMLSpecification.java:61)
-	at org.concordion.internal.XMLSpecification.processExample(XMLSpecification.java:85)
-	at org.concordion.Concordion.processExample(Concordion.java:103)
-	at org.concordion.internal.FixtureRunner.run(FixtureRunner.java:38)
+	at org.concordion.internal.XMLSpecification.processNode(XMLSpecification.java:60)
+	at org.concordion.internal.XMLSpecification.processExample(XMLSpecification.java:76)
+	at org.concordion.Concordion.processExample(Concordion.java:92)
+	at org.concordion.internal.FixtureRunner.run(FixtureRunner.java:41)
 	at org.concordion.integration.junit4.ConcordionRunner.invoke(ConcordionRunner.java:207)
 	at org.concordion.integration.junit4.ConcordionRunner$1.invoke(ConcordionRunner.java:31)
 	at org.concordion.integration.junit4.ConcordionFrameworkMethod.invokeExplosively(ConcordionFrameworkMethod.java:58)
@@ -317,7 +317,7 @@ Session ID: 05685b5875421b36076ffaf991fe24fc
 	at org.concordion.internal.runner.DefaultConcordionRunner.runTestClass(DefaultConcordionRunner.java:44)
 	at org.concordion.internal.runner.DefaultConcordionRunner.execute(DefaultConcordionRunner.java:19)
 	at org.concordion.internal.command.SequentialRunStrategy.call(SequentialRunStrategy.java:10)
-	at org.concordion.internal.command.RunCommand.execute(RunCommand.java:80)
+	at org.concordion.internal.command.RunCommand.execute(RunCommand.java:81)
 	at org.concordion.api.AbstractCommandDecorator$2.run(AbstractCommandDecorator.java:25)
 	at org.concordion.internal.command.LocalTextDecorator.process(LocalTextDecorator.java:26)
 	at org.concordion.api.AbstractCommandDecorator.execute(AbstractCommandDecorator.java:23)
@@ -328,10 +328,10 @@ Session ID: 05685b5875421b36076ffaf991fe24fc
 	at org.concordion.api.CommandCallList.processSequentially(CommandCallList.java:33)
 	at org.concordion.internal.command.SpecificationCommand.execute(SpecificationCommand.java:36)
 	at org.concordion.api.CommandCall.execute(CommandCall.java:72)
-	at org.concordion.internal.XMLSpecification.processNode(XMLSpecification.java:61)
-	at org.concordion.internal.XMLSpecification.processExample(XMLSpecification.java:78)
-	at org.concordion.Concordion.processExample(Concordion.java:103)
-	at org.concordion.internal.FixtureRunner.run(FixtureRunner.java:38)
+	at org.concordion.internal.XMLSpecification.processNode(XMLSpecification.java:60)
+	at org.concordion.internal.XMLSpecification.processExample(XMLSpecification.java:69)
+	at org.concordion.Concordion.processExample(Concordion.java:92)
+	at org.concordion.internal.FixtureRunner.run(FixtureRunner.java:41)
 	at org.concordion.integration.junit4.ConcordionRunner.invoke(ConcordionRunner.java:207)
 	at org.concordion.integration.junit4.ConcordionRunner$1.invoke(ConcordionRunner.java:31)
 	at org.concordion.integration.junit4.ConcordionFrameworkMethod.invokeExplosively(ConcordionFrameworkMethod.java:58)
@@ -377,4 +377,4 @@ Session ID: 05685b5875421b36076ffaf991fe24fc
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 	at java.lang.Thread.run(Thread.java:748)
-14-07-2018 09:26:45.166 DEBUG selenium.events - [By.name: q] - changed value
+14-07-2018 12:42:34.377 DEBUG selenium.events - [By.name: q] - changed value
