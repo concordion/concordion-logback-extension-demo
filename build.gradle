@@ -1,7 +1,7 @@
 apply plugin: 'java'
 
-sourceCompatibility = 1.7
-targetCompatibility = 1.7
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 wrapper {
     gradleVersion = "4.8.1"
@@ -19,6 +19,7 @@ dependencies {
 	testCompile 'org.concordion:concordion-logback-extension:2.0.0:reportlogger'
 	
 	testCompile 'org.seleniumhq.selenium:selenium-java:3.+'
+	testCompile 'com.google.code.gson:gson:2.8.5'
 }
 
 test {
