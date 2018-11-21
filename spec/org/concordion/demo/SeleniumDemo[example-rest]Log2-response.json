@@ -1,7 +1,7 @@
 {
   "query": {
     "count": 1,
-    "created": "2018-11-21T09:04:03Z",
+    "created": "2018-11-21T10:35:07Z",
     "lang": "en-US",
     "results": {
       "channel": {
@@ -15,7 +15,7 @@
         "link": "http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/",
         "description": "Yahoo! Weather for Nome, AK, US",
         "language": "en-us",
-        "lastBuildDate": "Wed, 21 Nov 2018 12:04 AM AKST",
+        "lastBuildDate": "Wed, 21 Nov 2018 01:35 AM AKST",
         "ttl": "60",
         "location": {
           "city": "Nome",
@@ -23,12 +23,12 @@
           "region": " AK"
         },
         "wind": {
-          "chill": "19",
+          "chill": "21",
           "direction": "0",
-          "speed": "14"
+          "speed": "13"
         },
         "atmosphere": {
-          "humidity": "85",
+          "humidity": "89",
           "pressure": "999.0",
           "rising": "0",
           "visibility": "16.1"
@@ -45,15 +45,15 @@
           "url": "http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"
         },
         "item": {
-          "title": "Conditions for Nome, AK, US at 11:00 PM AKST",
+          "title": "Conditions for Nome, AK, US at 12:00 AM AKST",
           "lat": "64.499474",
           "long": "-165.405792",
           "link": "http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/",
-          "pubDate": "Tue, 20 Nov 2018 11:00 PM AKST",
+          "pubDate": "Wed, 21 Nov 2018 12:00 AM AKST",
           "condition": {
             "code": "26",
-            "date": "Tue, 20 Nov 2018 11:00 PM AKST",
-            "temp": "28",
+            "date": "Wed, 21 Nov 2018 12:00 AM AKST",
+            "temp": "30",
             "text": "Cloudy"
           },
           "forecast": [
@@ -61,7 +61,7 @@
               "code": "28",
               "date": "21 Nov 2018",
               "day": "Wed",
-              "high": "27",
+              "high": "30",
               "low": "22",
               "text": "Mostly Cloudy"
             },
@@ -138,7 +138,7 @@
               "text": "Partly Cloudy"
             }
           ],
-          "description": "\u003c![CDATA[\u003cimg src\u003d\"http://l.yimg.com/a/i/us/we/52/26.gif\"/\u003e\n\u003cBR /\u003e\n\u003cb\u003eCurrent Conditions:\u003c/b\u003e\n\u003cBR /\u003eCloudy\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003cb\u003eForecast:\u003c/b\u003e\n\u003cBR /\u003e Wed - Mostly Cloudy. High: 27Low: 22\n\u003cBR /\u003e Thu - Partly Cloudy. High: 21Low: 13\n\u003cBR /\u003e Fri - Sunny. High: 13Low: 8\n\u003cBR /\u003e Sat - Breezy. High: 9Low: 4\n\u003cBR /\u003e Sun - Cloudy. High: 23Low: 9\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003ca href\u003d\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/\"\u003eFull Forecast at Yahoo! Weather\u003c/a\u003e\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003cBR /\u003e\n]]\u003e",
+          "description": "\u003c![CDATA[\u003cimg src\u003d\"http://l.yimg.com/a/i/us/we/52/26.gif\"/\u003e\n\u003cBR /\u003e\n\u003cb\u003eCurrent Conditions:\u003c/b\u003e\n\u003cBR /\u003eCloudy\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003cb\u003eForecast:\u003c/b\u003e\n\u003cBR /\u003e Wed - Mostly Cloudy. High: 30Low: 22\n\u003cBR /\u003e Thu - Partly Cloudy. High: 21Low: 13\n\u003cBR /\u003e Fri - Sunny. High: 13Low: 8\n\u003cBR /\u003e Sat - Breezy. High: 9Low: 4\n\u003cBR /\u003e Sun - Cloudy. High: 23Low: 9\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003ca href\u003d\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/\"\u003eFull Forecast at Yahoo! Weather\u003c/a\u003e\n\u003cBR /\u003e\n\u003cBR /\u003e\n\u003cBR /\u003e\n]]\u003e",
           "guid": {
             "isPermaLink": "false"
           }
