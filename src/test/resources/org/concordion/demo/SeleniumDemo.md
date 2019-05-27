@@ -6,7 +6,7 @@ What do you get if you [multiply six by nine](http://en.wikipedia.org/wiki/Phras
 When I google "[6 * 9](- "searchFor(#TEXT)")" the answer should be "[54](- "c:assertEquals=getCalculatorResult()")".
 
 ## [Example REST](-)
-When I call this rest request to the [yahoo weather api](https://developer.yahoo.com/weather) it [returns some data](- "c:assertTrue=makeRestCall()")
+When I call the cat api "[https://cat-fact.herokuapp.com/facts](- "#api")" it [returns some data](- "c:assertTrue=makeRestCall(#api)")
 
 ## [Table Example](-)
 When I google the following, I expect to see the appropriate answer.
