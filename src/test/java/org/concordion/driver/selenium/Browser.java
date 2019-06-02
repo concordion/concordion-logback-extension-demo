@@ -4,8 +4,7 @@ import org.concordion.driver.Config;
 import org.concordion.slf4j.ext.ReportLoggerFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.remote.CapabilityType;
-import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 /**
@@ -15,7 +14,7 @@ public class Browser {
     private WebDriver driver;
 
     public Browser() {
-		DesiredCapabilities capabilities = DesiredCapabilities.chrome();
+        ChromeOptions options = new ChromeOptions();
 
 		if (Config.isProxyRequired()) {
 			String browserProxy = Config.getProxyHost() + ":" + Config.getProxyPort();
@@ -27,11 +26,11 @@ public class Browser {
 			proxy.setSslProxy(browserProxy);
 			// proxy.setNoProxy(browserNoProxyList);
 
-			capabilities.setCapability(CapabilityType.PROXY, proxy);
-			capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
+            options.setProxy(proxy);
+            options.setAcceptInsecureCerts(true);
 		}
 
-		driver = new ChromeDriver(capabilities);
+        driver = new ChromeDriver(options);
 
 		EventFiringWebDriver efwd = new EventFiringWebDriver(driver);
 		efwd.register(new SeleniumEventLogger());
