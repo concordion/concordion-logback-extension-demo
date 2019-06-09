@@ -14,19 +14,6 @@
       "upvotes": 7
     },
     {
-      "_id": "58e00af60aac31001185ed1d",
-      "text": "It was illegal to slay cats in ancient Egypt, in large part because they provided the great service of controlling the rat population.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 7
-    },
-    {
       "_id": "5894af975cdc7400113ef7f9",
       "text": "The technical term for a cat’s hairball is a bezoar.",
       "type": "cat",
