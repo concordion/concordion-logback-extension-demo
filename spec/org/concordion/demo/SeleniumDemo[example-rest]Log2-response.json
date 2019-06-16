@@ -1,45 +1,6 @@
 {
   "all": [
     {
-      "_id": "58e007f50aac31001185ecf8",
-      "text": "A group of cats is called a clowder.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 7
-    },
-    {
-      "_id": "5894af975cdc7400113ef7f9",
-      "text": "The technical term for a cat’s hairball is a bezoar.",
-      "type": "cat",
-      "user": {
-        "_id": "587288f6e6f85e64ae1c7ef7",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 6
-    },
-    {
-      "_id": "58e0088b0aac31001185ed09",
-      "text": "The world\u0027s largest cat measured 48.5 inches long.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 6
-    },
-    {
       "_id": "5b0c5e3e7ab3c50014df65fe",
       "text": "People who own cats have on average 2.1 pets per household, where dog owners have about 1.6.",
       "type": "cat",
@@ -48,32 +9,6 @@
         "name": {
           "first": "Alex",
           "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 6
-    },
-    {
-      "_id": "58e009550aac31001185ed12",
-      "text": "The oldest cat video on YouTube dates back to 1894.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 6
-    },
-    {
-      "_id": "58e00a000aac31001185ed15",
-      "text": "Female cats are typically right-pawed while male cats are typically left-pawed.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
         }
       },
       "upvotes": 6
@@ -2392,32 +2327,6 @@
       "upvotes": 1
     },
     {
-      "_id": "5ccfd56071ac0a0015400381",
-      "text": "Cat is cute.",
-      "type": "cat",
-      "user": {
-        "_id": "5ccfd4fd71ac0a0015400380",
-        "name": {
-          "first": "Shella",
-          "last": "Rahma.P"
-        }
-      },
-      "upvotes": 1
-    },
-    {
-      "_id": "5ccf704071ac0a001540037d",
-      "text": "Uusuwq.",
-      "type": "cat",
-      "user": {
-        "_id": "5ccf702a71ac0a001540037c",
-        "name": {
-          "first": "Ahmed",
-          "last": "Gadallah"
-        }
-      },
-      "upvotes": 0
-    },
-    {
       "_id": "5cd42b77cfdf230015bd7a45",
       "text": "Cats can sense distress from a human being.",
       "type": "cat",
@@ -2444,66 +2353,27 @@
       "upvotes": 0
     },
     {
-      "_id": "5cdb8b514e4bba001531cba1",
-      "text": "Aa.",
+      "_id": "5d004f1f0c17860015c2c03d",
       "type": "cat",
+      "text": "Cat.",
       "user": {
-        "_id": "5cdb8b434e4bba001531cba0",
+        "_id": "5d004f130c17860015c2c03c",
         "name": {
-          "first": "Công",
-          "last": "Coz"
+          "first": "Ppm",
+          "last": "Min"
         }
       },
       "upvotes": 0
     },
     {
-      "_id": "5ceafac649d8200015ab8154",
+      "_id": "5d03793335f2290015605966",
       "type": "cat",
-      "text": "Dolly is the best cat ever.",
+      "text": "Სოფ. დიღომი.",
       "user": {
-        "_id": "5ceafab349d8200015ab8153",
+        "_id": "5d03792c35f2290015605965",
         "name": {
-          "first": "Jade",
-          "last": "Ctg"
-        }
-      },
-      "upvotes": 0
-    },
-    {
-      "_id": "5cedb8fc0c7cf80015591e01",
-      "type": "cat",
-      "text": "Me quiero morir.",
-      "user": {
-        "_id": "5cedb8ea0c7cf80015591e00",
-        "name": {
-          "first": "Steve",
-          "last": "Campos Vega"
-        }
-      },
-      "upvotes": 0
-    },
-    {
-      "_id": "5cee9035d63e510015cdaf67",
-      "type": "cat",
-      "text": "Der.",
-      "user": {
-        "_id": "5cee9029d63e510015cdaf66",
-        "name": {
-          "first": "john",
-          "last": "Madafaker"
-        }
-      },
-      "upvotes": 0
-    },
-    {
-      "_id": "5ceeee0cd63e510015cdaf6d",
-      "type": "cat",
-      "text": "They are cute.",
-      "user": {
-        "_id": "5ceeedfed63e510015cdaf6c",
-        "name": {
-          "first": "João Victor",
-          "last": "Almeida"
+          "first": "Giorgi",
+          "last": "Kolbaia"
         }
       },
       "upvotes": 0
