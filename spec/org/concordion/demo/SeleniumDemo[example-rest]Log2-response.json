@@ -1,32 +1,6 @@
 {
   "all": [
     {
-      "_id": "5b0c5e3e7ab3c50014df65fe",
-      "text": "People who own cats have on average 2.1 pets per household, where dog owners have about 1.6.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 6
-    },
-    {
-      "_id": "599f87db9a11040c4a16343f",
-      "text": "The goddess of love, beauty, and fertility in Norse mythology, Freyja was the first cat lady. She is depicted in stories as riding a chariot that was drawn by cats.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 6
-    },
-    {
       "_id": "58e009420aac31001185ed11",
       "text": "Basically all cartoon cats lied to us: Raw fish is off the table for cats as well.",
       "type": "cat",
@@ -37,20 +11,7 @@
           "last": "Schulz"
         }
       },
-      "upvotes": 5
-    },
-    {
-      "_id": "58e00a1a0aac31001185ed18",
-      "text": "Cats and humans have nearly identical sections of the brain that control emotion.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 5
+      "upvotes": 6
     },
     {
       "_id": "58e00b450aac31001185ed21",
@@ -2374,6 +2335,19 @@
         "name": {
           "first": "Giorgi",
           "last": "Kolbaia"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5d0f50eb8ac7950015ab2697",
+      "type": "cat",
+      "text": "Cat eats dogs.",
+      "user": {
+        "_id": "5d0f50cd8ac7950015ab2694",
+        "name": {
+          "first": "aurochs",
+          "last": "108"
         }
       },
       "upvotes": 0
