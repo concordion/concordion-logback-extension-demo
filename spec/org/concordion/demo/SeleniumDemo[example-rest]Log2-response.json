@@ -1,8 +1,34 @@
 {
   "all": [
     {
+      "_id": "591d9bb2227c1a0020d26826",
+      "text": "The CIA spent US$20 million in the 60s training cats to spy on the Soviets. The first spy cat was hit by a taxi.",
+      "type": "cat",
+      "user": {
+        "_id": "587288f6e6f85e64ae1c7ef7",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 7
+    },
+    {
       "_id": "58e009420aac31001185ed11",
       "text": "Basically all cartoon cats lied to us: Raw fish is off the table for cats as well.",
+      "type": "cat",
+      "user": {
+        "_id": "58e007480aac31001185ecef",
+        "name": {
+          "first": "Kasimir",
+          "last": "Schulz"
+        }
+      },
+      "upvotes": 6
+    },
+    {
+      "_id": "58e00b970aac31001185edf9",
+      "text": "A house cat is faster than Usain Bolt.",
       "type": "cat",
       "user": {
         "_id": "58e007480aac31001185ecef",
@@ -53,8 +79,34 @@
       "upvotes": 5
     },
     {
-      "_id": "58e00b970aac31001185edf9",
-      "text": "A house cat is faster than Usain Bolt.",
+      "_id": "5b4910ae0508220014ccfe90",
+      "text": "Cats can hear the ultrasonic noises that rodents and dolphins make to communicate.",
+      "type": "cat",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 5
+    },
+    {
+      "_id": "5b4911940508220014ccfe94",
+      "text": "By the time a cat is 9 years old, it will only have been awake for three years of its life.",
+      "type": "cat",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 5
+    },
+    {
+      "_id": "58e008ad0aac31001185ed0c",
+      "text": "The frequency of a domestic cat\u0027s purr is the same at which muscles and bones repair themselves.",
       "type": "cat",
       "user": {
         "_id": "58e007480aac31001185ecef",
@@ -66,14 +118,40 @@
       "upvotes": 5
     },
     {
-      "_id": "591d9bb2227c1a0020d26826",
-      "text": "The CIA spent US$20 million in the 60s training cats to spy on the Soviets. The first spy cat was hit by a taxi.",
+      "_id": "58e00a7e0aac31001185ed19",
+      "text": "A cat\u0027s cerebral cortex (the part of the brain in charge of cognitive information processing) has 300 million neurons, compared with a dog\u0027s 160 million.",
       "type": "cat",
       "user": {
-        "_id": "587288f6e6f85e64ae1c7ef7",
+        "_id": "58e007480aac31001185ecef",
         "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
+          "first": "Kasimir",
+          "last": "Schulz"
+        }
+      },
+      "upvotes": 5
+    },
+    {
+      "_id": "58e00b1f0aac31001185ed1e",
+      "text": "In the 15th century, Pope Innocent VIII began ordering the killing of cats, pronouncing them demonic.",
+      "type": "cat",
+      "user": {
+        "_id": "58e007480aac31001185ecef",
+        "name": {
+          "first": "Kasimir",
+          "last": "Schulz"
+        }
+      },
+      "upvotes": 5
+    },
+    {
+      "_id": "5955792c7b77520020799431",
+      "text": "Cats \"knead\" because of seperation from their mothers",
+      "type": "cat",
+      "user": {
+        "_id": "595579027b77520020799430",
+        "name": {
+          "first": "Is It Still Memes That",
+          "last": "Make You Sweat?"
         }
       },
       "upvotes": 5
@@ -178,84 +256,6 @@
         "name": {
           "first": "Alex",
           "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 4
-    },
-    {
-      "_id": "5b4910ae0508220014ccfe90",
-      "text": "Cats can hear the ultrasonic noises that rodents and dolphins make to communicate.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 4
-    },
-    {
-      "_id": "5b4911940508220014ccfe94",
-      "text": "By the time a cat is 9 years old, it will only have been awake for three years of its life.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 4
-    },
-    {
-      "_id": "58e008ad0aac31001185ed0c",
-      "text": "The frequency of a domestic cat\u0027s purr is the same at which muscles and bones repair themselves.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 4
-    },
-    {
-      "_id": "58e00a7e0aac31001185ed19",
-      "text": "A cat\u0027s cerebral cortex (the part of the brain in charge of cognitive information processing) has 300 million neurons, compared with a dog\u0027s 160 million.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 4
-    },
-    {
-      "_id": "58e00b1f0aac31001185ed1e",
-      "text": "In the 15th century, Pope Innocent VIII began ordering the killing of cats, pronouncing them demonic.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 4
-    },
-    {
-      "_id": "5955792c7b77520020799431",
-      "text": "Cats \"knead\" because of seperation from their mothers",
-      "type": "cat",
-      "user": {
-        "_id": "595579027b77520020799430",
-        "name": {
-          "first": "Is It Still Memes That",
-          "last": "Make You Sweat?"
         }
       },
       "upvotes": 4
@@ -2309,45 +2309,6 @@
         "name": {
           "first": "Shay",
           "last": "Zhang"
-        }
-      },
-      "upvotes": 0
-    },
-    {
-      "_id": "5d004f1f0c17860015c2c03d",
-      "type": "cat",
-      "text": "Cat.",
-      "user": {
-        "_id": "5d004f130c17860015c2c03c",
-        "name": {
-          "first": "Ppm",
-          "last": "Min"
-        }
-      },
-      "upvotes": 0
-    },
-    {
-      "_id": "5d03793335f2290015605966",
-      "type": "cat",
-      "text": "Სოფ. დიღომი.",
-      "user": {
-        "_id": "5d03792c35f2290015605965",
-        "name": {
-          "first": "Giorgi",
-          "last": "Kolbaia"
-        }
-      },
-      "upvotes": 0
-    },
-    {
-      "_id": "5d0f50eb8ac7950015ab2697",
-      "type": "cat",
-      "text": "Cat eats dogs.",
-      "user": {
-        "_id": "5d0f50cd8ac7950015ab2694",
-        "name": {
-          "first": "aurochs",
-          "last": "108"
         }
       },
       "upvotes": 0
