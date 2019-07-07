@@ -1,45 +1,6 @@
 {
   "all": [
     {
-      "_id": "591d9bb2227c1a0020d26826",
-      "text": "The CIA spent US$20 million in the 60s training cats to spy on the Soviets. The first spy cat was hit by a taxi.",
-      "type": "cat",
-      "user": {
-        "_id": "587288f6e6f85e64ae1c7ef7",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 7
-    },
-    {
-      "_id": "58e009420aac31001185ed11",
-      "text": "Basically all cartoon cats lied to us: Raw fish is off the table for cats as well.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 6
-    },
-    {
-      "_id": "58e00b970aac31001185edf9",
-      "text": "A house cat is faster than Usain Bolt.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 6
-    },
-    {
       "_id": "58e00b450aac31001185ed21",
       "text": "There are 45 Hemingway cats living at the author\u0027s former home in Key West, Fla.",
       "type": "cat",
@@ -2309,6 +2270,19 @@
         "name": {
           "first": "Shay",
           "last": "Zhang"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5d1fbf42bc80c00015a88a79",
+      "type": "cat",
+      "text": "Big Fat Cat.",
+      "user": {
+        "_id": "5d1fbf2abc80c00015a88a78",
+        "name": {
+          "first": "JC",
+          "last": "Adajar"
         }
       },
       "upvotes": 0
