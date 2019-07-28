@@ -1,19 +1,6 @@
 {
   "all": [
     {
-      "_id": "58e00b450aac31001185ed21",
-      "text": "There are 45 Hemingway cats living at the author\u0027s former home in Key West, Fla.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 5
-    },
-    {
       "_id": "5b4910ae0508220014ccfe90",
       "text": "Cats can hear the ultrasonic noises that rodents and dolphins make to communicate.",
       "type": "cat",
@@ -2194,7 +2181,7 @@
           "last": "Simmons"
         }
       },
-      "upvotes": 0
+      "upvotes": 1
     },
     {
       "_id": "5cd86b0e1dc6d50015ec2f08",
@@ -2207,56 +2194,407 @@
           "last": "Zhang"
         }
       },
-      "upvotes": 0
+      "upvotes": 1
     },
     {
-      "_id": "5d1fbf42bc80c00015a88a79",
+      "_id": "5d38afd60f1c57001592f127",
       "type": "cat",
-      "text": "Big Fat Cat.",
+      "text": "In the early 1980s, a Chinchilla Persian cat named Jemari Sanquist mated with a Lilac Burmese named Bambino Lilac Fabergé, producing the Burmilla breed.",
       "user": {
-        "_id": "5d1fbf2abc80c00015a88a78",
+        "_id": "5a9ac18c7478810ea6c06381",
         "name": {
-          "first": "JC",
-          "last": "Adajar"
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 1
+    },
+    {
+      "_id": "5d38b0310f1c57001592f128",
+      "type": "cat",
+      "text": "Scratching allows a cat to shed the outer layers of her claws, mark her territory, and stretch her body. Rather than discouraging the scratching behavior altogether, try redirecting your cat to a few scratching posts placed strategically around your home.",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 1
+    },
+    {
+      "_id": "5d38b0c40f1c57001592f129",
+      "type": "cat",
+      "text": "The elegant Balinese is a longhaired variety of the Siamese, and like the Siamese, this stunning breed is sociable and intelligent. The breed was named for the grace of the dancers on the island of Bali in Indonesia.",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 1
+    },
+    {
+      "_id": "5d38b1290f1c57001592f12a",
+      "type": "cat",
+      "text": "Bobtail cats owe their shortened tails to a natural genetic mutation that has appeared in cats across time and in various regions of the world. The American Bobtail can be traced back to Yodi, a cat with the mutation that was found in Arizona in the 1960s. Yodi passed the genetic quirk on to his kittens, thus creating a new breed.",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 1
+    },
+    {
+      "_id": "5d38b16c0f1c57001592f12b",
+      "type": "cat",
+      "text": "A large number of cats inhabit the Largo di Torre Argentina, an ancient Roman temple site near where Caesar was killed. Local volunteers care for the cats.",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 1
+    },
+    {
+      "_id": "5d38b1d40f1c57001592f12c",
+      "type": "cat",
+      "text": "During the heat of the summer, set out an extra bowl of water and place ice cubes in it to keep it cold and refreshing. Cats love to lie on cool surfaces when it\u0027s hot—if you don\u0027t have an tile in your home, consider buying a few ceramic tiles from a home improvement store for your cat to rest on.",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 1
+    },
+    {
+      "_id": "5d38b2270f1c57001592f12d",
+      "type": "cat",
+      "text": "Among the British government officials who keep things running smoothly at 10 Downing Street is Larry, a cat that holds the distinguished position of Chief Mouser. Larry\u0027s duties, according to the U.K. government, include \"greeting guests\", \"testing antique furniture for napping quality\", and \"contemplating a solution to the mouse occupancy of the house.\".",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 1
+    },
+    {
+      "_id": "5d38b2510f1c57001592f12e",
+      "type": "cat",
+      "text": "Courgars are the largest wild cats that can purr.",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 1
+    },
+    {
+      "_id": "5d38b27b0f1c57001592f12f",
+      "type": "cat",
+      "text": "The Norwegian Forest Cat is called \"skogcatt\" in its homeland of Norway and plays a role in the Norwegian fairy tales and legends.",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 1
+    },
+    {
+      "_id": "5d38b29f0f1c57001592f130",
+      "type": "cat",
+      "text": "The Abyssinian, the Siamese, and the American Shorthair were crossbred to produce the Ocicat breed.",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 1
+    },
+    {
+      "_id": "5d38b5b50f1c57001592f131",
+      "type": "cat",
+      "text": "Andy Warhol amassed quite the collection of feline friends during his lifetime, beginning with a Siamese cat named Hester that was given to him by actress Gloria Swanson. By breeding Hester with a cat named Sam, Warhol ended up with multiple litters of kittens, at one point housing 25 cats in his Upper East Side townhouse in NYC.",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 1
+    },
+    {
+      "_id": "5d38b6090f1c57001592f132",
+      "type": "cat",
+      "text": "While two kittens might sound like double trouble, adopting two at a time can actually make your job easier. Two cans can keep each other company, reducing their need for socialization, and they will expend energy by playing together. Kittens in the same litter often form tight sibling bonds.",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 1
+    },
+    {
+      "_id": "5d38b6280f1c57001592f133",
+      "type": "cat",
+      "text": "Some animal shelters require kittens be adopted in pairs to ensure they came from the same litter.",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 1
+    },
+    {
+      "_id": "5d38b64e0f1c57001592f134",
+      "type": "cat",
+      "text": "The Havana Brown breed hails from England, where it was created by crossbreeding Siamese cats with domestic black cats.",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 1
+    },
+    {
+      "_id": "5d38b69a0f1c57001592f135",
+      "type": "cat",
+      "text": "While we don\u0027t know the exact origins of the Russian Blue, it\u0027s commonly believed the breed comes from the Archangel Isles in northwestern Russia—the region\u0027s cold climate would certainly explain the breed\u0027s plush coat.",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 1
+    },
+    {
+      "_id": "5d38b6f10f1c57001592f136",
+      "type": "cat",
+      "text": "Traveling with cats can be stressful for everyone involved. Whether you\u0027re taking a kitty to the vet, or on a road trip, or on a flight, there are things you can do to help her stay relaxed in the carrier. Pet shops sell calming treats and sprays that can reduce a cat\u0027s anxiety. It might also help to put a beloved toy or a blanket in the carrier.",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 1
+    },
+    {
+      "_id": "5d38b7170f1c57001592f137",
+      "type": "cat",
+      "text": "The wild-looking but domestic Ocicat is named for its resemblance to the ocelot, a small South American wild cat.",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 1
+    },
+    {
+      "_id": "5d38baf20f1c57001592f14b",
+      "type": "cat",
+      "text": "The stationmaster of the Kishi rail station in western Japan until 2015 was a cat named Tama. The calico cat wore a stationmaster\u0027s cap and greeted visitors by the ticket gate. After her death, Tama was elevated to the status of a goddess in a Shinto-style funeral.",
+      "user": {
+        "_id": "5a8b1dce4709d90020cb1285",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
         }
       },
       "upvotes": 0
     },
     {
-      "_id": "5d2fa0e24910210015c43af8",
+      "_id": "5d38bb440f1c57001592f14c",
       "type": "cat",
-      "text": "Catinho.",
+      "text": "It\u0027s important for cats to have regular ear exams—this is something you can do at home! Gently fold back the ears and look into the ear canal. The inner ear should be pale pink with little to no earwax. If you notice redness, swelling, discharge, or a lot of earwax, it\u0027s time to see a veterinarian.",
       "user": {
-        "_id": "5d2269e3e38ce00015c33f02",
+        "_id": "5a8b1dce4709d90020cb1285",
         "name": {
-          "first": "sajan",
-          "last": "shrestha"
+          "first": "Alex",
+          "last": "Wohlbruck"
         }
       },
       "upvotes": 0
     },
     {
-      "_id": "5d319fe2d308ba0015726928",
+      "_id": "5d38bb7a0f1c57001592f14d",
       "type": "cat",
-      "text": "Hello.",
+      "text": "In Norse mythology, the goddess Freya travels in a chariot pulled by two cats—specifically Norwegian Forest Cats.",
       "user": {
-        "_id": "5d319fd7d308ba0015726927",
+        "_id": "5a8b1dce4709d90020cb1285",
         "name": {
-          "first": "松",
-          "last": "刘"
+          "first": "Alex",
+          "last": "Wohlbruck"
         }
       },
       "upvotes": 0
     },
     {
-      "_id": "5d31d938d308ba001572692e",
+      "_id": "5d38bb910f1c57001592f14e",
       "type": "cat",
-      "text": "Don\u0027t know any cat facts.",
+      "text": "Dr. Seuss wrote The Cat in the Hat using only 236 words.",
       "user": {
-        "_id": "5d31d8fdd308ba001572692d",
+        "_id": "5a8b1dce4709d90020cb1285",
         "name": {
-          "first": "Harshvardhan",
-          "last": "Gupta"
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5d38bbb20f1c57001592f14f",
+      "type": "cat",
+      "text": "American Curl kittens are born with straight ears, but the ears begin to curl back after just a few days.",
+      "user": {
+        "_id": "5a8b1dce4709d90020cb1285",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5d38bc0c0f1c57001592f150",
+      "type": "cat",
+      "text": "If your cat licks from the toilet, bathtub, or sink, she may be telling you something about the water bowl. Make sure it\u0027s clean, replace the water regularly to keep it from getting stale or developing a film on top, and if necessary, get a new bowl. Some cats prefer glass bowls to plastic.",
+      "user": {
+        "_id": "5a8b1dce4709d90020cb1285",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5d38bc630f1c57001592f151",
+      "type": "cat",
+      "text": "Georgia O\u0027Keeffe was a celebrated painter, a figurehead of American modernism, a fashion icon, and... a cat owner! O\u0027Keeffe kept a number of animals at her home in New Mexico, including her pet Siamese cat, who appears alongside O\u0027Keeffe in a portrait shot by photographer John Candelario.",
+      "user": {
+        "_id": "5a8b1dce4709d90020cb1285",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5d38bc970f1c57001592f152",
+      "type": "cat",
+      "text": "The pink substance inside a cat\u0027s nail is called the \"quick\" or the \"dermis\". When trimming your cat\u0027s nails, be sure to only cut the upper white part of the nail, not the quick.",
+      "user": {
+        "_id": "5a8b1dce4709d90020cb1285",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5d38bcc00f1c57001592f153",
+      "type": "cat",
+      "text": "The irresistable and cuddly Ragamuffin is the result of crossbreeding Ragdoll cats with Persians, Himalayans, and other larger longhaired breeds.",
+      "user": {
+        "_id": "5a8b1dce4709d90020cb1285",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5d38bd180f1c57001592f154",
+      "type": "cat",
+      "text": "Cats are among only a few animals that walk by moving their two right legs one after another and then their two left legs, rather than moving diagonal limbs simultaneously. Giraffes and camels also have this quality.",
+      "user": {
+        "_id": "5a8b1dce4709d90020cb1285",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5d38bd750f1c57001592f155",
+      "type": "cat",
+      "text": "Legend holds that a goddess rewarded a temple cat\u0027s piety by turning the cat\u0027s eyes blue and his coat golden, thus creating the first Birman cat.",
+      "user": {
+        "_id": "5a8b1dce4709d90020cb1285",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5d38bdab0f1c57001592f156",
+      "type": "cat",
+      "text": "While some cats love being brushed, others don\u0027t take to it naturally. Try to groom your cat in the same spot at the same time of day to create a sense of routine.",
+      "user": {
+        "_id": "5a8b1dce4709d90020cb1285",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5d38be200f1c57001592f157",
+      "type": "cat",
+      "text": "The Turkish Van is often called the \"swimming cat\" because they are naturals in the water, thanks in part to their uniquely textured, water-resistant coat.",
+      "user": {
+        "_id": "5a8b1dce4709d90020cb1285",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5d38be370f1c57001592f158",
+      "type": "cat",
+      "text": "Kittens typically begin to engage in playful behavior at around four weeks of age.",
+      "user": {
+        "_id": "5a8b1dce4709d90020cb1285",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
         }
       },
       "upvotes": 0
