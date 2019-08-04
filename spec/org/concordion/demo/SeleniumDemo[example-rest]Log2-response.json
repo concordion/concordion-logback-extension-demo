@@ -2598,6 +2598,19 @@
         }
       },
       "upvotes": 0
+    },
+    {
+      "_id": "5d3e2191484b54001508b0df",
+      "type": "cat",
+      "text": "Cats can be nation president.",
+      "user": {
+        "_id": "5d3dedfa484b54001508b0de",
+        "name": {
+          "first": "Jonathan",
+          "last": "Velazquez"
+        }
+      },
+      "upvotes": 0
     }
   ]
 }
