@@ -1,47 +1,8 @@
 {
   "all": [
     {
-      "_id": "5b4910ae0508220014ccfe90",
-      "text": "Cats can hear the ultrasonic noises that rodents and dolphins make to communicate.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 6
-    },
-    {
       "_id": "5b4911940508220014ccfe94",
       "text": "By the time a cat is 9 years old, it will only have been awake for three years of its life.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 5
-    },
-    {
-      "_id": "58e008ad0aac31001185ed0c",
-      "text": "The frequency of a domestic cat\u0027s purr is the same at which muscles and bones repair themselves.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 5
-    },
-    {
-      "_id": "59a60b8e6acf530020f3586e",
-      "text": "Cat owners are 17% more likely to have a graduate degree than non cat owners.",
       "type": "cat",
       "user": {
         "_id": "5a9ac18c7478810ea6c06381",
