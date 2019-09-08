@@ -1,19 +1,6 @@
 {
   "all": [
     {
-      "_id": "58e0086f0aac31001185ed02",
-      "text": "Cats can\u0027t taste sweetness.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 8
-    },
-    {
       "_id": "591d9bb2227c1a0020d26826",
       "text": "The CIA spent US$20 million in the 60s training cats to spy on the Soviets. The first spy cat was hit by a taxi.",
       "type": "cat",
@@ -22,6 +9,19 @@
         "name": {
           "first": "Alex",
           "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 9
+    },
+    {
+      "_id": "58e0086f0aac31001185ed02",
+      "text": "Cats can\u0027t taste sweetness.",
+      "type": "cat",
+      "user": {
+        "_id": "58e007480aac31001185ecef",
+        "name": {
+          "first": "Kasimir",
+          "last": "Schulz"
         }
       },
       "upvotes": 8
@@ -2920,6 +2920,19 @@
         "name": {
           "first": "Martin",
           "last": "Paredez"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5d736a9617cd6300154df550",
+      "type": "cat",
+      "text": "A.",
+      "user": {
+        "_id": "5d736a7817cd6300154df54f",
+        "name": {
+          "first": "Ade",
+          "last": "Suluh"
         }
       },
       "upvotes": 0
