@@ -11,7 +11,7 @@
           "last": "Wohlbruck"
         }
       },
-      "upvotes": 9
+      "upvotes": 10
     },
     {
       "_id": "58e0086f0aac31001185ed02",
@@ -24,7 +24,7 @@
           "last": "Schulz"
         }
       },
-      "upvotes": 8
+      "upvotes": 9
     },
     {
       "_id": "588e746706ac2b00110e59ff",
@@ -37,7 +37,7 @@
           "last": "Lockwood"
         }
       },
-      "upvotes": 8
+      "upvotes": 9
     },
     {
       "_id": "5b1b40d4841d9700146158d8",
@@ -2933,6 +2933,19 @@
         "name": {
           "first": "Ade",
           "last": "Suluh"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5d839adc8a86520015f44f8e",
+      "type": "cat",
+      "text": "Cats purr.",
+      "user": {
+        "_id": "5d839a818a86520015f44f8d",
+        "name": {
+          "first": "Ju",
+          "last": "Lia"
         }
       },
       "upvotes": 0
