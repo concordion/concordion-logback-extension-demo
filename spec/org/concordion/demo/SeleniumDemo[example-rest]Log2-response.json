@@ -11,7 +11,7 @@
           "last": "Wohlbruck"
         }
       },
-      "upvotes": 10
+      "upvotes": 12
     },
     {
       "_id": "58e0086f0aac31001185ed02",
@@ -24,7 +24,7 @@
           "last": "Schulz"
         }
       },
-      "upvotes": 9
+      "upvotes": 10
     },
     {
       "_id": "588e746706ac2b00110e59ff",
@@ -2946,6 +2946,19 @@
         "name": {
           "first": "Ju",
           "last": "Lia"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5d8a61992c54210015bf6076",
+      "type": "cat",
+      "text": "\"Cats \"knead\" because of seperation from their mothers\".",
+      "user": {
+        "_id": "5d70057df83a9d00155de899",
+        "name": {
+          "first": "Yang",
+          "last": "Zhang"
         }
       },
       "upvotes": 0
