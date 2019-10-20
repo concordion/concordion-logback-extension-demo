@@ -11,7 +11,7 @@
           "last": "Wohlbruck"
         }
       },
-      "upvotes": 15
+      "upvotes": 17
     },
     {
       "_id": "58e0086f0aac31001185ed02",
@@ -37,7 +37,7 @@
           "last": "Lockwood"
         }
       },
-      "upvotes": 10
+      "upvotes": 11
     },
     {
       "_id": "5b1b40d4841d9700146158d8",
@@ -66,8 +66,34 @@
       "upvotes": 7
     },
     {
+      "_id": "58e00b450aac31001185ed21",
+      "text": "There are 45 Hemingway cats living at the author\u0027s former home in Key West, Fla.",
+      "type": "cat",
+      "user": {
+        "_id": "58e007480aac31001185ecef",
+        "name": {
+          "first": "Kasimir",
+          "last": "Schulz"
+        }
+      },
+      "upvotes": 7
+    },
+    {
       "_id": "58e007f50aac31001185ecf8",
       "text": "A group of cats is called a clowder.",
+      "type": "cat",
+      "user": {
+        "_id": "58e007480aac31001185ecef",
+        "name": {
+          "first": "Kasimir",
+          "last": "Schulz"
+        }
+      },
+      "upvotes": 7
+    },
+    {
+      "_id": "58e00b970aac31001185edf9",
+      "text": "A house cat is faster than Usain Bolt.",
       "type": "cat",
       "user": {
         "_id": "58e007480aac31001185ecef",
@@ -172,32 +198,6 @@
     {
       "_id": "58e00a1a0aac31001185ed18",
       "text": "Cats and humans have nearly identical sections of the brain that control emotion.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 6
-    },
-    {
-      "_id": "58e00b450aac31001185ed21",
-      "text": "There are 45 Hemingway cats living at the author\u0027s former home in Key West, Fla.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 6
-    },
-    {
-      "_id": "58e00b970aac31001185edf9",
-      "text": "A house cat is faster than Usain Bolt.",
       "type": "cat",
       "user": {
         "_id": "58e007480aac31001185ecef",
@@ -2691,6 +2691,71 @@
       "upvotes": 1
     },
     {
+      "_id": "5d38bb910f1c57001592f14e",
+      "type": "cat",
+      "text": "Dr. Seuss wrote The Cat in the Hat using only 236 words.",
+      "user": {
+        "_id": "5a8b1dce4709d90020cb1285",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 1
+    },
+    {
+      "_id": "5d4a4fc6b6c1290015d43471",
+      "type": "cat",
+      "text": "Cats are the most interesting mammals on earth.",
+      "user": {
+        "_id": "5d4a4fa4b6c1290015d43470",
+        "name": {
+          "first": "Yvette",
+          "last": "Johnson-Rodgers"
+        }
+      },
+      "upvotes": 1
+    },
+    {
+      "_id": "5d8a61992c54210015bf6076",
+      "type": "cat",
+      "text": "\"Cats \"knead\" because of seperation from their mothers\".",
+      "user": {
+        "_id": "5d70057df83a9d00155de899",
+        "name": {
+          "first": "Yang",
+          "last": "Zhang"
+        }
+      },
+      "upvotes": 1
+    },
+    {
+      "_id": "5d9c556168a764001553b382",
+      "type": "cat",
+      "text": "A cat has 244 bones in its entire body—even more than a human, who only has 206 bones.",
+      "user": {
+        "_id": "5d84ce8abf541a0015b5febb",
+        "name": {
+          "first": "Veronika",
+          "last": "Koval"
+        }
+      },
+      "upvotes": 1
+    },
+    {
+      "_id": "5d9d4ae168a764001553b388",
+      "type": "cat",
+      "text": "Cats conserve energy by sleeping for an average of 13 to14 hours a day.",
+      "user": {
+        "_id": "5d9d4a4468a764001553b387",
+        "name": {
+          "first": "Erick",
+          "last": "Vazquez"
+        }
+      },
+      "upvotes": 1
+    },
+    {
       "_id": "5d9cf25868a764001553b386",
       "type": "cat",
       "text": "XYZ.",
@@ -2733,19 +2798,6 @@
       "_id": "5d38bb7a0f1c57001592f14d",
       "type": "cat",
       "text": "In Norse mythology, the goddess Freya travels in a chariot pulled by two cats—specifically Norwegian Forest Cats.",
-      "user": {
-        "_id": "5a8b1dce4709d90020cb1285",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 0
-    },
-    {
-      "_id": "5d38bb910f1c57001592f14e",
-      "type": "cat",
-      "text": "Dr. Seuss wrote The Cat in the Hat using only 236 words.",
       "user": {
         "_id": "5a8b1dce4709d90020cb1285",
         "name": {
@@ -2912,19 +2964,6 @@
       "upvotes": 0
     },
     {
-      "_id": "5d4a4fc6b6c1290015d43471",
-      "type": "cat",
-      "text": "Cats are the most interesting mammals on earth.",
-      "user": {
-        "_id": "5d4a4fa4b6c1290015d43470",
-        "name": {
-          "first": "Yvette",
-          "last": "Johnson-Rodgers"
-        }
-      },
-      "upvotes": 0
-    },
-    {
       "_id": "5d5dc687b155490015c5663f",
       "type": "cat",
       "text": "The cats are fools.",
@@ -2959,19 +2998,6 @@
         "name": {
           "first": "Ju",
           "last": "Lia"
-        }
-      },
-      "upvotes": 0
-    },
-    {
-      "_id": "5d8a61992c54210015bf6076",
-      "type": "cat",
-      "text": "\"Cats \"knead\" because of seperation from their mothers\".",
-      "user": {
-        "_id": "5d70057df83a9d00155de899",
-        "name": {
-          "first": "Yang",
-          "last": "Zhang"
         }
       },
       "upvotes": 0
@@ -3016,27 +3042,27 @@
       "upvotes": 0
     },
     {
-      "_id": "5d9c556168a764001553b382",
+      "_id": "5daa121c79186100154250be",
       "type": "cat",
-      "text": "A cat has 244 bones in its entire body—even more than a human, who only has 206 bones.",
+      "text": "Dr. Bootsy Calico love cats, he was raised by cats. He is the main antagonist in The Boss Baby: Back in Business.",
       "user": {
-        "_id": "5d84ce8abf541a0015b5febb",
+        "_id": "5daa103779186100154250bd",
         "name": {
-          "first": "Veronika",
-          "last": "Koval"
+          "first": "Daniel",
+          "last": "Carvalho"
         }
       },
       "upvotes": 0
     },
     {
-      "_id": "5d9d4ae168a764001553b388",
+      "_id": "5daa192179186100154250c4",
       "type": "cat",
-      "text": "Cats conserve energy by sleeping for an average of 13 to14 hours a day.",
+      "text": "GitHub is a cloud source version control system where its mascot is an octocat, an anthropomorphized cat with five tentacles.",
       "user": {
-        "_id": "5d9d4a4468a764001553b387",
+        "_id": "5daa103779186100154250bd",
         "name": {
-          "first": "Erick",
-          "last": "Vazquez"
+          "first": "Daniel",
+          "last": "Carvalho"
         }
       },
       "upvotes": 0
