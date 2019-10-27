@@ -1,71 +1,6 @@
 {
   "all": [
     {
-      "_id": "591d9bb2227c1a0020d26826",
-      "text": "The CIA spent US$20 million in the 60s training cats to spy on the Soviets. The first spy cat was hit by a taxi.",
-      "type": "cat",
-      "user": {
-        "_id": "587288f6e6f85e64ae1c7ef7",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 17
-    },
-    {
-      "_id": "58e0086f0aac31001185ed02",
-      "text": "Cats can\u0027t taste sweetness.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 12
-    },
-    {
-      "_id": "588e746706ac2b00110e59ff",
-      "text": "Domestic cats spend about 70 percent of the day sleeping. And 15 percent of the day grooming.",
-      "type": "cat",
-      "user": {
-        "_id": "588e6e8806ac2b00110e59c3",
-        "name": {
-          "first": "Thomas",
-          "last": "Lockwood"
-        }
-      },
-      "upvotes": 11
-    },
-    {
-      "_id": "5b1b40d4841d9700146158d8",
-      "text": "Koko the gorilla got a pet cat for her birthday in 1985 after she requested to have one as a birthday present.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 9
-    },
-    {
-      "_id": "58e009420aac31001185ed11",
-      "text": "Basically all cartoon cats lied to us: Raw fish is off the table for cats as well.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 7
-    },
-    {
       "_id": "58e00b450aac31001185ed21",
       "text": "There are 45 Hemingway cats living at the author\u0027s former home in Key West, Fla.",
       "type": "cat",
@@ -81,19 +16,6 @@
     {
       "_id": "58e007f50aac31001185ecf8",
       "text": "A group of cats is called a clowder.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 7
-    },
-    {
-      "_id": "58e00b970aac31001185edf9",
-      "text": "A house cat is faster than Usain Bolt.",
       "type": "cat",
       "user": {
         "_id": "58e007480aac31001185ecef",
@@ -2756,6 +2678,19 @@
       "upvotes": 1
     },
     {
+      "_id": "5db2bd49085bcb0015750662",
+      "type": "cat",
+      "text": "All cats are grey at night.",
+      "user": {
+        "_id": "5db2bcbe085bcb0015750661",
+        "name": {
+          "first": "Владимир",
+          "last": "А"
+        }
+      },
+      "upvotes": 1
+    },
+    {
       "_id": "5d9cf25868a764001553b386",
       "type": "cat",
       "text": "XYZ.",
@@ -2764,6 +2699,19 @@
         "name": {
           "first": "Mateusz",
           "last": "Głowacki"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5daee7dbec4a6500156d2e6d",
+      "type": "cat",
+      "text": "Test.",
+      "user": {
+        "_id": "5da41b7504ce7e001534bfa1",
+        "name": {
+          "first": "mohammed",
+          "last": "aljundi"
         }
       },
       "upvotes": 0
@@ -3063,6 +3011,19 @@
         "name": {
           "first": "Daniel",
           "last": "Carvalho"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5daed556ec4a6500156d2e6c",
+      "type": "cat",
+      "text": "One of the biggest pilgrimage sites in the middle ages was the cathedral of Caterbury.",
+      "user": {
+        "_id": "5daec340ec4a6500156d2e6b",
+        "name": {
+          "first": "jo",
+          "last": "ne"
         }
       },
       "upvotes": 0
