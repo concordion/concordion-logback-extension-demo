@@ -11,20 +11,7 @@
           "last": "Schulz"
         }
       },
-      "upvotes": 7
-    },
-    {
-      "_id": "58e007f50aac31001185ecf8",
-      "text": "A group of cats is called a clowder.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 7
+      "upvotes": 8
     },
     {
       "_id": "5b4910ae0508220014ccfe90",
@@ -37,11 +24,11 @@
           "last": "Wohlbruck"
         }
       },
-      "upvotes": 7
+      "upvotes": 8
     },
     {
-      "_id": "58e00af60aac31001185ed1d",
-      "text": "It was illegal to slay cats in ancient Egypt, in large part because they provided the great service of controlling the rat population.",
+      "_id": "58e007f50aac31001185ecf8",
+      "text": "A group of cats is called a clowder.",
       "type": "cat",
       "user": {
         "_id": "58e007480aac31001185ecef",
@@ -3024,6 +3011,45 @@
         "name": {
           "first": "jo",
           "last": "ne"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5db6ac1ab5f3720015400ea4",
+      "type": "cat",
+      "text": "Cats have fur.",
+      "user": {
+        "_id": "5db6ac04b5f3720015400ea3",
+        "name": {
+          "first": "Deekay",
+          "last": "Em"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5db9577511880200157ad78a",
+      "type": "cat",
+      "text": "Testing bro.",
+      "user": {
+        "_id": "5db956e711880200157ad783",
+        "name": {
+          "first": "Test",
+          "last": "test"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5db9bf3511880200157ad78e",
+      "type": "cat",
+      "text": "A cat has been known to beg for food even when there already is food in its bowl.",
+      "user": {
+        "_id": "5db9beb211880200157ad78d",
+        "name": {
+          "first": "Nick",
+          "last": "Hyland"
         }
       },
       "upvotes": 0
