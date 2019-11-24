@@ -1,84 +1,6 @@
 {
   "all": [
     {
-      "_id": "5894af975cdc7400113ef7f9",
-      "text": "The technical term for a cat’s hairball is a bezoar.",
-      "type": "cat",
-      "user": {
-        "_id": "587288f6e6f85e64ae1c7ef7",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 6
-    },
-    {
-      "_id": "58e0088b0aac31001185ed09",
-      "text": "The world\u0027s largest cat measured 48.5 inches long.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 6
-    },
-    {
-      "_id": "5b0c5e3e7ab3c50014df65fe",
-      "text": "People who own cats have on average 2.1 pets per household, where dog owners have about 1.6.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 6
-    },
-    {
-      "_id": "58e00a000aac31001185ed15",
-      "text": "Female cats are typically right-pawed while male cats are typically left-pawed.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 6
-    },
-    {
-      "_id": "58e00a1a0aac31001185ed18",
-      "text": "Cats and humans have nearly identical sections of the brain that control emotion.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 6
-    },
-    {
-      "_id": "599f87db9a11040c4a16343f",
-      "text": "The goddess of love, beauty, and fertility in Norse mythology, Freyja was the first cat lady. She is depicted in stories as riding a chariot that was drawn by cats.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 6
-    },
-    {
       "_id": "58f89cff11658e00113ddd26",
       "text": "Cats love to eat olives or for that matter anything preserved in brine.",
       "type": "cat",
@@ -87,19 +9,6 @@
         "name": {
           "first": "Malvika",
           "last": "Tewari"
-        }
-      },
-      "upvotes": 5
-    },
-    {
-      "_id": "58e008340aac31001185ecfb",
-      "text": "Cats sleep 70% of their lives.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
         }
       },
       "upvotes": 5
@@ -3011,6 +2920,45 @@
         "name": {
           "first": "João",
           "last": "Guerreiro"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5dd21b91a960ba0015a66895",
+      "type": "cat",
+      "text": "The technical term for a cat’s hairball is a “bezoar.”.",
+      "user": {
+        "_id": "5dd21b29a960ba0015a66894",
+        "name": {
+          "first": "Gabriel",
+          "last": "Lien"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5dd3a48821bcaf0015eaa854",
+      "type": "cat",
+      "text": "Cats named Meowduri are cute.",
+      "user": {
+        "_id": "5dd3a45921bcaf0015eaa851",
+        "name": {
+          "first": "Aaqib",
+          "last": "Ismail"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5dd401d08f1fb70015b894ad",
+      "type": "cat",
+      "text": "Cat\u0027s are not dogs.",
+      "user": {
+        "_id": "5dd401b88f1fb70015b894ac",
+        "name": {
+          "first": "Ronnie",
+          "last": "Kilsbo"
         }
       },
       "upvotes": 0
