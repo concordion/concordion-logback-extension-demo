@@ -1,19 +1,6 @@
 {
   "all": [
     {
-      "_id": "5b4911940508220014ccfe94",
-      "text": "By the time a cat is 9 years old, it will only have been awake for three years of its life.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 5
-    },
-    {
       "_id": "58e008b80aac31001185ed0d",
       "text": "Adult cats only meow to communicate with humans.",
       "type": "cat",
@@ -2907,6 +2894,123 @@
         "name": {
           "first": "Sushen",
           "last": "Biswas"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5de608922c455b00153df05d",
+      "type": "cat",
+      "text": "Coba cat nyata.",
+      "user": {
+        "_id": "5dac75c56ba4f80015053523",
+        "name": {
+          "first": "Danang",
+          "last": "Setyawan"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5de6090e2c455b00153df05e",
+      "type": "cat",
+      "text": "Cats has no hands.",
+      "user": {
+        "_id": "5dac75c56ba4f80015053523",
+        "name": {
+          "first": "Danang",
+          "last": "Setyawan"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5de609812c455b00153df05f",
+      "type": "cat",
+      "text": "Testing aja.",
+      "user": {
+        "_id": "5dac75c56ba4f80015053523",
+        "name": {
+          "first": "Danang",
+          "last": "Setyawan"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5de780600013130015a3ccaf",
+      "type": "cat",
+      "text": "More than half of the world’s felines don’t respond to catnip.",
+      "user": {
+        "_id": "5de681752c455b00153df068",
+        "name": {
+          "first": "Leonard",
+          "last": "Wohlfarth"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5de7808a0013130015a3ccb0",
+      "type": "cat",
+      "text": "The wealthiest cat in the world is named Blackie.",
+      "user": {
+        "_id": "5de681752c455b00153df068",
+        "name": {
+          "first": "Leonard",
+          "last": "Wohlfarth"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5de780a00013130015a3ccb1",
+      "type": "cat",
+      "text": "A group of kittens is called a Kindle.",
+      "user": {
+        "_id": "5de681752c455b00153df068",
+        "name": {
+          "first": "Leonard",
+          "last": "Wohlfarth"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5de780d30013130015a3ccb2",
+      "type": "cat",
+      "text": "In October 1983, a cat named \"Félicette\" became the first cat in space.",
+      "user": {
+        "_id": "5de681752c455b00153df068",
+        "name": {
+          "first": "Leonard",
+          "last": "Wohlfarth"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5de780e60013130015a3ccb3",
+      "type": "cat",
+      "text": "Cats can be allergic to humans.",
+      "user": {
+        "_id": "5de681752c455b00153df068",
+        "name": {
+          "first": "Leonard",
+          "last": "Wohlfarth"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5deb725edeb28e00158cd804",
+      "type": "cat",
+      "text": "Cats are nuts.",
+      "user": {
+        "_id": "5deb723adeb28e00158cd803",
+        "name": {
+          "first": "Trip Store",
+          "last": "Krabi"
         }
       },
       "upvotes": 0
