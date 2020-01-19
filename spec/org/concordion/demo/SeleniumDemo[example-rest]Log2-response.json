@@ -1,175 +1,6 @@
 {
   "all": [
     {
-      "_id": "5b4910ae0508220014ccfe90",
-      "text": "Cats can hear the ultrasonic noises that rodents and dolphins make to communicate.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 10
-    },
-    {
-      "_id": "58e008b80aac31001185ed0d",
-      "text": "Adult cats only meow to communicate with humans.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 9
-    },
-    {
-      "_id": "58e00b970aac31001185edf9",
-      "text": "A house cat is faster than Usain Bolt.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 8
-    },
-    {
-      "_id": "58e009650aac31001185ed13",
-      "text": "In the 1960s, the CIA tried to turn a cat into a bonafide spy by implanting a microphone into her ear and a radio transmitter at the base of her skull. She somehow survived the surgery but got hit by a taxi on her first mission.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 7
-    },
-    {
-      "_id": "58e00af60aac31001185ed1d",
-      "text": "It was illegal to slay cats in ancient Egypt, in large part because they provided the great service of controlling the rat population.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 7
-    },
-    {
-      "_id": "58e009550aac31001185ed12",
-      "text": "The oldest cat video on YouTube dates back to 1894.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 6
-    },
-    {
-      "_id": "58e008340aac31001185ecfb",
-      "text": "Cats sleep 70% of their lives.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 6
-    },
-    {
-      "_id": "599f87db9a11040c4a16343f",
-      "text": "The goddess of love, beauty, and fertility in Norse mythology, Freyja was the first cat lady. She is depicted in stories as riding a chariot that was drawn by cats.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 6
-    },
-    {
-      "_id": "5894af975cdc7400113ef7f9",
-      "text": "The technical term for a cat’s hairball is a bezoar.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 6
-    },
-    {
-      "_id": "5b0c5e3e7ab3c50014df65fe",
-      "text": "People who own cats have on average 2.1 pets per household, where dog owners have about 1.6.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 6
-    },
-    {
-      "_id": "58e00a000aac31001185ed15",
-      "text": "Female cats are typically right-pawed while male cats are typically left-pawed.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 6
-    },
-    {
-      "_id": "58e00a1a0aac31001185ed18",
-      "text": "Cats and humans have nearly identical sections of the brain that control emotion.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 6
-    },
-    {
-      "_id": "58e0088b0aac31001185ed09",
-      "text": "The world\u0027s largest cat measured 48.5 inches long.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 6
-    },
-    {
       "_id": "58e00b4d0aac31001185ed22",
       "text": "Original kitty litter was made out of sand but it was replaced by more absorbent clay in 1948.",
       "type": "cat",
@@ -2698,19 +2529,6 @@
       "upvotes": 0
     },
     {
-      "_id": "5e176477e2a65e0015f2f4c8",
-      "type": "cat",
-      "text": "Fuck you.",
-      "user": {
-        "_id": "5e176459e2a65e0015f2f4c7",
-        "name": {
-          "first": "Peter",
-          "last": "Feix"
-        }
-      },
-      "upvotes": 0
-    },
-    {
       "_id": "5e19da391fd6150015fa7356",
       "type": "cat",
       "text": "\"Cats can hear the ultrasonic noises that rodents and dolphins make to communicate.\".",
@@ -2724,14 +2542,27 @@
       "upvotes": 0
     },
     {
-      "_id": "5e1a9bc91fd6150015fa7371",
+      "_id": "5e1efba858449a0015ce4783",
       "type": "cat",
-      "text": "Alex\u0027s cat is named gato.",
+      "text": "\"A house cat is faster than Usain Bolt.\".",
       "user": {
-        "_id": "5e1a9b981fd6150015fa736f",
+        "_id": "5e1efb5958449a0015ce4781",
         "name": {
-          "first": "Andrew",
-          "last": "Pobrica"
+          "first": "oyaji",
+          "last": "55"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5e239999dc76630015d4c5e2",
+      "type": "cat",
+      "text": "Cats see only on blue and yellow.",
+      "user": {
+        "_id": "5e239963dc76630015d4c5e1",
+        "name": {
+          "first": "Eduardo",
+          "last": "P. Gomez"
         }
       },
       "upvotes": 0
@@ -2888,19 +2719,6 @@
         "name": {
           "first": "Alex",
           "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 0
-    },
-    {
-      "_id": "5e10d6bc1c78ab0015bc5b13",
-      "type": "cat",
-      "text": "Hey.",
-      "user": {
-        "_id": "5e10d6421c78ab0015bc5b0e",
-        "name": {
-          "first": "Max",
-          "last": "Bilohatniuk"
         }
       },
       "upvotes": 0
