@@ -1,47 +1,8 @@
 {
   "all": [
     {
-      "_id": "58e00b4d0aac31001185ed22",
-      "text": "Original kitty litter was made out of sand but it was replaced by more absorbent clay in 1948.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 5
-    },
-    {
       "_id": "58e008ad0aac31001185ed0c",
       "text": "The frequency of a domestic cat\u0027s purr is the same at which muscles and bones repair themselves.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 5
-    },
-    {
-      "_id": "58e00a7e0aac31001185ed19",
-      "text": "A cat\u0027s cerebral cortex (the part of the brain in charge of cognitive information processing) has 300 million neurons, compared with a dog\u0027s 160 million.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 5
-    },
-    {
-      "_id": "58e00b1f0aac31001185ed1e",
-      "text": "In the 15th century, Pope Innocent VIII began ordering the killing of cats, pronouncing them demonic.",
       "type": "cat",
       "user": {
         "_id": "58e007480aac31001185ecef",
@@ -74,19 +35,6 @@
         "name": {
           "first": "Alex",
           "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 5
-    },
-    {
-      "_id": "58e00b2b0aac31001185ed1f",
-      "text": "A cat has five toes on his front paws, and four on the back, unless he\u0027s a polydactyl.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
         }
       },
       "upvotes": 5
@@ -131,19 +79,6 @@
       "upvotes": 5
     },
     {
-      "_id": "58f89cff11658e00113ddd26",
-      "text": "Cats love to eat olives or for that matter anything preserved in brine.",
-      "type": "cat",
-      "user": {
-        "_id": "58f89c8d11658e00113ddd24",
-        "name": {
-          "first": "Malvika",
-          "last": "Tewari"
-        }
-      },
-      "upvotes": 5
-    },
-    {
       "_id": "599f89639a11040c4a163440",
       "text": "Here is a video of some cats in zero gravity. youtu.be/O9XtK6R1QAk",
       "type": "cat",
@@ -165,19 +100,6 @@
         "name": {
           "first": "Alex",
           "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 5
-    },
-    {
-      "_id": "5955792c7b77520020799431",
-      "text": "Cats \"knead\" because of seperation from their mothers",
-      "type": "cat",
-      "user": {
-        "_id": "595579027b77520020799430",
-        "name": {
-          "first": "Is It Still Memes That",
-          "last": "Make You Sweat?"
         }
       },
       "upvotes": 5
@@ -2563,6 +2485,19 @@
         "name": {
           "first": "Eduardo",
           "last": "P. Gomez"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5e27232ec71d0900152d8518",
+      "type": "cat",
+      "text": "Cats are dumb.",
+      "user": {
+        "_id": "5e272323c71d0900152d8517",
+        "name": {
+          "first": "Andrew",
+          "last": "Steele"
         }
       },
       "upvotes": 0
