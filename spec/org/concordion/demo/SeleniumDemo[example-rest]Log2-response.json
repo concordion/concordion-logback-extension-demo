@@ -11,7 +11,7 @@
           "last": "Schulz"
         }
       },
-      "upvotes": 7
+      "upvotes": 8
     },
     {
       "_id": "5b199196ce456e001424256a",
@@ -2758,6 +2758,19 @@
         "name": {
           "first": "Durgarao",
           "last": "R"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5e4c4e10a38ae60015b04a7e",
+      "type": "cat",
+      "text": "Cats think humans have night vision too, so when we step on their tail in the middle of the night, they think it\u0027s on purpose.",
+      "user": {
+        "_id": "5e4c4dc5a38ae60015b04a7d",
+        "name": {
+          "first": "Nathaniel J",
+          "last": "McDermott"
         }
       },
       "upvotes": 0
