@@ -11,7 +11,59 @@
           "last": "Schulz"
         }
       },
-      "upvotes": 8
+      "upvotes": 10
+    },
+    {
+      "_id": "5b1b411d841d9700146158d9",
+      "text": "The Egyptian Mau’s name is derived from the Middle Egyptian word mjw, which means cat. But contrary to its name, it’s unclear whether the modern Egyptian Mau actually originated in Egypt.",
+      "type": "cat",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 6
+    },
+    {
+      "_id": "5b4912c60508220014ccfe99",
+      "text": "Cats aren’t the only animals that purr — squirrels, lemurs, elephants, and even gorillas purr too.",
+      "type": "cat",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 6
+    },
+    {
+      "_id": "5b4911940508220014ccfe94",
+      "text": "By the time a cat is 9 years old, it will only have been awake for three years of its life.",
+      "type": "cat",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 6
+    },
+    {
+      "_id": "59a60b8e6acf530020f3586e",
+      "text": "Cat owners are 17% more likely to have a graduate degree than non cat owners.",
+      "type": "cat",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 6
     },
     {
       "_id": "5b199196ce456e001424256a",
@@ -25,58 +77,6 @@
         }
       },
       "upvotes": 6
-    },
-    {
-      "_id": "5b1b411d841d9700146158d9",
-      "text": "The Egyptian Mau’s name is derived from the Middle Egyptian word mjw, which means cat. But contrary to its name, it’s unclear whether the modern Egyptian Mau actually originated in Egypt.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 5
-    },
-    {
-      "_id": "5b4912c60508220014ccfe99",
-      "text": "Cats aren’t the only animals that purr — squirrels, lemurs, elephants, and even gorillas purr too.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 5
-    },
-    {
-      "_id": "5b4911940508220014ccfe94",
-      "text": "By the time a cat is 9 years old, it will only have been awake for three years of its life.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 5
-    },
-    {
-      "_id": "59a60b8e6acf530020f3586e",
-      "text": "Cat owners are 17% more likely to have a graduate degree than non cat owners.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 5
     },
     {
       "_id": "599f89639a11040c4a163440",
@@ -2594,6 +2594,19 @@
       "upvotes": 0
     },
     {
+      "_id": "5e56fdf375991a0015429ffc",
+      "type": "cat",
+      "text": "Bbb.",
+      "user": {
+        "_id": "5e56fddd75991a0015429ffb",
+        "name": {
+          "first": "Cristian",
+          "last": "Salcedo"
+        }
+      },
+      "upvotes": 0
+    },
+    {
       "_id": "5d38baf20f1c57001592f14b",
       "type": "cat",
       "text": "The stationmaster of the Kishi rail station in western Japan until 2015 was a cat named Tama. The calico cat wore a stationmaster\u0027s cap and greeted visitors by the ticket gate. After her death, Tama was elevated to the status of a goddess in a Shinto-style funeral.",
@@ -2771,6 +2784,19 @@
         "name": {
           "first": "Nathaniel J",
           "last": "McDermott"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5e546a054e83e80015a0e320",
+      "type": "cat",
+      "text": "Contrary to popular belief, some cats actually don\u0027t mind water. The hairless Sphynx cat enjoys it, especially if it is warm.",
+      "user": {
+        "_id": "5e54675a4e83e80015a0e313",
+        "name": {
+          "first": "L\u0027hibou",
+          "last": "Ambigu"
         }
       },
       "upvotes": 0
