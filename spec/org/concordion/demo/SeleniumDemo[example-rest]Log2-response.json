@@ -14,6 +14,19 @@
       "upvotes": 10
     },
     {
+      "_id": "5b4911940508220014ccfe94",
+      "text": "By the time a cat is 9 years old, it will only have been awake for three years of its life.",
+      "type": "cat",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 7
+    },
+    {
       "_id": "5b1b411d841d9700146158d9",
       "text": "The Egyptian Mau’s name is derived from the Middle Egyptian word mjw, which means cat. But contrary to its name, it’s unclear whether the modern Egyptian Mau actually originated in Egypt.",
       "type": "cat",
@@ -29,19 +42,6 @@
     {
       "_id": "5b4912c60508220014ccfe99",
       "text": "Cats aren’t the only animals that purr — squirrels, lemurs, elephants, and even gorillas purr too.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 6
-    },
-    {
-      "_id": "5b4911940508220014ccfe94",
-      "text": "By the time a cat is 9 years old, it will only have been awake for three years of its life.",
       "type": "cat",
       "user": {
         "_id": "5a9ac18c7478810ea6c06381",
@@ -79,8 +79,8 @@
       "upvotes": 6
     },
     {
-      "_id": "599f89639a11040c4a163440",
-      "text": "Here is a video of some cats in zero gravity. youtu.be/O9XtK6R1QAk",
+      "_id": "591d9b2f227c1a0020d26823",
+      "text": "Every year, nearly four million cats are eaten in China as a delicacy.",
       "type": "cat",
       "user": {
         "_id": "5a9ac18c7478810ea6c06381",
@@ -92,8 +92,8 @@
       "upvotes": 5
     },
     {
-      "_id": "591d9b2f227c1a0020d26823",
-      "text": "Every year, nearly four million cats are eaten in China as a delicacy.",
+      "_id": "599f89639a11040c4a163440",
+      "text": "Here is a video of some cats in zero gravity. youtu.be/O9XtK6R1QAk",
       "type": "cat",
       "user": {
         "_id": "5a9ac18c7478810ea6c06381",
@@ -102,7 +102,7 @@
           "last": "Wohlbruck"
         }
       },
-      "upvotes": 4
+      "upvotes": 5
     },
     {
       "_id": "59951d5ef2db18002031693c",
@@ -261,6 +261,19 @@
       "upvotes": 4
     },
     {
+      "_id": "590c752b5363e000200d5141",
+      "text": "Kangaroos can\u0027t hop backwards",
+      "type": "cat",
+      "user": {
+        "_id": "590c74045363e000200d5140",
+        "name": {
+          "first": "Hampton",
+          "last": "McGrath"
+        }
+      },
+      "upvotes": 3
+    },
+    {
       "_id": "5b3bd7d24cf4e10014bfd199",
       "text": "The myth that a cat has nine lives comes from their ability to jump and land from high places. The number 9 is believed by some to originate from William Shakespeare\u0027s Romeo and Juliet: \"A cat has nine lives. For three he plays, for three he strays, and for the last three he stays.\"",
       "type": "cat",
@@ -308,19 +321,6 @@
         "name": {
           "first": "Jackson",
           "last": "Sippe"
-        }
-      },
-      "upvotes": 2
-    },
-    {
-      "_id": "590c752b5363e000200d5141",
-      "text": "Kangaroos can\u0027t hop backwards",
-      "type": "cat",
-      "user": {
-        "_id": "590c74045363e000200d5140",
-        "name": {
-          "first": "Hampton",
-          "last": "McGrath"
         }
       },
       "upvotes": 2
@@ -2607,6 +2607,71 @@
       "upvotes": 0
     },
     {
+      "_id": "5e5fa8834bbe5000159a40c8",
+      "type": "cat",
+      "text": "Helo.",
+      "user": {
+        "_id": "5e5fa8764bbe5000159a40c7",
+        "name": {
+          "first": "Umesh",
+          "last": "Golla"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5e6101691ef5490015babb5e",
+      "type": "cat",
+      "text": "4564.",
+      "user": {
+        "_id": "5e6101581ef5490015babb5d",
+        "name": {
+          "first": "Анна",
+          "last": "Абрамова"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5e6101741ef5490015babb5f",
+      "type": "cat",
+      "text": "46546.",
+      "user": {
+        "_id": "5e6101581ef5490015babb5d",
+        "name": {
+          "first": "Анна",
+          "last": "Абрамова"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5e63c838d681170015d920c6",
+      "type": "cat",
+      "text": "Persa.",
+      "user": {
+        "_id": "5e63c82dd681170015d920c5",
+        "name": {
+          "first": "Ivo",
+          "last": "Baptista"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5e64033ad681170015d920c9",
+      "type": "cat",
+      "text": "Speed.",
+      "user": {
+        "_id": "5e640328d681170015d920c8",
+        "name": {
+          "first": "Peter",
+          "last": "Seboyeng"
+        }
+      },
+      "upvotes": 0
+    },
+    {
       "_id": "5d38baf20f1c57001592f14b",
       "type": "cat",
       "text": "The stationmaster of the Kishi rail station in western Japan until 2015 was a cat named Tama. The calico cat wore a stationmaster\u0027s cap and greeted visitors by the ticket gate. After her death, Tama was elevated to the status of a goddess in a Shinto-style funeral.",
@@ -2758,19 +2823,6 @@
         "name": {
           "first": "Alex",
           "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 0
-    },
-    {
-      "_id": "5e353507cd8efb0015ae305d",
-      "type": "cat",
-      "text": "Test.",
-      "user": {
-        "_id": "5e3534b4cd8efb0015ae305b",
-        "name": {
-          "first": "Durgarao",
-          "last": "R"
         }
       },
       "upvotes": 0
