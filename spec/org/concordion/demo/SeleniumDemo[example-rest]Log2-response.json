@@ -2685,6 +2685,19 @@
       "upvotes": 0
     },
     {
+      "_id": "5e747f3e265890001533fcec",
+      "type": "cat",
+      "text": "貓貓.",
+      "user": {
+        "_id": "5e747f19265890001533fceb",
+        "name": {
+          "first": "橿",
+          "last": "孟"
+        }
+      },
+      "upvotes": 0
+    },
+    {
       "_id": "5d38baf20f1c57001592f14b",
       "type": "cat",
       "text": "The stationmaster of the Kishi rail station in western Japan until 2015 was a cat named Tama. The calico cat wore a stationmaster\u0027s cap and greeted visitors by the ticket gate. After her death, Tama was elevated to the status of a goddess in a Shinto-style funeral.",
