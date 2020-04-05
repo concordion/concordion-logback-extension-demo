@@ -11,11 +11,24 @@
           "last": "Schulz"
         }
       },
-      "upvotes": 14
+      "upvotes": 15
     },
     {
       "_id": "5b4911940508220014ccfe94",
       "text": "By the time a cat is 9 years old, it will only have been awake for three years of its life.",
+      "type": "cat",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 8
+    },
+    {
+      "_id": "59a60b8e6acf530020f3586e",
+      "text": "Cat owners are 17% more likely to have a graduate degree than non cat owners.",
       "type": "cat",
       "user": {
         "_id": "5a9ac18c7478810ea6c06381",
@@ -42,19 +55,6 @@
     {
       "_id": "5b4912c60508220014ccfe99",
       "text": "Cats aren’t the only animals that purr — squirrels, lemurs, elephants, and even gorillas purr too.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 6
-    },
-    {
-      "_id": "59a60b8e6acf530020f3586e",
-      "text": "Cat owners are 17% more likely to have a graduate degree than non cat owners.",
       "type": "cat",
       "user": {
         "_id": "5a9ac18c7478810ea6c06381",
@@ -3083,6 +3083,19 @@
         "name": {
           "first": "Ussama Bin",
           "last": "Naveed"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5e83ff18f53272001515690c",
+      "type": "cat",
+      "text": "Cats are capable of walking very precisely because, like all felines, they directly register; that is, they place each hind paw (almost) directly in the print of the corresponding fore paw, minimizing noise and visible tracks. This also provides sure footing for their hind paws when they navigate rough terrain.",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
         }
       },
       "upvotes": 0
