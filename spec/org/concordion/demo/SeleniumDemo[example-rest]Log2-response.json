@@ -11,7 +11,7 @@
           "last": "Schulz"
         }
       },
-      "upvotes": 15
+      "upvotes": 16
     },
     {
       "_id": "5b4911940508220014ccfe94",
@@ -3096,6 +3096,19 @@
         "name": {
           "first": "Alex",
           "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5e9082774602650015baaf8c",
+      "type": "cat",
+      "text": "Ddd.",
+      "user": {
+        "_id": "5e9082604602650015baaf8b",
+        "name": {
+          "first": "Daniel",
+          "last": "Hakak"
         }
       },
       "upvotes": 0
