@@ -1,73 +1,8 @@
 {
   "all": [
     {
-      "_id": "58e008ad0aac31001185ed0c",
-      "text": "The frequency of a domestic cat\u0027s purr is the same at which muscles and bones repair themselves.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 16
-    },
-    {
-      "_id": "5b4911940508220014ccfe94",
-      "text": "By the time a cat is 9 years old, it will only have been awake for three years of its life.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 8
-    },
-    {
-      "_id": "59a60b8e6acf530020f3586e",
-      "text": "Cat owners are 17% more likely to have a graduate degree than non cat owners.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 7
-    },
-    {
       "_id": "5b1b411d841d9700146158d9",
       "text": "The Egyptian Mau’s name is derived from the Middle Egyptian word mjw, which means cat. But contrary to its name, it’s unclear whether the modern Egyptian Mau actually originated in Egypt.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 6
-    },
-    {
-      "_id": "5b4912c60508220014ccfe99",
-      "text": "Cats aren’t the only animals that purr — squirrels, lemurs, elephants, and even gorillas purr too.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 6
-    },
-    {
-      "_id": "5b199196ce456e001424256a",
-      "text": "Cats can distinguish different flavors in water.",
       "type": "cat",
       "user": {
         "_id": "5a9ac18c7478810ea6c06381",
@@ -560,8 +495,47 @@
       "upvotes": 2
     },
     {
+      "_id": "5a4d75a38827521790281b99",
+      "text": "A cat can’t climb head first down a tree because every claw on a cat’s paw points the same way. To get down from a tree, a cat must back down.",
+      "type": "cat",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 2
+    },
+    {
       "_id": "5a4d766c6ef087002174c288",
       "text": "Some Siamese cats appear cross-eyed because the nerves from the left side of the brain go to mostly the right eye and the nerves from the right side of the brain go mostly to the left eye. This causes some double vision, which the cat tries to correct by “crossing” its eyes.",
+      "type": "cat",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 2
+    },
+    {
+      "_id": "5a4d776e6ef087002174c291",
+      "text": "The claws on the cat’s back paws aren’t as sharp as the claws on the front paws because the claws in the back don’t retract and, consequently, become worn.",
+      "type": "cat",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 2
+    },
+    {
+      "_id": "5b49110d0508220014ccfe91",
+      "text": "Issac Newton decided to invent the cat flap because his own cat, Spithead, kept opening the door and spoiling his light experiments.",
       "type": "cat",
       "user": {
         "_id": "5a9ac18c7478810ea6c06381",
@@ -581,6 +555,19 @@
         "name": {
           "first": "Kasimir",
           "last": "Schulz"
+        }
+      },
+      "upvotes": 2
+    },
+    {
+      "_id": "5b1b3f6c841d9700146158cd",
+      "text": "The Indiana State Prison allows prisoners to adopt a cat and keep it in their cell. They are meant to improve the mood of the prisoners.",
+      "type": "cat",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
         }
       },
       "upvotes": 2
@@ -989,19 +976,6 @@
       "upvotes": 1
     },
     {
-      "_id": "5a4d75a38827521790281b99",
-      "text": "A cat can’t climb head first down a tree because every claw on a cat’s paw points the same way. To get down from a tree, a cat must back down.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 1
-    },
-    {
       "_id": "5a4d75ac8827521790281b9a",
       "text": "The cat who holds the record for the longest non-fatal fall is Andy. He fell from the 16th floor of an apartment building (about 200 ft/.06 km) and survived.",
       "type": "cat",
@@ -1043,19 +1017,6 @@
     {
       "_id": "5a4d76b16ef087002174c28c",
       "text": "The first cartoon cat was Felix the Cat in 1919. In 1940, Tom and Jerry starred in the first theatrical cartoon “Puss Gets the Boot.” In 1981 Andrew Lloyd Weber created the musical Cats, based on T.S. Eliot’s Old Possum’s Book of Practical Cats.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 1
-    },
-    {
-      "_id": "5a4d776e6ef087002174c291",
-      "text": "The claws on the cat’s back paws aren’t as sharp as the claws on the front paws because the claws in the back don’t retract and, consequently, become worn.",
       "type": "cat",
       "user": {
         "_id": "5a9ac18c7478810ea6c06381",
@@ -1171,19 +1132,6 @@
       "upvotes": 1
     },
     {
-      "_id": "5b49110d0508220014ccfe91",
-      "text": "Issac Newton decided to invent the cat flap because his own cat, Spithead, kept opening the door and spoiling his light experiments.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 1
-    },
-    {
       "_id": "5b1b3fd8841d9700146158ce",
       "text": "Thank to an extremely efficient pair of kidneys, cats can hydrate themselves by drinking salt water.",
       "type": "cat",
@@ -1225,19 +1173,6 @@
     {
       "_id": "5b1b3f56841d9700146158cc",
       "text": "Cats lack antibodies against dog blood so they can only receive it via a transfusion once. The second time would kill them.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 1
-    },
-    {
-      "_id": "5b1b3f6c841d9700146158cd",
-      "text": "The Indiana State Prison allows prisoners to adopt a cat and keep it in their cell. They are meant to improve the mood of the prisoners.",
       "type": "cat",
       "user": {
         "_id": "5a9ac18c7478810ea6c06381",
@@ -1726,6 +1661,19 @@
       "_id": "5d38b7170f1c57001592f137",
       "type": "cat",
       "text": "The wild-looking but domestic Ocicat is named for its resemblance to the ocelot, a small South American wild cat.",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 1
+    },
+    {
+      "_id": "5d38bd180f1c57001592f154",
+      "type": "cat",
+      "text": "Cats are among only a few animals that walk by moving their two right legs one after another and then their two left legs, rather than moving diagonal limbs simultaneously. Giraffes and camels also have this quality.",
       "user": {
         "_id": "5a9ac18c7478810ea6c06381",
         "name": {
@@ -2425,6 +2373,32 @@
       "upvotes": 1
     },
     {
+      "_id": "5e4c4e10a38ae60015b04a7e",
+      "type": "cat",
+      "text": "Cats think humans have night vision too, so when we step on their tail in the middle of the night, they think it\u0027s on purpose.",
+      "user": {
+        "_id": "5e4c4dc5a38ae60015b04a7d",
+        "name": {
+          "first": "Nathaniel J",
+          "last": "McDermott"
+        }
+      },
+      "upvotes": 1
+    },
+    {
+      "_id": "5e83ff18f53272001515690c",
+      "type": "cat",
+      "text": "Cats are capable of walking very precisely because, like all felines, they directly register; that is, they place each hind paw (almost) directly in the print of the corresponding fore paw, minimizing noise and visible tracks. This also provides sure footing for their hind paws when they navigate rough terrain.",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 1
+    },
+    {
       "_id": "5e10d7841c78ab0015bc5b15",
       "type": "cat",
       "text": "Some cats do not eat fish.",
@@ -2971,19 +2945,6 @@
       "upvotes": 0
     },
     {
-      "_id": "5d38bd180f1c57001592f154",
-      "type": "cat",
-      "text": "Cats are among only a few animals that walk by moving their two right legs one after another and then their two left legs, rather than moving diagonal limbs simultaneously. Giraffes and camels also have this quality.",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 0
-    },
-    {
       "_id": "5d38bd750f1c57001592f155",
       "type": "cat",
       "text": "Legend holds that a goddess rewarded a temple cat\u0027s piety by turning the cat\u0027s eyes blue and his coat golden, thus creating the first Birman cat.",
@@ -3036,19 +2997,6 @@
       "upvotes": 0
     },
     {
-      "_id": "5e4c4e10a38ae60015b04a7e",
-      "type": "cat",
-      "text": "Cats think humans have night vision too, so when we step on their tail in the middle of the night, they think it\u0027s on purpose.",
-      "user": {
-        "_id": "5e4c4dc5a38ae60015b04a7d",
-        "name": {
-          "first": "Nathaniel J",
-          "last": "McDermott"
-        }
-      },
-      "upvotes": 0
-    },
-    {
       "_id": "5e546a054e83e80015a0e320",
       "type": "cat",
       "text": "Contrary to popular belief, some cats actually don\u0027t mind water. The hairless Sphynx cat enjoys it, especially if it is warm.",
@@ -3088,19 +3036,6 @@
       "upvotes": 0
     },
     {
-      "_id": "5e83ff18f53272001515690c",
-      "type": "cat",
-      "text": "Cats are capable of walking very precisely because, like all felines, they directly register; that is, they place each hind paw (almost) directly in the print of the corresponding fore paw, minimizing noise and visible tracks. This also provides sure footing for their hind paws when they navigate rough terrain.",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 0
-    },
-    {
       "_id": "5e9082774602650015baaf8c",
       "type": "cat",
       "text": "Ddd.",
@@ -3109,6 +3044,32 @@
         "name": {
           "first": "Daniel",
           "last": "Hakak"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5e969657fed20b00159b9458",
+      "type": "cat",
+      "text": "2084132656.",
+      "user": {
+        "_id": "5e969647fed20b00159b9457",
+        "name": {
+          "first": "Gregorio",
+          "last": "Esparsen"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5e96968afed20b00159b9459",
+      "type": "cat",
+      "text": "4256358311.",
+      "user": {
+        "_id": "5e969647fed20b00159b9457",
+        "name": {
+          "first": "Gregorio",
+          "last": "Esparsen"
         }
       },
       "upvotes": 0
