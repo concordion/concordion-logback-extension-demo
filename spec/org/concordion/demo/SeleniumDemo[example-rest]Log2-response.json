@@ -1,99 +1,8 @@
 {
   "all": [
     {
-      "_id": "5b01a447c6914f0014cc9a30",
-      "text": "The special sensory organ called the Jacobson\u0027s organ allows a cat to have 14 times the sense of smell of a human. It consists of two fluid-filled sacs that connect to the cat\u0027s nasal cavity and is located on the roof of their mouth behind their teeth.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 4
-    },
-    {
-      "_id": "58e008800aac31001185ed07",
-      "text": "Wikipedia has a recording of a cat meowing, because why not?",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 4
-    },
-    {
       "_id": "5b1b4055841d9700146158d3",
       "text": "Scottish sailer Alexander Selkirk once survived for 4 years on a deserted island thanks to feral cats that protected him from large rats during the night.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 4
-    },
-    {
-      "_id": "5a4d76916ef087002174c28b",
-      "text": "A cat’s nose pad is ridged with a unique pattern, just like the fingerprint of a human.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 4
-    },
-    {
-      "_id": "58e009790aac31001185ed14",
-      "text": "The technical term for \"hairball\" is \"bezoar.\"",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 4
-    },
-    {
-      "_id": "58e00a120aac31001185ed17",
-      "text": "A cat\u0027s brain is 90% similar to a human\u0027s — more similar than to a dog\u0027s.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 4
-    },
-    {
-      "_id": "5974fb4dfedacb0020b5b4cc",
-      "text": "Cats can survive falls from up to 65 feet or more.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 4
-    },
-    {
-      "_id": "5b1b4014841d9700146158d0",
-      "text": "In 1879, Belgium unsuccessfully tried to use cats to deliver mail.",
       "type": "cat",
       "user": {
         "_id": "5a9ac18c7478810ea6c06381",
@@ -2472,6 +2381,32 @@
         "name": {
           "first": "Alex",
           "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5ea7496761cd4d0017498a94",
+      "type": "cat",
+      "text": "Ancient sailors believed that cats were magic and would often risk their own lives, even in an \"every man for himself\" situation, to save a cat from a sinking ship. All ships had at least one ship\u0027s cat as cats would eat the rats that have always plagued ships. The ship\u0027s cat would often be given a rank and sailors would generally take excessively good care of their cats.",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5eaafca69105ce00177573de",
+      "type": "cat",
+      "text": "Cats sleep most of the time.",
+      "user": {
+        "_id": "5ea977d1cd53d20017d7d8b2",
+        "name": {
+          "first": "Quang",
+          "last": "Pham"
         }
       },
       "upvotes": 0

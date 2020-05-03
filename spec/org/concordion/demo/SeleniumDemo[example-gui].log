@@ -1,5 +1,5 @@
-26-04-2020 22:01:35.359 DEBUG selenium.events - [By.name: q] - changed value to '6 * 9'
-26-04-2020 22:01:37.064 DEBUG selenium.events - org.openqa.selenium.StaleElementReferenceException
+03-05-2020 22:01:57.943 DEBUG selenium.events - [By.name: q] - changed value to '6 * 9'
+03-05-2020 22:01:59.695 DEBUG selenium.events - org.openqa.selenium.StaleElementReferenceException
 org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
   (Session info: chrome=62.0.3202.94)
   (Driver info: chromedriver=2.35 (0),platform=Linux 4.4.0-101-generic x86_64) (WARNING: The server did not provide any stacktrace information)
@@ -9,7 +9,7 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'localhost', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '1.8.0_151'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35 (0), userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}
-Session ID: a1a35577cd3afb0894c1ec7004c7d5d6
+Session ID: 30768dca1ece6148e5681ceb8ff08880
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -176,4 +176,4 @@ Session ID: a1a35577cd3afb0894c1ec7004c7d5d6
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 	at java.lang.Thread.run(Thread.java:748)
-26-04-2020 22:01:37.065 DEBUG selenium.events - [By.name: q] - changed value
+03-05-2020 22:01:59.696 DEBUG selenium.events - [By.name: q] - changed value
