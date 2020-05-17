@@ -1,84 +1,6 @@
 {
   "all": [
     {
-      "_id": "58e008ad0aac31001185ed0c",
-      "text": "The frequency of a domestic cat\u0027s purr is the same at which muscles and bones repair themselves.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 18
-    },
-    {
-      "_id": "591d9bb2227c1a0020d26826",
-      "text": "The CIA spent US$20 million in the 60s training cats to spy on the Soviets. The first spy cat was hit by a taxi.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 17
-    },
-    {
-      "_id": "588e746706ac2b00110e59ff",
-      "text": "Domestic cats spend about 70 percent of the day sleeping and 15 percent of the day grooming.",
-      "type": "cat",
-      "user": {
-        "_id": "588e6e8806ac2b00110e59c3",
-        "name": {
-          "first": "Thomas",
-          "last": "Lockwood"
-        }
-      },
-      "upvotes": 12
-    },
-    {
-      "_id": "58e007f50aac31001185ecf8",
-      "text": "A group of cats is called a clowder.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 10
-    },
-    {
-      "_id": "5b1b40d4841d9700146158d8",
-      "text": "Koko the gorilla got a pet cat for her birthday in 1985 after she requested to have one as a birthday present.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 10
-    },
-    {
-      "_id": "58e009420aac31001185ed11",
-      "text": "Basically all cartoon cats lied to us: Raw fish is off the table for cats as well.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 10
-    },
-    {
       "_id": "5b4910ae0508220014ccfe90",
       "text": "Cats can hear the ultrasonic noises that rodents and dolphins make to communicate.",
       "type": "cat",
@@ -89,7 +11,7 @@
           "last": "Wohlbruck"
         }
       },
-      "upvotes": 10
+      "upvotes": 11
     },
     {
       "_id": "58f8d7b98098c80011c50a42",
@@ -209,6 +131,19 @@
       "upvotes": 7
     },
     {
+      "_id": "5b1b411d841d9700146158d9",
+      "text": "The Egyptian Mau’s name is derived from the Middle Egyptian word mjw, which means cat. But contrary to its name, it’s unclear whether the modern Egyptian Mau actually originated in Egypt.",
+      "type": "cat",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 7
+    },
+    {
       "_id": "5b4912c60508220014ccfe99",
       "text": "Cats aren’t the only animals that purr — squirrels, lemurs, elephants, and even gorillas purr too.",
       "type": "cat",
@@ -289,19 +224,6 @@
     {
       "_id": "5894af975cdc7400113ef7f9",
       "text": "The technical term for a cat’s hairball is a bezoar.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 6
-    },
-    {
-      "_id": "5b1b411d841d9700146158d9",
-      "text": "The Egyptian Mau’s name is derived from the Middle Egyptian word mjw, which means cat. But contrary to its name, it’s unclear whether the modern Egyptian Mau actually originated in Egypt.",
       "type": "cat",
       "user": {
         "_id": "5a9ac18c7478810ea6c06381",
@@ -2875,6 +2797,19 @@
         "name": {
           "first": "Lulu",
           "last": "Dauphin"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5ebbf5dd8046d00017776020",
+      "type": "cat",
+      "text": "Cats are fat, sometimes.",
+      "user": {
+        "_id": "5ebbf5cd8046d0001777601f",
+        "name": {
+          "first": "George",
+          "last": "Miguel"
         }
       },
       "upvotes": 0
