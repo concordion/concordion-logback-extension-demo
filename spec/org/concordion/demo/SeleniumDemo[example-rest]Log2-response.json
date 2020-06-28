@@ -1,84 +1,6 @@
 {
   "all": [
     {
-      "_id": "58e008340aac31001185ecfb",
-      "text": "Cats sleep 70% of their lives.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 6
-    },
-    {
-      "_id": "599f87db9a11040c4a16343f",
-      "text": "The goddess of love, beauty, and fertility in Norse mythology, Freyja was the first cat lady. She is depicted in stories as riding a chariot that was drawn by cats.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 6
-    },
-    {
-      "_id": "5894af975cdc7400113ef7f9",
-      "text": "The technical term for a cat’s hairball is a bezoar.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 6
-    },
-    {
-      "_id": "5b0c5e3e7ab3c50014df65fe",
-      "text": "People who own cats have on average 2.1 pets per household, where dog owners have about 1.6.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 6
-    },
-    {
-      "_id": "58e00a1a0aac31001185ed18",
-      "text": "Cats and humans have nearly identical sections of the brain that control emotion.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 6
-    },
-    {
-      "_id": "58e0088b0aac31001185ed09",
-      "text": "The world\u0027s largest cat measured 48.5 inches long.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 6
-    },
-    {
       "_id": "58e00b4d0aac31001185ed22",
       "text": "Original kitty litter was made out of sand but it was replaced by more absorbent clay in 1948.",
       "type": "cat",
@@ -2732,6 +2654,32 @@
         "name": {
           "first": "Ricky",
           "last": "Chon"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5ef556dff61f300017030d4c",
+      "type": "cat",
+      "text": "Lucy, the oldest cat ever, lived to be 39 years old which is equivalent to 172 cat years.",
+      "user": {
+        "_id": "5e1a9b981fd6150015fa736f",
+        "name": {
+          "first": "Andrew",
+          "last": "Pobrica"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5ef5bbdbf61f300017030d4f",
+      "type": "cat",
+      "text": "Fdfd.",
+      "user": {
+        "_id": "5ef5bbcdf61f300017030d4e",
+        "name": {
+          "first": "Touch",
+          "last": "Akhil"
         }
       },
       "upvotes": 0
