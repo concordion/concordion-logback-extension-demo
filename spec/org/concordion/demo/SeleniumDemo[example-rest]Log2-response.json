@@ -1,71 +1,6 @@
 {
   "all": [
     {
-      "_id": "58e009650aac31001185ed13",
-      "text": "In the 1960s, the CIA tried to turn a cat into a bonafide spy by implanting a microphone into her ear and a radio transmitter at the base of her skull. She somehow survived the surgery but got hit by a taxi on her first mission.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 8
-    },
-    {
-      "_id": "58e00af60aac31001185ed1d",
-      "text": "It was illegal to slay cats in ancient Egypt, in large part because they provided the great service of controlling the rat population.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 8
-    },
-    {
-      "_id": "5e236d6bdc76630015d4c51f",
-      "type": "cat",
-      "text": "gato loves grace",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 8
-    },
-    {
-      "_id": "5b4912c60508220014ccfe99",
-      "text": "Cats aren’t the only animals that purr — squirrels, lemurs, elephants, and even gorillas purr too.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 8
-    },
-    {
-      "_id": "5b199196ce456e001424256a",
-      "text": "Cats can distinguish different flavors in water.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 8
-    },
-    {
       "_id": "599f87db9a11040c4a16343f",
       "text": "The goddess of love, beauty, and fertility in Norse mythology, Freyja was the first cat lady. She is depicted in stories as riding a chariot that was drawn by cats.",
       "type": "cat",
@@ -81,19 +16,6 @@
     {
       "_id": "5b1b411d841d9700146158d9",
       "text": "The Egyptian Mau’s name is derived from the Middle Egyptian word mjw, which means cat. But contrary to its name, it’s unclear whether the modern Egyptian Mau actually originated in Egypt.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 7
-    },
-    {
-      "_id": "59a60b8e6acf530020f3586e",
-      "text": "Cat owners are 17% more likely to have a graduate degree than non cat owners.",
       "type": "cat",
       "user": {
         "_id": "5a9ac18c7478810ea6c06381",
@@ -926,6 +848,19 @@
     {
       "_id": "5a36ec5fae877e0021ed79f5",
       "text": "It has been estimated that a cat yawns on the average of 109,500 times in his life.",
+      "type": "cat",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 2
+    },
+    {
+      "_id": "5a4d77446ef087002174c290",
+      "text": "Approximately 1/3 of cat owners think their pets are able to read their minds.",
       "type": "cat",
       "user": {
         "_id": "5a9ac18c7478810ea6c06381",
@@ -2048,19 +1983,6 @@
       "upvotes": 1
     },
     {
-      "_id": "5a4d77446ef087002174c290",
-      "text": "Approximately 1/3 of cat owners think their pets are able to read their minds.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 1
-    },
-    {
       "_id": "5c69c3ecc2d7a200140f67eb",
       "text": "The average female housecat could give birth to ove 100 kittens in her lifetime.",
       "type": "cat",
@@ -2633,6 +2555,32 @@
       "upvotes": 1
     },
     {
+      "_id": "5f605bbab2e4b7001719b256",
+      "type": "cat",
+      "text": "Sry.",
+      "user": {
+        "_id": "5f5f145fb2e4b7001719b196",
+        "name": {
+          "first": "Yurii",
+          "last": "Starinov"
+        }
+      },
+      "upvotes": 1
+    },
+    {
+      "_id": "5f6062788ade8300170a25c6",
+      "type": "cat",
+      "text": "Cats can not be spelled as \u0027test\u0027.",
+      "user": {
+        "_id": "5f5f145fb2e4b7001719b196",
+        "name": {
+          "first": "Yurii",
+          "last": "Starinov"
+        }
+      },
+      "upvotes": 1
+    },
+    {
       "_id": "5e10d7841c78ab0015bc5b15",
       "type": "cat",
       "text": "Some cats do not eat fish.",
@@ -2666,6 +2614,19 @@
         "_id": "5f57459d266c0600175937e9",
         "name": {
           "first": "Yury",
+          "last": "Starinov"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5f5f7269b2e4b7001719b1a4",
+      "type": "cat",
+      "text": "Cats can be spelled as \u0027dogs\u0027.",
+      "user": {
+        "_id": "5f5f145fb2e4b7001719b196",
+        "name": {
+          "first": "Yurii",
           "last": "Starinov"
         }
       },
@@ -3075,6 +3036,71 @@
       "upvotes": 0
     },
     {
+      "_id": "5f60f31d8ade8300170a25d4",
+      "type": "cat",
+      "text": "1.",
+      "user": {
+        "_id": "5f60f30f8ade8300170a25d3",
+        "name": {
+          "first": "Aleksandra",
+          "last": "Firsova"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5f60f3228ade8300170a25d5",
+      "type": "cat",
+      "text": "2.",
+      "user": {
+        "_id": "5f60f30f8ade8300170a25d3",
+        "name": {
+          "first": "Aleksandra",
+          "last": "Firsova"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5f60f3268ade8300170a25d6",
+      "type": "cat",
+      "text": "123.",
+      "user": {
+        "_id": "5f60f30f8ade8300170a25d3",
+        "name": {
+          "first": "Aleksandra",
+          "last": "Firsova"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5f62698e2e6208001763fc74",
+      "type": "cat",
+      "text": "Test.",
+      "user": {
+        "_id": "5f6269872e6208001763fc73",
+        "name": {
+          "first": "Ariana",
+          "last": "Mihailescu"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5f65782b2da500001732b82a",
+      "type": "cat",
+      "text": "Grateful.",
+      "user": {
+        "_id": "5f6577fa2da500001732b829",
+        "name": {
+          "first": "然",
+          "last": "皎"
+        }
+      },
+      "upvotes": 0
+    },
+    {
       "_id": "5d38baf20f1c57001592f14b",
       "type": "cat",
       "text": "The stationmaster of the Kishi rail station in western Japan until 2015 was a cat named Tama. The calico cat wore a stationmaster\u0027s cap and greeted visitors by the ticket gate. After her death, Tama was elevated to the status of a goddess in a Shinto-style funeral.",
@@ -3317,6 +3343,19 @@
         "name": {
           "first": "Алексей",
           "last": "Степанов"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5f60565ab2e4b7001719b254",
+      "type": "cat",
+      "text": "Cats can be spelled as \u0027test\u0027.",
+      "user": {
+        "_id": "5f5f145fb2e4b7001719b196",
+        "name": {
+          "first": "Yurii",
+          "last": "Starinov"
         }
       },
       "upvotes": 0
