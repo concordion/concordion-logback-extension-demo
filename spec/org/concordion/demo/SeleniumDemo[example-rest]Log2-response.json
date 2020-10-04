@@ -11,6 +11,19 @@
           "last": "Wohlbruck"
         }
       },
+      "upvotes": 8
+    },
+    {
+      "_id": "58e0088b0aac31001185ed09",
+      "text": "The world\u0027s largest cat measured 48.5 inches long.",
+      "type": "cat",
+      "user": {
+        "_id": "58e007480aac31001185ecef",
+        "name": {
+          "first": "Kasimir",
+          "last": "Schulz"
+        }
+      },
       "upvotes": 7
     },
     {
@@ -68,19 +81,6 @@
     {
       "_id": "58e00a1a0aac31001185ed18",
       "text": "Cats and humans have nearly identical sections of the brain that control emotion.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 6
-    },
-    {
-      "_id": "58e0088b0aac31001185ed09",
-      "text": "The world\u0027s largest cat measured 48.5 inches long.",
       "type": "cat",
       "user": {
         "_id": "58e007480aac31001185ecef",
@@ -3109,6 +3109,19 @@
         "name": {
           "first": "Taib",
           "last": "Lokman"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5f78c0a36577fb00175d47d9",
+      "type": "cat",
+      "text": "My Cat is an idiot.",
+      "user": {
+        "_id": "5f78c08e6577fb00175d47d8",
+        "name": {
+          "first": "Arun",
+          "last": "Sudharsan"
         }
       },
       "upvotes": 0
