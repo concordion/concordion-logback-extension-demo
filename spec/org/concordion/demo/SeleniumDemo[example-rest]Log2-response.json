@@ -1,19 +1,6 @@
 {
   "all": [
     {
-      "_id": "5b1b411d841d9700146158d9",
-      "text": "The Egyptian Mau’s name is derived from the Middle Egyptian word mjw, which means cat. But contrary to its name, it’s unclear whether the modern Egyptian Mau actually originated in Egypt.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 8
-    },
-    {
       "_id": "58e0088b0aac31001185ed09",
       "text": "The world\u0027s largest cat measured 48.5 inches long.",
       "type": "cat",
@@ -391,6 +378,32 @@
       "upvotes": 3
     },
     {
+      "_id": "591d9bce227c1a0020d26827",
+      "text": "In Korea and Japan, there is a Cat Cafe where you can go to drink coffee and hang out with cats for hours.",
+      "type": "cat",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 3
+    },
+    {
+      "_id": "58e00ba00aac31001185edfa",
+      "text": "When cats leave their poop uncovered, it is a sign of aggression to let you know they don\u0027t fear you.",
+      "type": "cat",
+      "user": {
+        "_id": "58e007480aac31001185ecef",
+        "name": {
+          "first": "Kasimir",
+          "last": "Schulz"
+        }
+      },
+      "upvotes": 3
+    },
+    {
       "_id": "5a038dae8e3dbc001f719792",
       "text": "Cucumbers look enough like a snake to cause a cat\u0027s instinctive fear of snakes to kick in, causing it to panic and flee.",
       "type": "cat",
@@ -586,32 +599,6 @@
       "upvotes": 2
     },
     {
-      "_id": "591d9bce227c1a0020d26827",
-      "text": "In Korea and Japan, there is a Cat Cafe where you can go to drink coffee and hang out with cats for hours.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 2
-    },
-    {
-      "_id": "58e00ba00aac31001185edfa",
-      "text": "When cats leave their poop uncovered, it is a sign of aggression to let you know they don\u0027t fear you.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 2
-    },
-    {
       "_id": "591d9bab227c1a0020d26825",
       "text": "Owning a cat can reduce the risk of heart attacks and strokes by more than a third, researchers found.",
       "type": "cat",
@@ -781,9 +768,152 @@
       "upvotes": 2
     },
     {
+      "_id": "5c6a104fc2d7a200140f699f",
+      "text": "A cat’s spine can rotate more than the spines of most other animals, and their vertebrae have a special, flexible, elastic cushioning on the disks, which gives it even more flexibility.",
+      "type": "cat",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 2
+    },
+    {
       "_id": "5c6a105dc2d7a200140f69a0",
       "text": "When cats run, their backs contract and extend to give them maximum stride. Their shoulder blades are not attached with bone, but with muscle, and this gives a cat even greater extension and speed.",
       "type": "cat",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 2
+    },
+    {
+      "_id": "5c72d9b651021f001415f00c",
+      "text": "Cats have been domesticated for around 4,000 years. While they were once valued for their hunting abilities, they are now valued for their companionship and loving behavior.",
+      "type": "cat",
+      "user": {
+        "_id": "5c6fd96df4256a001498a73f",
+        "name": {
+          "first": "Hedvig",
+          "last": "Annersten"
+        }
+      },
+      "upvotes": 2
+    },
+    {
+      "_id": "5c72dbd851021f001415f010",
+      "text": "The most popular pedigreed cat in North America is the Persian cat, followed by the Main Coon and the Siamese cat.",
+      "type": "cat",
+      "user": {
+        "_id": "5c72dbb751021f001415f00f",
+        "name": {
+          "first": "Hedvig",
+          "last": "Annersten"
+        }
+      },
+      "upvotes": 2
+    },
+    {
+      "_id": "5d38afd60f1c57001592f127",
+      "type": "cat",
+      "text": "In the early 1980s, a Chinchilla Persian cat named Jemari Sanquist mated with a Lilac Burmese named Bambino Lilac Fabergé, producing the Burmilla breed.",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 2
+    },
+    {
+      "_id": "5d38b0310f1c57001592f128",
+      "type": "cat",
+      "text": "Scratching allows a cat to shed the outer layers of her claws, mark her territory, and stretch her body. Rather than discouraging the scratching behavior altogether, try redirecting your cat to a few scratching posts placed strategically around your home.",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 2
+    },
+    {
+      "_id": "5d38b0c40f1c57001592f129",
+      "type": "cat",
+      "text": "The elegant Balinese is a longhaired variety of the Siamese, and like the Siamese, this stunning breed is sociable and intelligent. The breed was named for the grace of the dancers on the island of Bali in Indonesia.",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 2
+    },
+    {
+      "_id": "5d38b16c0f1c57001592f12b",
+      "type": "cat",
+      "text": "A large number of cats inhabit the Largo di Torre Argentina, an ancient Roman temple site near where Caesar was killed. Local volunteers care for the cats.",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 2
+    },
+    {
+      "_id": "5d38b2270f1c57001592f12d",
+      "type": "cat",
+      "text": "Among the British government officials who keep things running smoothly at 10 Downing Street is Larry, a cat that holds the distinguished position of Chief Mouser. Larry\u0027s duties, according to the U.K. government, include \"greeting guests\", \"testing antique furniture for napping quality\", and \"contemplating a solution to the mouse occupancy of the house.\".",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 2
+    },
+    {
+      "_id": "5d38b27b0f1c57001592f12f",
+      "type": "cat",
+      "text": "The Norwegian Forest Cat is called \"skogcatt\" in its homeland of Norway and plays a role in the Norwegian fairy tales and legends.",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 2
+    },
+    {
+      "_id": "5d38b29f0f1c57001592f130",
+      "type": "cat",
+      "text": "The Abyssinian, the Siamese, and the American Shorthair were crossbred to produce the Ocicat breed.",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 2
+    },
+    {
+      "_id": "5d38b6280f1c57001592f133",
+      "type": "cat",
+      "text": "Some animal shelters require kittens be adopted in pairs to ensure they came from the same litter.",
       "user": {
         "_id": "5a9ac18c7478810ea6c06381",
         "name": {
@@ -1635,149 +1765,6 @@
       "_id": "5c69c4eec2d7a200140f67ef",
       "text": "The Sphynx was originally known as the Canadian Hairless Cat. The breed originated in Toronto, and was renamed to Sphynx, a nod to the famous limestone sculpture in the Egyptian Desert.",
       "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 1
-    },
-    {
-      "_id": "5c6a104fc2d7a200140f699f",
-      "text": "A cat’s spine can rotate more than the spines of most other animals, and their vertebrae have a special, flexible, elastic cushioning on the disks, which gives it even more flexibility.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 1
-    },
-    {
-      "_id": "5c72d9b651021f001415f00c",
-      "text": "Cats have been domesticated for around 4,000 years. While they were once valued for their hunting abilities, they are now valued for their companionship and loving behavior.",
-      "type": "cat",
-      "user": {
-        "_id": "5c6fd96df4256a001498a73f",
-        "name": {
-          "first": "Hedvig",
-          "last": "Annersten"
-        }
-      },
-      "upvotes": 1
-    },
-    {
-      "_id": "5c72dbd851021f001415f010",
-      "text": "The most popular pedigreed cat in North America is the Persian cat, followed by the Main Coon and the Siamese cat.",
-      "type": "cat",
-      "user": {
-        "_id": "5c72dbb751021f001415f00f",
-        "name": {
-          "first": "Hedvig",
-          "last": "Annersten"
-        }
-      },
-      "upvotes": 1
-    },
-    {
-      "_id": "5d38afd60f1c57001592f127",
-      "type": "cat",
-      "text": "In the early 1980s, a Chinchilla Persian cat named Jemari Sanquist mated with a Lilac Burmese named Bambino Lilac Fabergé, producing the Burmilla breed.",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 1
-    },
-    {
-      "_id": "5d38b0310f1c57001592f128",
-      "type": "cat",
-      "text": "Scratching allows a cat to shed the outer layers of her claws, mark her territory, and stretch her body. Rather than discouraging the scratching behavior altogether, try redirecting your cat to a few scratching posts placed strategically around your home.",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 1
-    },
-    {
-      "_id": "5d38b0c40f1c57001592f129",
-      "type": "cat",
-      "text": "The elegant Balinese is a longhaired variety of the Siamese, and like the Siamese, this stunning breed is sociable and intelligent. The breed was named for the grace of the dancers on the island of Bali in Indonesia.",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 1
-    },
-    {
-      "_id": "5d38b16c0f1c57001592f12b",
-      "type": "cat",
-      "text": "A large number of cats inhabit the Largo di Torre Argentina, an ancient Roman temple site near where Caesar was killed. Local volunteers care for the cats.",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 1
-    },
-    {
-      "_id": "5d38b2270f1c57001592f12d",
-      "type": "cat",
-      "text": "Among the British government officials who keep things running smoothly at 10 Downing Street is Larry, a cat that holds the distinguished position of Chief Mouser. Larry\u0027s duties, according to the U.K. government, include \"greeting guests\", \"testing antique furniture for napping quality\", and \"contemplating a solution to the mouse occupancy of the house.\".",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 1
-    },
-    {
-      "_id": "5d38b27b0f1c57001592f12f",
-      "type": "cat",
-      "text": "The Norwegian Forest Cat is called \"skogcatt\" in its homeland of Norway and plays a role in the Norwegian fairy tales and legends.",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 1
-    },
-    {
-      "_id": "5d38b29f0f1c57001592f130",
-      "type": "cat",
-      "text": "The Abyssinian, the Siamese, and the American Shorthair were crossbred to produce the Ocicat breed.",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 1
-    },
-    {
-      "_id": "5d38b6280f1c57001592f133",
-      "type": "cat",
-      "text": "Some animal shelters require kittens be adopted in pairs to ensure they came from the same litter.",
       "user": {
         "_id": "5a9ac18c7478810ea6c06381",
         "name": {
@@ -3122,6 +3109,45 @@
         "name": {
           "first": "Arun",
           "last": "Sudharsan"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5f7e66486c8f9b001759f710",
+      "type": "cat",
+      "text": "11.",
+      "user": {
+        "_id": "5f7e663d6c8f9b001759f70f",
+        "name": {
+          "first": "동덕",
+          "last": "임"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5f7e66676c8f9b001759f711",
+      "type": "cat",
+      "text": "Mymymymy cat.",
+      "user": {
+        "_id": "5f7e663d6c8f9b001759f70f",
+        "name": {
+          "first": "동덕",
+          "last": "임"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5f82163b20fe2e0017fab918",
+      "type": "cat",
+      "text": "The oldest known pet cat existed 9,500 years ago.",
+      "user": {
+        "_id": "5f82160920fe2e0017fab917",
+        "name": {
+          "first": "Phoenix",
+          "last": "D"
         }
       },
       "upvotes": 0
