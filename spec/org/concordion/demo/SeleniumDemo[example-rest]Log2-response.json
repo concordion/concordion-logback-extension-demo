@@ -11,7 +11,7 @@
           "last": "Wohlbruck"
         }
       },
-      "upvotes": 8
+      "upvotes": 10
     },
     {
       "_id": "5894af975cdc7400113ef7f9",
@@ -24,7 +24,33 @@
           "last": "Wohlbruck"
         }
       },
+      "upvotes": 9
+    },
+    {
+      "_id": "58e00a1a0aac31001185ed18",
+      "text": "Cats and humans have nearly identical sections of the brain that control emotion.",
+      "type": "cat",
+      "user": {
+        "_id": "58e007480aac31001185ecef",
+        "name": {
+          "first": "Kasimir",
+          "last": "Schulz"
+        }
+      },
       "upvotes": 7
+    },
+    {
+      "_id": "59951d5ef2db18002031693c",
+      "text": "America’s cats, including housecats that adventure outdoors and feral cats, kill between 1.3 billion and 4.0 billion birds in a year.",
+      "type": "cat",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 6
     },
     {
       "_id": "5b0c5e3e7ab3c50014df65fe",
@@ -42,19 +68,6 @@
     {
       "_id": "58e00a000aac31001185ed15",
       "text": "Female cats are typically right-pawed while male cats are typically left-pawed.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 6
-    },
-    {
-      "_id": "58e00a1a0aac31001185ed18",
-      "text": "Cats and humans have nearly identical sections of the brain that control emotion.",
       "type": "cat",
       "user": {
         "_id": "58e007480aac31001185ecef",
@@ -87,19 +100,6 @@
         "name": {
           "first": "Kasimir",
           "last": "Schulz"
-        }
-      },
-      "upvotes": 5
-    },
-    {
-      "_id": "59951d5ef2db18002031693c",
-      "text": "America’s cats, including housecats that adventure outdoors and feral cats, kill between 1.3 billion and 4.0 billion birds in a year.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
         }
       },
       "upvotes": 5
@@ -352,6 +352,32 @@
       "upvotes": 4
     },
     {
+      "_id": "590b9d90229d260020af0b06",
+      "text": "Evidence suggests domesticated cats have been around since 3600 B.C., 2,000 years before Egypt\u0027s pharaohs.",
+      "type": "cat",
+      "user": {
+        "_id": "5a9ac18c7478810ea6c06381",
+        "name": {
+          "first": "Alex",
+          "last": "Wohlbruck"
+        }
+      },
+      "upvotes": 3
+    },
+    {
+      "_id": "58923f2fc3878c0011784c79",
+      "text": "I don\u0027t know anything about cats.",
+      "type": "cat",
+      "user": {
+        "_id": "5887e9f65c873e001103688d",
+        "name": {
+          "first": "Jackson",
+          "last": "Sippe"
+        }
+      },
+      "upvotes": 3
+    },
+    {
       "_id": "58e008510aac31001185ecfe",
       "text": "In tigers and tabbies, the middle of the tongue is covered in backward-pointing spines, used for breaking off and gripping meat.",
       "type": "cat",
@@ -415,32 +441,6 @@
         }
       },
       "upvotes": 3
-    },
-    {
-      "_id": "590b9d90229d260020af0b06",
-      "text": "Evidence suggests domesticated cats have been around since 3600 B.C., 2,000 years before Egypt\u0027s pharaohs.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 2
-    },
-    {
-      "_id": "58923f2fc3878c0011784c79",
-      "text": "I don\u0027t know anything about cats.",
-      "type": "cat",
-      "user": {
-        "_id": "5887e9f65c873e001103688d",
-        "name": {
-          "first": "Jackson",
-          "last": "Sippe"
-        }
-      },
-      "upvotes": 2
     },
     {
       "_id": "59cd7a97c828120020f7d3a1",
@@ -3213,6 +3213,32 @@
         "name": {
           "first": "Eva",
           "last": "Harvey-Lye"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5f98e9daec974600174252c0",
+      "type": "cat",
+      "text": "C.",
+      "user": {
+        "_id": "5f98e986ec974600174252bf",
+        "name": {
+          "first": "Josue",
+          "last": "Lopez"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5f9a9ef64942a90017d88b45",
+      "type": "cat",
+      "text": "I dnt like cats.",
+      "user": {
+        "_id": "5f9a9dbc4942a90017d88b44",
+        "name": {
+          "first": "Akshay",
+          "last": "Nikam"
         }
       },
       "upvotes": 0
