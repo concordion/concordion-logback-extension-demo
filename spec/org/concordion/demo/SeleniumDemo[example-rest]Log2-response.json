@@ -1,32 +1,6 @@
 {
   "all": [
     {
-      "_id": "591d9b2f227c1a0020d26823",
-      "text": "Every year, nearly four million cats are eaten in China as a delicacy.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 15
-    },
-    {
-      "_id": "5894af975cdc7400113ef7f9",
-      "text": "The technical term for a cat’s hairball is a bezoar.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 11
-    },
-    {
       "_id": "58e00a1a0aac31001185ed18",
       "text": "Cats and humans have nearly identical sections of the brain that control emotion.",
       "type": "cat",
@@ -37,20 +11,7 @@
           "last": "Schulz"
         }
       },
-      "upvotes": 10
-    },
-    {
-      "_id": "59951d5ef2db18002031693c",
-      "text": "America’s cats, including housecats that adventure outdoors and feral cats, kill between 1.3 billion and 4.0 billion birds in a year.",
-      "type": "cat",
-      "user": {
-        "_id": "5a9ac18c7478810ea6c06381",
-        "name": {
-          "first": "Alex",
-          "last": "Wohlbruck"
-        }
-      },
-      "upvotes": 9
+      "upvotes": 11
     },
     {
       "_id": "58e00a000aac31001185ed15",
@@ -1418,6 +1379,19 @@
       "upvotes": 1
     },
     {
+      "_id": "5e1efba858449a0015ce4783",
+      "type": "cat",
+      "text": "\"A house cat is faster than Usain Bolt.\".",
+      "user": {
+        "_id": "5e1efb5958449a0015ce4781",
+        "name": {
+          "first": "oyaji",
+          "last": "55"
+        }
+      },
+      "upvotes": 1
+    },
+    {
       "_id": "5ef556dff61f300017030d4c",
       "type": "cat",
       "text": "Lucy, the oldest cat ever, lived to be 39 years old which is equivalent to 172 cat years.",
@@ -1465,6 +1439,19 @@
         "name": {
           "first": "Aimee",
           "last": "Whitaker"
+        }
+      },
+      "upvotes": 1
+    },
+    {
+      "_id": "5facf6c45bb52e00170b3c9b",
+      "type": "cat",
+      "text": "Wtf.",
+      "user": {
+        "_id": "5facf33e5bb52e00170b3c95",
+        "name": {
+          "first": "Jervis",
+          "last": "Bossou"
         }
       },
       "upvotes": 1
@@ -2880,19 +2867,6 @@
       "upvotes": 0
     },
     {
-      "_id": "5e1efba858449a0015ce4783",
-      "type": "cat",
-      "text": "\"A house cat is faster than Usain Bolt.\".",
-      "user": {
-        "_id": "5e1efb5958449a0015ce4781",
-        "name": {
-          "first": "oyaji",
-          "last": "55"
-        }
-      },
-      "upvotes": 0
-    },
-    {
       "_id": "5eafdaf354ad960017b3703d",
       "type": "cat",
       "text": "Yjyyu.",
@@ -3543,19 +3517,6 @@
       "upvotes": 0
     },
     {
-      "_id": "5facf6c45bb52e00170b3c9b",
-      "type": "cat",
-      "text": "Wtf.",
-      "user": {
-        "_id": "5facf33e5bb52e00170b3c95",
-        "name": {
-          "first": "Jervis",
-          "last": "Bossou"
-        }
-      },
-      "upvotes": 0
-    },
-    {
       "_id": "5fb43981125696001717c6d3",
       "type": "cat",
       "text": "The oldest cat that ever lived enjoyed broccoli and red wine.",
@@ -3642,6 +3603,110 @@
         "name": {
           "first": "Hiếu",
           "last": "Trương Công"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5fbe3394301880001726bd84",
+      "type": "cat",
+      "text": "Tet.",
+      "user": {
+        "_id": "5fbe3262301880001726bd82",
+        "name": {
+          "first": "Maksym",
+          "last": "Statsenko"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5fbed024301880001726be7b",
+      "type": "cat",
+      "text": "The Cats Has 7 lives. It\u0027s lie, they have more than 7!!.",
+      "user": {
+        "_id": "5fbecf97301880001726be78",
+        "name": {
+          "first": "Ovidio Hernán",
+          "last": "Guamá"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5fbed247301880001726be7d",
+      "type": "cat",
+      "text": "The Cats sleep too. 16 hours!!!.",
+      "user": {
+        "_id": "5fbecf97301880001726be78",
+        "name": {
+          "first": "Ovidio Hernán",
+          "last": "Guamá"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5fbfae9c2b88fa00173a8f22",
+      "type": "cat",
+      "text": "Cats are extremely lovely.",
+      "user": {
+        "_id": "5fbfae002b88fa00173a8f21",
+        "name": {
+          "first": "Victor",
+          "last": "Batista"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5fbfd6552b88fa00173a8f25",
+      "type": "cat",
+      "text": "My cat Fact.",
+      "user": {
+        "_id": "5fbfd6422b88fa00173a8f24",
+        "name": {
+          "first": "Vlad",
+          "last": "Dragomir"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5fbfd6642b88fa00173a8f26",
+      "type": "cat",
+      "text": "Cat fact.",
+      "user": {
+        "_id": "5fbfd6422b88fa00173a8f24",
+        "name": {
+          "first": "Vlad",
+          "last": "Dragomir"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5fc0ed1d0fd6060017a81529",
+      "type": "cat",
+      "text": "Cats are cat.",
+      "user": {
+        "_id": "5fc0ecdd0fd6060017a81527",
+        "name": {
+          "first": "Leo",
+          "last": "Voon"
+        }
+      },
+      "upvotes": 0
+    },
+    {
+      "_id": "5fc40f3c5ec1de00170183fb",
+      "type": "cat",
+      "text": "Try.",
+      "user": {
+        "_id": "5fc40f305ec1de00170183fa",
+        "name": {
+          "first": "Ignacio Domingo",
+          "last": "Saura Sanchez"
         }
       },
       "upvotes": 0
