@@ -8,7 +8,7 @@ wrapper {
 }
 
 repositories {
-	jcenter()
+	mavenCentral()
 }
 
 dependencies {
