@@ -1,25 +1,19 @@
 apply plugin: 'java'
 
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
-
-wrapper {
-    gradleVersion = "4.8.1"
-}
-
 repositories {
 	mavenCentral()
 }
 
 dependencies {
-	testCompile 'org.concordion:concordion:3.0.1'
-	testCompile 'org.concordion:concordion-logback-extension:2.0.0'
+	testImplementation 'org.concordion:concordion:3.0.1'
+	testImplementation 'org.concordion:concordion-logback-extension:2.0.0'
 	
 	//TODO Remove the need for this
-	testCompile 'org.concordion:concordion-logback-extension:2.0.0:reportlogger'
+	testImplementation 'org.concordion:concordion-logback-extension:2.0.0:reportlogger'
 	
-	testCompile 'org.seleniumhq.selenium:selenium-java:3.+'
-	testCompile 'com.google.code.gson:gson:2.8.5'
+	testImplementation 'org.seleniumhq.selenium:selenium-java:3.+'
+	testImplementation 'io.github.bonigarcia:webdrivermanager:4.+'
+	testImplementation 'com.google.code.gson:gson:2.8.5'
 }
 
 test {

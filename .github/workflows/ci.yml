@@ -27,6 +27,8 @@ jobs:
         run: chmod +x gradlew
       - name: Build and Test with Gradle
         run: ./gradlew clean build javadoc
+        env:
+          HEADLESS_CHROME: true
         
       - name: Upload Unit Test Results And Specification
         if: always()
