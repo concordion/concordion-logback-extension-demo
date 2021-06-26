@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/concordion/concordion-logback-extension-demo.svg?branch=master)](https://travis-ci.com/concordion/concordion-logback-extension-demo)
+[![Build and Test](https://github.com/concordion/concordion-logback-extension-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/concordion/concordion-logback-extension-demo/actions/workflows/ci.yml)
 [![Apache License 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 # Introduction
