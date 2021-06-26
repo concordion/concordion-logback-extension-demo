@@ -46,7 +46,7 @@ public class SeleniumDemoFixture extends ConcordionFixture {
 
     public boolean makeRestCall(String url) throws IOException, KeyManagementException, NoSuchAlgorithmException {
         getLogger().with()
-                .message("Calling cat api")
+                .message("Calling api")
     		.data(url)
     		.debug();
     	
