@@ -1,12 +1,5 @@
 apply plugin: 'java'
 
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
-
-wrapper {
-    gradleVersion = "4.8.1"
-}
-
 repositories {
 	mavenCentral()
 }
