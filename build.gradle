@@ -19,6 +19,7 @@ dependencies {
 	testImplementation 'org.concordion:concordion-logback-extension:2.0.0:reportlogger'
 	
 	testImplementation 'org.seleniumhq.selenium:selenium-java:3.+'
+	testImplementation 'io.github.bonigarcia:webdrivermanager:4.+'
 	testImplementation 'com.google.code.gson:gson:2.8.5'
 }
 

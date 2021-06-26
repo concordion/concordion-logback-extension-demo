@@ -1,5 +1,6 @@
 package org.concordion.driver.selenium;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.concordion.driver.Config;
 import org.concordion.slf4j.ext.ReportLoggerFactory;
 import org.openqa.selenium.WebDriver;
@@ -11,12 +12,22 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
  * Manages the browser session.
  */
 public class Browser {
+    static {
+        WebDriverManager.chromedriver().setup();
+    }
+
     private WebDriver driver;
 
     public Browser() {
         ChromeOptions options = new ChromeOptions();
 
-		if (Config.isProxyRequired()) {
+        if (("true").equals(System.getenv("HEADLESS_CHROME"))) {
+            options.addArguments("--headless");
+            options.addArguments("--no-sandbox");
+            options.addArguments("--disable-dev-shm-usage");
+        }
+
+        if (Config.isProxyRequired()) {
 			String browserProxy = Config.getProxyHost() + ":" + Config.getProxyPort();
 
 			final org.openqa.selenium.Proxy proxy = new org.openqa.selenium.Proxy();
