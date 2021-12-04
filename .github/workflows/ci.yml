@@ -29,7 +29,11 @@ jobs:
         run: ./gradlew clean build javadoc
         env:
           HEADLESS_CHROME: true
-        
+      - name: Build and Test with Maven
+        run: mvn clean test
+        env:
+          HEADLESS_CHROME: true
+          
       - name: Upload Unit Test Results And Specification
         if: always()
         uses: actions/upload-artifact@v2
